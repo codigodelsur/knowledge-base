@@ -1,1 +1,1 @@
-#Scrum methodologie
+#Scrum Methodologie
