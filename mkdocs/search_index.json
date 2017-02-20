@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to CodigoDelSur Knowledge Base\n\n\nThis page tries to centralize useful links and information learned here at \nCodigoDelSur\n.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-codigodelsur-knowledge-base", 
+            "text": "This page tries to centralize useful links and information learned here at  CodigoDelSur .", 
+            "title": "Welcome to CodigoDelSur Knowledge Base"
+        }, 
+        {
+            "location": "/technologies/", 
+            "text": "Technologies", 
+            "title": "Technologies"
+        }, 
+        {
+            "location": "/technologies/#technologies", 
+            "text": "", 
+            "title": "Technologies"
+        }, 
+        {
+            "location": "/git/", 
+            "text": "Git - Version Control System", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/git/#git-version-control-system", 
+            "text": "", 
+            "title": "Git - Version Control System"
+        }, 
+        {
+            "location": "/scrum/", 
+            "text": "Scrum Methodologie", 
+            "title": "Scrum"
+        }, 
+        {
+            "location": "/scrum/#scrum-methodologie", 
+            "text": "", 
+            "title": "Scrum Methodologie"
+        }, 
+        {
+            "location": "/new_at_cds/", 
+            "text": "New in at CodigoDelSur?", 
+            "title": "New at CodigoDelSur?"
+        }, 
+        {
+            "location": "/new_at_cds/#new-in-at-codigodelsur", 
+            "text": "", 
+            "title": "New in at CodigoDelSur?"
+        }
+    ]
+}
