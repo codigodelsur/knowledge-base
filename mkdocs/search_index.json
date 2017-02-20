@@ -2,23 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to CodigoDelSur Knowledge Base\n\n\nThis page tries to centralize useful links and information learned here at \nCodigoDelSur\n.", 
+            "text": "Welcome to CodigoDelSur Knowledge Base\n\n\nOn this website we want to share some useful links, infromation and lessons learned here at \nCodigoDelSur\n. \n\n\nHope you enjoy it!", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-codigodelsur-knowledge-base", 
-            "text": "This page tries to centralize useful links and information learned here at  CodigoDelSur .", 
+            "text": "On this website we want to share some useful links, infromation and lessons learned here at  CodigoDelSur .   Hope you enjoy it!", 
             "title": "Welcome to CodigoDelSur Knowledge Base"
-        }, 
-        {
-            "location": "/technologies/", 
-            "text": "Technologies", 
-            "title": "Technologies"
-        }, 
-        {
-            "location": "/technologies/#technologies", 
-            "text": "", 
-            "title": "Technologies"
         }, 
         {
             "location": "/git/", 
@@ -39,6 +29,21 @@
             "location": "/scrum/#scrum-methodologie", 
             "text": "", 
             "title": "Scrum Methodologie"
+        }, 
+        {
+            "location": "/technologies/", 
+            "text": "Technologies\n\n\niOS\n\n\n\n\nhttps://codigodelsur.github.io/conventions-iOS/", 
+            "title": "Technologies"
+        }, 
+        {
+            "location": "/technologies/#technologies", 
+            "text": "", 
+            "title": "Technologies"
+        }, 
+        {
+            "location": "/technologies/#ios", 
+            "text": "https://codigodelsur.github.io/conventions-iOS/", 
+            "title": "iOS"
         }, 
         {
             "location": "/new_at_cds/", 
