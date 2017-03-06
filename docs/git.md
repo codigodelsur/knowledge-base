@@ -1,2 +1,0 @@
-# Git - Version Control System
-

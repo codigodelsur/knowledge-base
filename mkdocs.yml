@@ -1,10 +1,3 @@
 site_name: CodigoDelSur
 repo_url: https://github.com/codigodelsur/knowledge-base
-pages:
-    - Home: index.md
-    - Git: git.md
-    - Scrum: scrum.md
-    - Technologies: technologies.md
-    - New at CodigoDelSur?: new_at_cds.md
-
 theme: cerulean
