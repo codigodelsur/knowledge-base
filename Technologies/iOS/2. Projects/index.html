@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+	<title>2. Projects - CodigoDelSur</title>
+
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../css/highlight.css">
+        <link href="../../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../../..">CodigoDelSur</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">New at CodigoDelSur <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../../New at CodigoDelSur/First_Steps/">First Steps</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technologies <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">React</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../React/GettingStarted/">GettingStarted</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../React/Libraries/">Libraries</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../React/Redux/">Redux</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                    
+                        
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">iOS</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../1. New to iOS/">1. New to iOS</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">2. Projects</a>
+</li>
+
+        
+            
+<li >
+    <a href="../3. Continuous Integration/">3. Continuous Integration</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../../Tools/Git/">Git</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../1. New to iOS/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../3. Continuous Integration/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/codigodelsur/knowledge-base">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#ios-projects">iOS Projects</a></li>
+        
+            <li><a href="#dependency-management">Dependency management</a></li>
+        
+            <li><a href="#distribution-tools">Distribution tools</a></li>
+        
+            <li><a href="#code-style">Code Style</a></li>
+        
+            <li><a href="#libraries">Libraries</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="ios-projects">iOS Projects</h1>
+<p>We are going to describe the most essential tools that we usually use on our iOS projects. </p>
+<h2 id="dependency-management">Dependency management</h2>
+<p>There are two main dependency management tools in iOS: <a href="https://cocoapods.org/">cocoapods</a> and <a href="https://github.com/Carthage/Carthage">Carthage</a>. Here at <a href="http://codigodelsur.com">CodigoDelSur</a> we mostly use cocoapods. Using cocoapods, the dependencies are listed in a text file named Podfile. To initialize the project you just need to go to the Xcode project folder and run on a terminal the command <code>$ pod init</code>, this will create the podfile setup. Once the project has the podfile with the dependency libraries listed inside you can install them by typing the command <code>$ pod intall</code>. After the command finishes you can open the generated workspace to start coding. </p>
+<h2 id="distribution-tools">Distribution tools</h2>
+<p>For distribute our app to our clients and test teams we use the next platforms:</p>
+<ul>
+<li><a href="https://hockeyapp.net">Hockeyapp</a> Is a complete platform for distributing app builds, it provides a lot of useful feature like feedback, metrics and crash reporting.  </li>
+<li><a href="https://fabric.io/kits/android/crashlytics">Crashlytics</a> Another nice distribution tool. Originally it was a crash reporting tool and now is part of the <a href="https://get.fabric.io">Fabric</a> platform and also provides a distribution system. </li>
+<li><a href="https://developer.apple.com/testflight/">Testflight</a> The apple distribution system, is integrated with <a href="http://help.apple.com/xcode/mac/8.2/#/dev2539d985f">Xcode</a> and it can allow the app to be tested by up to 2,000 testers by only having their emails.</li>
+<li><a href="https://www.diawi.com">Diawi</a> is a very straight forward platform you just drag and drop the ipa file and it will return you the url where the users can download it.</li>
+</ul>
+<h2 id="code-style">Code Style</h2>
+<h3 id="objective-c-code-style">Objective-C Code Style</h3>
+<p>On what concerns about naming classes, variables and methods we follow the <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html#//apple_ref/doc/uid/10000146-SW1">Apple's Coding Guidelines for Cocoa</a>. Regarding code style we have created an uncrustify configuration file to automatically apply our code style. On this <a href="https://github.com/codigodelsur/conventions-iOS/blob/master/codeStyle/uncrustify/uncrustify.cfg">link</a> you can access to it.
+Here you can see some guides that we based from: </p>
+<ul>
+<li><a href="https://github.com/NYTimes/objective-c-style-guide">New York Times</a></li>
+<li><a href="https://github.com/github/objective-c-conventions">GitHub</a></li>
+<li><a href="http://cocoadevcentral.com/articles/000082.php">CocoaDevCentral</a></li>
+<li><a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS/ObjectiveCStyleGuide">Wikimedia</a></li>
+<li><a href="https://github.com/raywenderlich/objective-c-style-guide">Raywenderlich.com Objective-C style guide</a></li>
+</ul>
+<h3 id="swift-code-style">Swift Code Style</h3>
+<ul>
+<li><a href="https://github.com/raywenderlich/objective-c-style-guide">The Official raywenderlich.com Swift Style Guide</a></li>
+<li><a href="https://github.com/linkedin/swift-style-guide">LinkedIn's Swift Style Guide</a></li>
+</ul>
+<h3 id="commenting-code">Commenting code</h3>
+<p>When commenting our code we like to comments our header's using the <a href="https://developer.apple.com/legacy/library/documentation/DeveloperTools/Conceptual/HeaderDoc/intro/intro.html">HeaderDoc</a> notation. Usually we use the <code>/** - */</code> notation to start a documentation block. HeaderDoc works with a series of tags. These tags can be grouped into two categories: <strong>Top-level tags</strong> describe the type of declaration that and <strong>Second-Level Tags</strong> that adds additional information about the declaration. Our preferred tags are:</p>
+<h5 id="top-level-tags">Top-Level Tags</h5>
+<ul>
+<li><code>@class</code> Used to point the starting point of a documentation block regarding a class. </li>
+<li><code>@protocol</code> Just like the above, just for protocols.</li>
+</ul>
+<h5 id="second-level-tags">Second-Level Tags</h5>
+<ul>
+<li><code>@brief</code> Used to write a short description about the method, property, class, file, struct, or enum you’re documenting. No line breaks are allowed. </li>
+<li><code>@discussion</code> Used to write a thorough description. You can add line breaks if needed.</li>
+<li><code>@param</code> With this you can describe a parameter of a method or function. You can have multiple such tags.</li>
+<li><code>@return</code> Used to specify the return value of a method or function.</li>
+</ul>
+<p>By using this notation, you can build easily html documentation using tools like <a href="https://github.com/realm/jazzy">jazzy</a>, <a href="../www.doxygen.org">Doxygen</a> and <a href="https://developer.apple.com/legacy/library/documentation/DeveloperTools/Conceptual/HeaderDoc/intro/intro.html">HeaderDoc</a>.
+On this <a href="http://www.appcoda.com/documenting-source-code-in-xcode/">link</a> you can check an interesting article describing those tools.</p>
+<p>Also we use the <code>pragma mark</code> directive in all of our classes. The <code>pragma mark</code> directive helps to organize the methods of a class making the code more clean and easy to read. It help us to separate methods and group them by delegates implementations, IBAction, etc.</p>
+<h2 id="libraries">Libraries</h2>
+<p>Here is the list of our most used iOS libraries:</p>
+<ul>
+<li><a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a> This is the networking framework that we mostly use. Its really nice, and it really makes life a little bit easy. </li>
+<li><a href="https://github.com/Alamofire/Alamofire">Alamofire</a> The networking framework we use for swift projects..</li>
+<li><a href="https://fabric.io/kits/android/crashlytics">Crashlytics</a> is the crash reporting to that we use here.</li>
+<li><a href="https://github.com/CocoaLumberjack/CocoaLumberjack">CocoaLumberjack</a> Its a logging framework that helps us to organize and manage our app's console logs. </li>
+<li><a href="https://github.com/Flipboard/FLEX">FLEX</a> An in-app debugging and exploration tool for iOS.</li>
+<li><a href="https://github.com/tonymillion/Reachability">Reachability</a> A really simple but good way to evaluate host availability is using this library.</li>
+<li><a href="https://github.com/codigodelsur/conventions-iOS#--socket-communication">SVProgressHUD</a> Provides us a easy way to implement loading alert while waiting for something.</li>
+</ul>
+<h3 id="other-nice-libraries">Other nice libraries</h3>
+<ul>
+<li><a href="https://pusher.com">Pusher</a> Is a library that we have used to establish socket communication with the backend.</li>
+<li><a href="https://github.com/danielgindi/Charts">Charts</a> Help us when we want to display awesome charts.</li>
+<li><a href="https://www.mapbox.com/ios-sdk/">Mapbox</a> Provide us ablilty to show really nice maps in our iOS apps.</li>
+</ul>
+<p>On the links below you can find really complete list of iOS libraries:</p>
+<ul>
+<li><a href="https://github.com/vsouza/awesome-ios">Awesome-ios</a></li>
+<li><a href="https://github.com/cjwirth/awesome-ios-ui">Awesome-ios-ui</a></li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        <script>var base_url = '../../..';</script>
+        <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script>
+        <script src="../../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -4,41 +4,45 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-03-01</lastmod>
+     <lastmod>2017-03-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>/git/</loc>
-     <lastmod>2017-03-01</lastmod>
+     <loc>/New at CodigoDelSur/First_Steps/</loc>
+     <lastmod>2017-03-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
+        
     <url>
-     <loc>/scrum/</loc>
-     <lastmod>2017-03-01</lastmod>
+     <loc></loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
+        
     <url>
-     <loc>/technologies/</loc>
-     <lastmod>2017-03-01</lastmod>
+     <loc>/Tools/Git/</loc>
+     <lastmod>2017-03-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>/new_at_cds/</loc>
-     <lastmod>2017-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
 </urlset>

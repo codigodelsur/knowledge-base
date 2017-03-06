@@ -11,84 +11,369 @@
             "title": "Welcome to CodigoDelSur Knowledge Base"
         }, 
         {
-            "location": "/git/", 
-            "text": "Git - Version Control System", 
-            "title": "Git"
-        }, 
-        {
-            "location": "/git/#git-version-control-system", 
-            "text": "", 
-            "title": "Git - Version Control System"
-        }, 
-        {
-            "location": "/scrum/", 
-            "text": "Scrum Methodologie", 
-            "title": "Scrum"
-        }, 
-        {
-            "location": "/scrum/#scrum-methodologie", 
-            "text": "", 
-            "title": "Scrum Methodologie"
-        }, 
-        {
-            "location": "/technologies/", 
-            "text": "Technologies\n\n\niOS\n\n\n\n\nhttps://codigodelsur.github.io/conventions-iOS/", 
-            "title": "Technologies"
-        }, 
-        {
-            "location": "/technologies/#technologies", 
-            "text": "", 
-            "title": "Technologies"
-        }, 
-        {
-            "location": "/technologies/#ios", 
-            "text": "https://codigodelsur.github.io/conventions-iOS/", 
-            "title": "iOS"
-        }, 
-        {
-            "location": "/new_at_cds/", 
+            "location": "/New at CodigoDelSur/First_Steps/", 
             "text": "First Steps\n\n\nWelcome to CodigoDelSur! Here you will see a tiny guide about what to do on your first steps here at CDS. Also to know little bit more about the CodigoDelSur\u2019s team please check this \nlink\n.\n\n\nInner communication\n\n\n\n\n\n\nMail:\n On your first day you will be provided with an email account. This account should have the next format:\n\n\n[first character of your name][ last name]@codigodelsur.com.\n\n\nYou must use this mail every time you create any other service account like Github,, Bitbucket, Slack, Skype, etc.\n\n\n\n\n\n\nSlack:\n You will be invited to the slack team codigodelsur.slack.com. There you can join different channels like \n#developers\n, \n#ios_devs\n, \n#android_devs\n ,etc\n\n\n\n\n\n\nSkype:\n Please create a Skype account with your codigodelsur mail account.\n\n\n\n\n\n\nGithub\n\n\nYou will need to create a Github account with you Codigodelsur email. The account name should have this format:\n\n\n[first character of your name][last name]cds\n \n\n\nAlso please enable two-factor authentication!\nNotify the creation of the Github account so can be invited to join the CodigoDelSur\u2019s Github \norganization\n.\n\n\nIf you are new at git we highly recommend you to read this page.\n\n\nLastPass\n\n\nWhat is Lastpass?\n\n\n\n\n\n\nLastPass is a password management service that stores passwords in private accounts. So, any time you need to store or share a password please use lastpass, don\u2019t use text files, mails, slack, etc.\n\n\n\n\nHow can I start using Lastpass?\n\n\n\n\nYou will be receive an account activation email. While your are activating the account you will create you master password, please enter a password with at least 12 character that contains upper and lower cases and a digit.\n\n\n\n\n\n\n\n\nAs a rule at CodigoDelSur, all Lastpass account must include a two-factor authentication method. We recommend using Google Authenticator. Once you configure your 2fa method you are ready to start using Lastpass.\n\n\n\n\n\n\nTip:\n In order to access easily to your password vault while you are surfing the web you can download the LastPass web extensions.\n\n\nYour computer\n\n\nFirst you need to check that the software that you are using is updated (IDEs, xCode, OS, etc). Then check if your network configuration is OK. You should have a static IP and you configuration should look something like this:\n\n\nIP: 192.168.10.xxx\nGateway: 192.168.10.1\nMask: 255.255.255.0\n\nDNSs: 192.168.10.1, 206.99.44.254, 8.8.8.8\n\n\n\nClub de lectura t\u00e9cnica\n\n\nWhat is the \u201cClub de lectura t\u00e9cnica\u201d? Once in a couple of week, some developers join together to discuss a previously read tech book. Its a fun opportunity to learn about interesting things and have a good time at the same time. If you want to know more please join to the slack channel \n#club_lectura_tecnica", 
-            "title": "New at CodigoDelSur?"
+            "title": "First Steps"
         }, 
         {
-            "location": "/new_at_cds/#first-steps", 
+            "location": "/New at CodigoDelSur/First_Steps/#first-steps", 
             "text": "Welcome to CodigoDelSur! Here you will see a tiny guide about what to do on your first steps here at CDS. Also to know little bit more about the CodigoDelSur\u2019s team please check this  link .", 
             "title": "First Steps"
         }, 
         {
-            "location": "/new_at_cds/#inner-communication", 
+            "location": "/New at CodigoDelSur/First_Steps/#inner-communication", 
             "text": "Mail:  On your first day you will be provided with an email account. This account should have the next format:  [first character of your name][ last name]@codigodelsur.com.  You must use this mail every time you create any other service account like Github,, Bitbucket, Slack, Skype, etc.    Slack:  You will be invited to the slack team codigodelsur.slack.com. There you can join different channels like  #developers ,  #ios_devs ,  #android_devs  ,etc    Skype:  Please create a Skype account with your codigodelsur mail account.", 
             "title": "Inner communication"
         }, 
         {
-            "location": "/new_at_cds/#github", 
+            "location": "/New at CodigoDelSur/First_Steps/#github", 
             "text": "You will need to create a Github account with you Codigodelsur email. The account name should have this format:  [first character of your name][last name]cds    Also please enable two-factor authentication!\nNotify the creation of the Github account so can be invited to join the CodigoDelSur\u2019s Github  organization .  If you are new at git we highly recommend you to read this page.", 
             "title": "Github"
         }, 
         {
-            "location": "/new_at_cds/#lastpass", 
+            "location": "/New at CodigoDelSur/First_Steps/#lastpass", 
             "text": "", 
             "title": "LastPass"
         }, 
         {
-            "location": "/new_at_cds/#what-is-lastpass", 
+            "location": "/New at CodigoDelSur/First_Steps/#what-is-lastpass", 
             "text": "LastPass is a password management service that stores passwords in private accounts. So, any time you need to store or share a password please use lastpass, don\u2019t use text files, mails, slack, etc.", 
             "title": "What is Lastpass?"
         }, 
         {
-            "location": "/new_at_cds/#how-can-i-start-using-lastpass", 
+            "location": "/New at CodigoDelSur/First_Steps/#how-can-i-start-using-lastpass", 
             "text": "You will be receive an account activation email. While your are activating the account you will create you master password, please enter a password with at least 12 character that contains upper and lower cases and a digit.     As a rule at CodigoDelSur, all Lastpass account must include a two-factor authentication method. We recommend using Google Authenticator. Once you configure your 2fa method you are ready to start using Lastpass.    Tip:  In order to access easily to your password vault while you are surfing the web you can download the LastPass web extensions.", 
             "title": "How can I start using Lastpass?"
         }, 
         {
-            "location": "/new_at_cds/#your-computer", 
+            "location": "/New at CodigoDelSur/First_Steps/#your-computer", 
             "text": "First you need to check that the software that you are using is updated (IDEs, xCode, OS, etc). Then check if your network configuration is OK. You should have a static IP and you configuration should look something like this:  IP: 192.168.10.xxx\nGateway: 192.168.10.1\nMask: 255.255.255.0\n\nDNSs: 192.168.10.1, 206.99.44.254, 8.8.8.8", 
             "title": "Your computer"
         }, 
         {
-            "location": "/new_at_cds/#club-de-lectura-tecnica", 
+            "location": "/New at CodigoDelSur/First_Steps/#club-de-lectura-tecnica", 
             "text": "What is the \u201cClub de lectura t\u00e9cnica\u201d? Once in a couple of week, some developers join together to discuss a previously read tech book. Its a fun opportunity to learn about interesting things and have a good time at the same time. If you want to know more please join to the slack channel  #club_lectura_tecnica", 
             "title": "Club de lectura t\u00e9cnica"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/", 
+            "text": "Getting started with the React ecosystem\n\n\nThis list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.\n\n\n\nIt is recommended to NOT SKIP any of the links of this page.\n\n\nCommand line improvements\n\n\nBecause React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.\n\n\n\nhttps://gist.github.com/kevin-smets/8568070\n\n\nJavascript new features\n\n\nJavascript ES6 Cheatsheet - the best of JS ES6\n\n\n\n\nJavascript ES6 Cheatsheet #2 - the best of JS ES6\n\n\n\n\nReact\n\n\nStart here: \nYour guide to the (sometimes overwhelming!) React ecosystem.\n\n\n\n\nThis Codecademy React Courses include exercises and explain the basics of React.\nThey are probably the most important links in this page.\n\n\nReact 101\n\n\n\n\nReact 102\n\n\nRedux tutorials\n\n\nRedux is an easy and powerful way of managing the state application.\n\n\nIt is important to follow the whole playlist, as it explains fundamental concepts of Redux\n\n\n\nRedux Tutorials\n\n\nDan Abramov (creator of Redux and React Hot Loader) tutorials:\n\n    Redux core concepts, and advanced topics.\n\n\n\n\nImmutable JS\n\n\nThis is a tutorial of a great library for simplifying the logic inside reducers\n\n\n\nImmutable.js 101 \u2013 Maps and Lists\n\n\nSagas\n\n\nSagas is a great way of structuring the behavior of an app. It is extremely useful for handling async operations.\nBefore using it, there are some key concepts that are useful to learn\n\n\n\n\nJavascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators\n\n\n\n\n\n\nAre you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators\n\n\n\n\n\n\nThis is a short article that explains the case for using Sagas, and explains how to use it in a simple way. It is probably the most important Sagas tutorial in this page.\n\n\n\nUsing redux-saga To Simplify Your Growing React Native Codebase\n\n\n\n\n\nAn excellent tutorial on how to use Sagas for forking operations\n\n\n\nAsync operations using redux-saga\n\n\n\n\n\nThis is the Beginner Tutorial of the official documentation. There are more sections available to read, but they are not vital for Sagas development\n\n\n\nBeginner Tutorial\n\n\nUsing everything in a practical example\n\n\nThis tutorial creates a ToDo app using several of the libraries described before.\n\n\n\nHow to Build a Todo App Using React, Redux, and Immutable.js\n\n\nReselect\n\n\nReselect is a library for improving the performance when components query data from the state. It can make apps dramatically faster.\n\n\n\n\n\n\n\n\n* \nComputing Derived Data\n: This section of the redux tutorial explains how to use reselect with react.\n\n\nSass\n\n\nSass is a modern and powerful way of managing the styling of components.\n\n\n\nIntro to Sass | SCSS101\n\n\nBoilerplates\n\n\nCreate-react-app (CRA) is an official boilerplate developed by Facebook. It is really useful for beginners, because it allows to have a working project in seconds. It will be automatically configured and provide an out-of-the-box simple experience.\n\n\n\nCreate Apps with No Configuration\n\n\n\n\n\nThe killer feature of this app, is that it can be converted into a complete React App, making all the configurations available to be modified.\n\n\n\nnpm run eject\n\n\n\n\n\nAnother more powerful boilerplate is \nReact Boilerplate\n. This one has the advantage that is the supported one for development with \nStructor\n (an automated tool for creating components)", 
+            "title": "GettingStarted"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#getting-started-with-the-react-ecosystem", 
+            "text": "This list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.  It is recommended to NOT SKIP any of the links of this page.", 
+            "title": "Getting started with the React ecosystem"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#command-line-improvements", 
+            "text": "Because React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.  https://gist.github.com/kevin-smets/8568070", 
+            "title": "Command line improvements"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#javascript-new-features", 
+            "text": "", 
+            "title": "Javascript new features"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#javascript-es6-cheatsheet-the-best-of-js-es6", 
+            "text": "", 
+            "title": "Javascript ES6 Cheatsheet - the best of JS ES6"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#javascript-es6-cheatsheet-2-the-best-of-js-es6", 
+            "text": "", 
+            "title": "Javascript ES6 Cheatsheet #2 - the best of JS ES6"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#react", 
+            "text": "Start here:  Your guide to the (sometimes overwhelming!) React ecosystem.   This Codecademy React Courses include exercises and explain the basics of React.\nThey are probably the most important links in this page.  React 101   React 102", 
+            "title": "React"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#redux-tutorials", 
+            "text": "Redux is an easy and powerful way of managing the state application. \nIt is important to follow the whole playlist, as it explains fundamental concepts of Redux  Redux Tutorials  Dan Abramov (creator of Redux and React Hot Loader) tutorials: \n    Redux core concepts, and advanced topics.", 
+            "title": "Redux tutorials"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#immutable-js", 
+            "text": "This is a tutorial of a great library for simplifying the logic inside reducers  Immutable.js 101 \u2013 Maps and Lists", 
+            "title": "Immutable JS"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#sagas", 
+            "text": "Sagas is a great way of structuring the behavior of an app. It is extremely useful for handling async operations.\nBefore using it, there are some key concepts that are useful to learn  \nJavascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators   \nAre you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators   \nThis is a short article that explains the case for using Sagas, and explains how to use it in a simple way. It is probably the most important Sagas tutorial in this page.  Using redux-saga To Simplify Your Growing React Native Codebase   \nAn excellent tutorial on how to use Sagas for forking operations  Async operations using redux-saga   \nThis is the Beginner Tutorial of the official documentation. There are more sections available to read, but they are not vital for Sagas development  Beginner Tutorial", 
+            "title": "Sagas"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#using-everything-in-a-practical-example", 
+            "text": "This tutorial creates a ToDo app using several of the libraries described before.  How to Build a Todo App Using React, Redux, and Immutable.js", 
+            "title": "Using everything in a practical example"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#reselect", 
+            "text": "Reselect is a library for improving the performance when components query data from the state. It can make apps dramatically faster.    \n*  Computing Derived Data : This section of the redux tutorial explains how to use reselect with react.", 
+            "title": "Reselect"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#sass", 
+            "text": "Sass is a modern and powerful way of managing the styling of components.  Intro to Sass | SCSS101", 
+            "title": "Sass"
+        }, 
+        {
+            "location": "/Technologies/React/GettingStarted/#boilerplates", 
+            "text": "Create-react-app (CRA) is an official boilerplate developed by Facebook. It is really useful for beginners, because it allows to have a working project in seconds. It will be automatically configured and provide an out-of-the-box simple experience.  Create Apps with No Configuration   \nThe killer feature of this app, is that it can be converted into a complete React App, making all the configurations available to be modified.  npm run eject   \nAnother more powerful boilerplate is  React Boilerplate . This one has the advantage that is the supported one for development with  Structor  (an automated tool for creating components)", 
+            "title": "Boilerplates"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/", 
+            "text": "Useful libraries\n\n\nCommon libraries to use with React\n\n\n\n\nreact-redux\n: Redux is a predictable state container for JavaScript apps.\n\n\nImmutableJS\n: Immutable persistent data collections for Javascript which increase efficiency and simplicity.\n\n\nredux-saga\n: redux-saga is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.\n\n\nreselect\n: Reselect is a simple library for creating memoized, composable selector functions. Reselect selectors can be used to efficiently compute derived data from the Redux store.\n\n\nMobX\n: Simple, scalable state management. It's an alternative to react-redux.\n\n\nReact-Bootstrap\n: React-Bootstrap is a complete re-implementation of the Bootstrap components using React.\n\n\n\n\nUI Libraries\n\n\n\n\nReactCSSTransitionGroup\n: For animating items. Defining initial and final state, this library animates the frames between them.\n\n\n\n\nDevelopment\n\n\n\n\nRedux Async Initial State\n: Redux middleware for async loading of initial app state.\n\n\nWhy did you update\n: Tool that will output a warning every time a component is updated and the state didn't change.\n\n\nStructor\n: Generate the source code for components, containers, actions, reducers, selectors and sagas. Amazing.\n\n\n\n\nBoilerplates\n\n\n\n\nCreate React App (CRA)\n\n\nReact Boilerplate\n.\n\n\n\n\nUtilities\n\n\n\n\nfaker.js\n: Generate massive amounts of fake data in the browser and node.js. (Warning: there's a duplicate of this repository with the same name that's not mantained. Only use the one in this link)\n\n\nfake-json-stream\n: Make Faker return json data. Useful for creating fake APIs.\n\n\nmockable.io\n: Tool for creating and publishing fake APIs.\n\n\nReact Developer Tools\n:React Developer Tools for Chrome. Useful for debugging.\n\n\nRedux DevTools\n:Redux DevTools for Chrome.\n\n\n\n\nContinuous Integration\n\n\n\n\nCircleCI\n: The modern continuous integration and delivery platform that software teams love to use.\n\n\n\n\nHeroku\n\n\n\n\nHeroku\n: CDN to host React apps. Allows to create a pipeline with different environments. Also integrates with git for automatically deploying pull request apps. All this features are included in the free plan.\n\n\nDeploying React with Zero Configuration\n: Article that explains how to deploy a create-react-app (CRA) to Heroku\n\n\n\n\nIDEs\n\n\nAtom\n\n\n\n\nAtom\n: Atom is a text editor that's modern, approachable, yet hackable to the core\u2014a tool you can customize to do anything but also use productively without ever touching a config file.\n\n\n\n\n\nAtom plugins\n\n\n\n\nReact\n: React.js (JSX) language support, indentation, snippets, auto completion, reformatting. \nEssential\n\n\nfile-icons\n: Add file icons to project tree\n\n\nhighlight-selected\n: Highlight selected text in other parts of the file\n\n\nlinter\n: Linter is a base linter provider for the Hackable Atom Editor.\n\n\nlinter-eslint\n: This linter plugin for Linter provides an interface to eslint. It will be used with files that have the \"JavaScript\" syntax.\n\n\nminimap\n: A preview of the full source code.\n\n\nminimap-hide\n: Hide the minimap when pane isn't focus\n\n\nopen-recent\n: Open recent files in the current window, and recent folders (optionally) in a new window.\n\n\nzentabs\n: Keep the opened tabs amount below specified limit\n\n\njs-hyperclick\n: A hyperclick provider that lets you jump to where variables are defined.\n\n\nsync-settings\n: Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.\n\n\ngit-time-machine\n: Visually interact with git commit history for a file instances.\n\n\n\n\nNuclide\n\n\n\n\nNuclide\n: Nuclide is built as a single package on top of Atom to provide hackability and the support of an active community. It provides a first-class development environment for React Native, Hack and Flow projects. It is made by Facebook and has incredible features (debugging, remote development, etc).\n\n\n\n\nAdditional links:\n\n\nA collection of awesome things regarding React ecosystem.", 
+            "title": "Libraries"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#useful-libraries", 
+            "text": "", 
+            "title": "Useful libraries"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#common-libraries-to-use-with-react", 
+            "text": "react-redux : Redux is a predictable state container for JavaScript apps.  ImmutableJS : Immutable persistent data collections for Javascript which increase efficiency and simplicity.  redux-saga : redux-saga is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.  reselect : Reselect is a simple library for creating memoized, composable selector functions. Reselect selectors can be used to efficiently compute derived data from the Redux store.  MobX : Simple, scalable state management. It's an alternative to react-redux.  React-Bootstrap : React-Bootstrap is a complete re-implementation of the Bootstrap components using React.", 
+            "title": "Common libraries to use with React"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#ui-libraries", 
+            "text": "ReactCSSTransitionGroup : For animating items. Defining initial and final state, this library animates the frames between them.", 
+            "title": "UI Libraries"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#development", 
+            "text": "Redux Async Initial State : Redux middleware for async loading of initial app state.  Why did you update : Tool that will output a warning every time a component is updated and the state didn't change.  Structor : Generate the source code for components, containers, actions, reducers, selectors and sagas. Amazing.", 
+            "title": "Development"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#boilerplates", 
+            "text": "Create React App (CRA)  React Boilerplate .", 
+            "title": "Boilerplates"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#utilities", 
+            "text": "faker.js : Generate massive amounts of fake data in the browser and node.js. (Warning: there's a duplicate of this repository with the same name that's not mantained. Only use the one in this link)  fake-json-stream : Make Faker return json data. Useful for creating fake APIs.  mockable.io : Tool for creating and publishing fake APIs.  React Developer Tools :React Developer Tools for Chrome. Useful for debugging.  Redux DevTools :Redux DevTools for Chrome.", 
+            "title": "Utilities"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#continuous-integration", 
+            "text": "CircleCI : The modern continuous integration and delivery platform that software teams love to use.", 
+            "title": "Continuous Integration"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#heroku", 
+            "text": "Heroku : CDN to host React apps. Allows to create a pipeline with different environments. Also integrates with git for automatically deploying pull request apps. All this features are included in the free plan.  Deploying React with Zero Configuration : Article that explains how to deploy a create-react-app (CRA) to Heroku", 
+            "title": "Heroku"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#ides", 
+            "text": "", 
+            "title": "IDEs"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#atom", 
+            "text": "Atom : Atom is a text editor that's modern, approachable, yet hackable to the core\u2014a tool you can customize to do anything but also use productively without ever touching a config file.", 
+            "title": "Atom"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#atom-plugins", 
+            "text": "React : React.js (JSX) language support, indentation, snippets, auto completion, reformatting.  Essential  file-icons : Add file icons to project tree  highlight-selected : Highlight selected text in other parts of the file  linter : Linter is a base linter provider for the Hackable Atom Editor.  linter-eslint : This linter plugin for Linter provides an interface to eslint. It will be used with files that have the \"JavaScript\" syntax.  minimap : A preview of the full source code.  minimap-hide : Hide the minimap when pane isn't focus  open-recent : Open recent files in the current window, and recent folders (optionally) in a new window.  zentabs : Keep the opened tabs amount below specified limit  js-hyperclick : A hyperclick provider that lets you jump to where variables are defined.  sync-settings : Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.  git-time-machine : Visually interact with git commit history for a file instances.", 
+            "title": "Atom plugins"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#nuclide", 
+            "text": "Nuclide : Nuclide is built as a single package on top of Atom to provide hackability and the support of an active community. It provides a first-class development environment for React Native, Hack and Flow projects. It is made by Facebook and has incredible features (debugging, remote development, etc).", 
+            "title": "Nuclide"
+        }, 
+        {
+            "location": "/Technologies/React/Libraries/#additional-links", 
+            "text": "A collection of awesome things regarding React ecosystem.", 
+            "title": "Additional links:"
+        }, 
+        {
+            "location": "/Technologies/React/Redux/", 
+            "text": "", 
+            "title": "Redux"
+        }, 
+        {
+            "location": "/Technologies/iOS/1. New to iOS/", 
+            "text": "New in iOS development?\n\n\nFor those who are new on iOS app development, here you will find a series of  links and materials that will teach you how to get stated.\n\n\nXcode\n\n\nFirst of all you will need to install \nXcode\n which is the IDE used to develop app on every Apple platforms (iPhone, iPad, Mac, Apple watch etc.)\n\n\nHere\n is a complete guide about Xcode.\n\n\niOS Basic Concepts\n\n\nBasically you can write iOS applications in two languages: \nObjective-C\n and \nSwift\n ( this \nlink\n contains a nice guide about swift programing languages).  In order to develop apps you will be interacting with \nCocoa Touch\n that is the iOS application development environment. \n\n\nCocoa Touch includes Foundation and UIKit frameworks , which are essential to program iOS apps.\n\n\n\n\nThe \nFoundation framework\n implements the root class, NSObject, which defines basic object behavior. It implements classes that represent primitive types (for example, strings and numbers) and collections (for example, arrays and dictionaries). Foundation also provides facilities for internationalization, object persistence, file management, and XML processing. You can use its classes to access underlying system entities and services, such as ports, threads, locks, and processes.\n\n\nUIKit framework\n is use to develop the app\u2019s user interface. UIKit include classes for event handling, drawing, image-handling, text processing, typography, and interapplication data transfer. It also includes user-interface elements such as table views, sliders, buttons, text fields, and alert dialogs. \nHere\n there is a catalog about the UI elements avaliable on UIKit.\n\n\n\n\nAn other main concept is that Cocoa Touch follows the MVC (\nModel-View-Controller\n) pattern, a design patter that classifies the application\u2019s objects in three role categories (model, view, or controller) and defines their communication.\n\n\nCode Signing\n\n\nIn order to distribute your app, submit it to the AppStore, install it on devices or integrate some app services (e.g. Push Notifications) you will need to code sign your app. To get depthly on this you can go to \nApple's code signing suppot page\n or \nApp Distribution Guide\n.\n\n\nTutorials\n\n\nTo start developing iOS apps we highly recommend you to follow this tutorials: \n\n\n\n\n\n\nStart Developing iOS Apps (Swift)\n\n\n\n\n\n\nStart Developing iOS Apps (objective c)\n\n\n\n\n\n\nHelp \n Support Links\n\n\n\n\n\n\nhttps://developer.apple.com/library/content/navigation/\n\n\n\n\n\n\nhttps://www.raywenderlich.com", 
+            "title": "1. New to iOS"
+        }, 
+        {
+            "location": "/Technologies/iOS/1. New to iOS/#new-in-ios-development", 
+            "text": "For those who are new on iOS app development, here you will find a series of  links and materials that will teach you how to get stated.", 
+            "title": "New in iOS development?"
+        }, 
+        {
+            "location": "/Technologies/iOS/1. New to iOS/#xcode", 
+            "text": "First of all you will need to install  Xcode  which is the IDE used to develop app on every Apple platforms (iPhone, iPad, Mac, Apple watch etc.)  Here  is a complete guide about Xcode.", 
+            "title": "Xcode"
+        }, 
+        {
+            "location": "/Technologies/iOS/1. New to iOS/#ios-basic-concepts", 
+            "text": "Basically you can write iOS applications in two languages:  Objective-C  and  Swift  ( this  link  contains a nice guide about swift programing languages).  In order to develop apps you will be interacting with  Cocoa Touch  that is the iOS application development environment.   Cocoa Touch includes Foundation and UIKit frameworks , which are essential to program iOS apps.   The  Foundation framework  implements the root class, NSObject, which defines basic object behavior. It implements classes that represent primitive types (for example, strings and numbers) and collections (for example, arrays and dictionaries). Foundation also provides facilities for internationalization, object persistence, file management, and XML processing. You can use its classes to access underlying system entities and services, such as ports, threads, locks, and processes.  UIKit framework  is use to develop the app\u2019s user interface. UIKit include classes for event handling, drawing, image-handling, text processing, typography, and interapplication data transfer. It also includes user-interface elements such as table views, sliders, buttons, text fields, and alert dialogs.  Here  there is a catalog about the UI elements avaliable on UIKit.   An other main concept is that Cocoa Touch follows the MVC ( Model-View-Controller ) pattern, a design patter that classifies the application\u2019s objects in three role categories (model, view, or controller) and defines their communication.", 
+            "title": "iOS Basic Concepts"
+        }, 
+        {
+            "location": "/Technologies/iOS/1. New to iOS/#code-signing", 
+            "text": "In order to distribute your app, submit it to the AppStore, install it on devices or integrate some app services (e.g. Push Notifications) you will need to code sign your app. To get depthly on this you can go to  Apple's code signing suppot page  or  App Distribution Guide .", 
+            "title": "Code Signing"
+        }, 
+        {
+            "location": "/Technologies/iOS/1. New to iOS/#tutorials", 
+            "text": "To start developing iOS apps we highly recommend you to follow this tutorials:     Start Developing iOS Apps (Swift)    Start Developing iOS Apps (objective c)", 
+            "title": "Tutorials"
+        }, 
+        {
+            "location": "/Technologies/iOS/1. New to iOS/#help-support-links", 
+            "text": "https://developer.apple.com/library/content/navigation/    https://www.raywenderlich.com", 
+            "title": "Help &amp; Support Links"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/", 
+            "text": "iOS Projects\n\n\nWe are going to describe the most essential tools that we usually use on our iOS projects. \n\n\nDependency management\n\n\nThere are two main dependency management tools in iOS: \ncocoapods\n and \nCarthage\n. Here at \nCodigoDelSur\n we mostly use cocoapods. Using cocoapods, the dependencies are listed in a text file named Podfile. To initialize the project you just need to go to the Xcode project folder and run on a terminal the command \n$ pod init\n, this will create the podfile setup. Once the project has the podfile with the dependency libraries listed inside you can install them by typing the command \n$ pod intall\n. After the command finishes you can open the generated workspace to start coding. \n\n\nDistribution tools\n\n\nFor distribute our app to our clients and test teams we use the next platforms:\n\n\n\n\nHockeyapp\n Is a complete platform for distributing app builds, it provides a lot of useful feature like feedback, metrics and crash reporting.  \n\n\nCrashlytics\n Another nice distribution tool. Originally it was a crash reporting tool and now is part of the \nFabric\n platform and also provides a distribution system. \n\n\nTestflight\n The apple distribution system, is integrated with \nXcode\n and it can allow the app to be tested by up to 2,000 testers by only having their emails.\n\n\nDiawi\n is a very straight forward platform you just drag and drop the ipa file and it will return you the url where the users can download it.\n\n\n\n\nCode Style\n\n\nObjective-C Code Style\n\n\nOn what concerns about naming classes, variables and methods we follow the \nApple's Coding Guidelines for Cocoa\n. Regarding code style we have created an uncrustify configuration file to automatically apply our code style. On this \nlink\n you can access to it.\nHere you can see some guides that we based from: \n\n\n\n\nNew York Times\n\n\nGitHub\n\n\nCocoaDevCentral\n\n\nWikimedia\n\n\nRaywenderlich.com Objective-C style guide\n\n\n\n\nSwift Code Style\n\n\n\n\nThe Official raywenderlich.com Swift Style Guide\n\n\nLinkedIn's Swift Style Guide\n\n\n\n\nCommenting code\n\n\nWhen commenting our code we like to comments our header's using the \nHeaderDoc\n notation. Usually we use the \n/** - */\n notation to start a documentation block. HeaderDoc works with a series of tags. These tags can be grouped into two categories: \nTop-level tags\n describe the type of declaration that and \nSecond-Level Tags\n that adds additional information about the declaration. Our preferred tags are:\n\n\nTop-Level Tags\n\n\n\n\n@class\n Used to point the starting point of a documentation block regarding a class. \n\n\n@protocol\n Just like the above, just for protocols.\n\n\n\n\nSecond-Level Tags\n\n\n\n\n@brief\n Used to write a short description about the method, property, class, file, struct, or enum you\u2019re documenting. No line breaks are allowed. \n\n\n@discussion\n Used to write a thorough description. You can add line breaks if needed.\n\n\n@param\n With this you can describe a parameter of a method or function. You can have multiple such tags.\n\n\n@return\n Used to specify the return value of a method or function.\n\n\n\n\nBy using this notation, you can build easily html documentation using tools like \njazzy\n, \nDoxygen\n and \nHeaderDoc\n.\nOn this \nlink\n you can check an interesting article describing those tools.\n\n\nAlso we use the \npragma mark\n directive in all of our classes. The \npragma mark\n directive helps to organize the methods of a class making the code more clean and easy to read. It help us to separate methods and group them by delegates implementations, IBAction, etc.\n\n\nLibraries\n\n\nHere is the list of our most used iOS libraries:\n\n\n\n\nAFNetworking\n This is the networking framework that we mostly use. Its really nice, and it really makes life a little bit easy. \n\n\nAlamofire\n The networking framework we use for swift projects..\n\n\nCrashlytics\n is the crash reporting to that we use here.\n\n\nCocoaLumberjack\n Its a logging framework that helps us to organize and manage our app's console logs. \n\n\nFLEX\n An in-app debugging and exploration tool for iOS.\n\n\nReachability\n A really simple but good way to evaluate host availability is using this library.\n\n\nSVProgressHUD\n Provides us a easy way to implement loading alert while waiting for something.\n\n\n\n\nOther nice libraries\n\n\n\n\nPusher\n Is a library that we have used to establish socket communication with the backend.\n\n\nCharts\n Help us when we want to display awesome charts.\n\n\nMapbox\n Provide us ablilty to show really nice maps in our iOS apps.\n\n\n\n\nOn the links below you can find really complete list of iOS libraries:\n\n\n\n\nAwesome-ios\n\n\nAwesome-ios-ui", 
+            "title": "2. Projects"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#ios-projects", 
+            "text": "We are going to describe the most essential tools that we usually use on our iOS projects.", 
+            "title": "iOS Projects"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#dependency-management", 
+            "text": "There are two main dependency management tools in iOS:  cocoapods  and  Carthage . Here at  CodigoDelSur  we mostly use cocoapods. Using cocoapods, the dependencies are listed in a text file named Podfile. To initialize the project you just need to go to the Xcode project folder and run on a terminal the command  $ pod init , this will create the podfile setup. Once the project has the podfile with the dependency libraries listed inside you can install them by typing the command  $ pod intall . After the command finishes you can open the generated workspace to start coding.", 
+            "title": "Dependency management"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#distribution-tools", 
+            "text": "For distribute our app to our clients and test teams we use the next platforms:   Hockeyapp  Is a complete platform for distributing app builds, it provides a lot of useful feature like feedback, metrics and crash reporting.    Crashlytics  Another nice distribution tool. Originally it was a crash reporting tool and now is part of the  Fabric  platform and also provides a distribution system.   Testflight  The apple distribution system, is integrated with  Xcode  and it can allow the app to be tested by up to 2,000 testers by only having their emails.  Diawi  is a very straight forward platform you just drag and drop the ipa file and it will return you the url where the users can download it.", 
+            "title": "Distribution tools"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#code-style", 
+            "text": "", 
+            "title": "Code Style"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#objective-c-code-style", 
+            "text": "On what concerns about naming classes, variables and methods we follow the  Apple's Coding Guidelines for Cocoa . Regarding code style we have created an uncrustify configuration file to automatically apply our code style. On this  link  you can access to it.\nHere you can see some guides that we based from:    New York Times  GitHub  CocoaDevCentral  Wikimedia  Raywenderlich.com Objective-C style guide", 
+            "title": "Objective-C Code Style"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#swift-code-style", 
+            "text": "The Official raywenderlich.com Swift Style Guide  LinkedIn's Swift Style Guide", 
+            "title": "Swift Code Style"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#commenting-code", 
+            "text": "When commenting our code we like to comments our header's using the  HeaderDoc  notation. Usually we use the  /** - */  notation to start a documentation block. HeaderDoc works with a series of tags. These tags can be grouped into two categories:  Top-level tags  describe the type of declaration that and  Second-Level Tags  that adds additional information about the declaration. Our preferred tags are:", 
+            "title": "Commenting code"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#top-level-tags", 
+            "text": "@class  Used to point the starting point of a documentation block regarding a class.   @protocol  Just like the above, just for protocols.", 
+            "title": "Top-Level Tags"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#second-level-tags", 
+            "text": "@brief  Used to write a short description about the method, property, class, file, struct, or enum you\u2019re documenting. No line breaks are allowed.   @discussion  Used to write a thorough description. You can add line breaks if needed.  @param  With this you can describe a parameter of a method or function. You can have multiple such tags.  @return  Used to specify the return value of a method or function.   By using this notation, you can build easily html documentation using tools like  jazzy ,  Doxygen  and  HeaderDoc .\nOn this  link  you can check an interesting article describing those tools.  Also we use the  pragma mark  directive in all of our classes. The  pragma mark  directive helps to organize the methods of a class making the code more clean and easy to read. It help us to separate methods and group them by delegates implementations, IBAction, etc.", 
+            "title": "Second-Level Tags"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#libraries", 
+            "text": "Here is the list of our most used iOS libraries:   AFNetworking  This is the networking framework that we mostly use. Its really nice, and it really makes life a little bit easy.   Alamofire  The networking framework we use for swift projects..  Crashlytics  is the crash reporting to that we use here.  CocoaLumberjack  Its a logging framework that helps us to organize and manage our app's console logs.   FLEX  An in-app debugging and exploration tool for iOS.  Reachability  A really simple but good way to evaluate host availability is using this library.  SVProgressHUD  Provides us a easy way to implement loading alert while waiting for something.", 
+            "title": "Libraries"
+        }, 
+        {
+            "location": "/Technologies/iOS/2. Projects/#other-nice-libraries", 
+            "text": "Pusher  Is a library that we have used to establish socket communication with the backend.  Charts  Help us when we want to display awesome charts.  Mapbox  Provide us ablilty to show really nice maps in our iOS apps.   On the links below you can find really complete list of iOS libraries:   Awesome-ios  Awesome-ios-ui", 
+            "title": "Other nice libraries"
+        }, 
+        {
+            "location": "/Technologies/iOS/3. Continuous Integration/", 
+            "text": "Continuous Integration\n\n\nContinuous Integration\n is a well know practice that many developer teams had acquired. Basically Continuous Integration consist in execute plenty frequently an automated integration procedure (download app source, build app, execute tests, etc.) in order to rapidly detect errors and always ensure a deliverable build. Here at \nCodigoDelSur\n we are really happy with the results of this practice, it has been super helpful to anticipate issues on our apps. \n\n\nOn this page we are going to enumerate and explain some of the tools we use to implement continuous integration in our projects. Because every project has its own nature, continuous integration flows might be very different between projects. That's why we can not give you a recipe of which ci tools you must to use, we just can tell you which ones we used and have gave us nice results.\n\n\nAutomation server\n\n\nThe Automation server is in charge of execute the continuous integration flows or pipeline. Depending on the configured triggers, the automation server will execute a certain pipeline. The possible flows are almost infinite, for example you can build and test your app when the repo has received changes, or you can generate a test build every morning for the QA team etc. As it was mentioned before, all depends on the project nature. \n\n\nAs automation servers we usually use our \nJenkins\n locally hosted or \nBitrise\n. Also we have a nice experience using \nCircleCi\n.\n\n\nFastlane\n\n\nWe love \nFastlane\n, it's the main automation tool that we use. It allows us to automate a lot of task like downloading the latest provisioning profile, tests our apps, archive them, distribute them, notify the results of the flows via slack, etc. Fastlane contains a series of tools that are in charge of those tasks. Also it provides you with a Fastfile file where you can write your flows. Beside the Fastlane's main tools it has a series of \nactions\n that are awesome!. You can check our generic fastfile \nhere\n.\n\n\nHere is the \ndocumentation\n section where you can find some useful articles like \nJenkins Integration\n or \nCircleCi config\n.   \n\n\nTesting\n\n\nTo test our apps we have used mainly the apple's test frameworks \nXCtest\n and \nUI XCTest\n. For those how are new to unit testing here is a \nvideo\n explaining a little bit the basic theoretical concepts. Also we recommend you to watch the \nWWDC 2015 UI Testing in Xcode\n, it gives you a nice overview of the UI XCTest.\n\n\nOther links: \n\n\n\n\nTesting with XCode\n\n\nUI Testing cheat sheet\n   \n\n\nXCTest API Reference\n\n\n\n\nBDD - Behavior Driven Development\n\n\nWe also have used the \nBBD\n framework \nCedar\n. It seems to us to be a really nice framework and really easy to use. If you want to know more about this great practice you can check the following links: \nhttp://behaviourdriven.org\n, \nagilealliance\n and \nWikipedia - BDD\n.\n\n\nOther Tools\n\n\n\n\n\n\nHere\n we explained the different distribution tools that we currently use. In our continuous integration flow we deliver our app's build via one of those tools.\n\n\n\n\n\n\nStatic analysis\n We have worked with different static analysis tools on some of our projects. Beside \nClang Static Analyzer\n we also have used \nInfer\n and \nOClint\n. On this \nlink\n you can find a script with examples of how we run those commands and the rules that we exclude. On some projects we have activated the option Build Settings -\n Analyze During \u2018Build\u2019 to automatically get a static analysis (from \nClang Static Analyzer\n) during the app Build process.", 
+            "title": "3. Continuous Integration"
+        }, 
+        {
+            "location": "/Technologies/iOS/3. Continuous Integration/#continuous-integration", 
+            "text": "Continuous Integration  is a well know practice that many developer teams had acquired. Basically Continuous Integration consist in execute plenty frequently an automated integration procedure (download app source, build app, execute tests, etc.) in order to rapidly detect errors and always ensure a deliverable build. Here at  CodigoDelSur  we are really happy with the results of this practice, it has been super helpful to anticipate issues on our apps.   On this page we are going to enumerate and explain some of the tools we use to implement continuous integration in our projects. Because every project has its own nature, continuous integration flows might be very different between projects. That's why we can not give you a recipe of which ci tools you must to use, we just can tell you which ones we used and have gave us nice results.", 
+            "title": "Continuous Integration"
+        }, 
+        {
+            "location": "/Technologies/iOS/3. Continuous Integration/#automation-server", 
+            "text": "The Automation server is in charge of execute the continuous integration flows or pipeline. Depending on the configured triggers, the automation server will execute a certain pipeline. The possible flows are almost infinite, for example you can build and test your app when the repo has received changes, or you can generate a test build every morning for the QA team etc. As it was mentioned before, all depends on the project nature.   As automation servers we usually use our  Jenkins  locally hosted or  Bitrise . Also we have a nice experience using  CircleCi .", 
+            "title": "Automation server"
+        }, 
+        {
+            "location": "/Technologies/iOS/3. Continuous Integration/#fastlane", 
+            "text": "We love  Fastlane , it's the main automation tool that we use. It allows us to automate a lot of task like downloading the latest provisioning profile, tests our apps, archive them, distribute them, notify the results of the flows via slack, etc. Fastlane contains a series of tools that are in charge of those tasks. Also it provides you with a Fastfile file where you can write your flows. Beside the Fastlane's main tools it has a series of  actions  that are awesome!. You can check our generic fastfile  here .  Here is the  documentation  section where you can find some useful articles like  Jenkins Integration  or  CircleCi config .", 
+            "title": "Fastlane"
+        }, 
+        {
+            "location": "/Technologies/iOS/3. Continuous Integration/#testing", 
+            "text": "To test our apps we have used mainly the apple's test frameworks  XCtest  and  UI XCTest . For those how are new to unit testing here is a  video  explaining a little bit the basic theoretical concepts. Also we recommend you to watch the  WWDC 2015 UI Testing in Xcode , it gives you a nice overview of the UI XCTest.  Other links:    Testing with XCode  UI Testing cheat sheet      XCTest API Reference", 
+            "title": "Testing"
+        }, 
+        {
+            "location": "/Technologies/iOS/3. Continuous Integration/#bdd-behavior-driven-development", 
+            "text": "We also have used the  BBD  framework  Cedar . It seems to us to be a really nice framework and really easy to use. If you want to know more about this great practice you can check the following links:  http://behaviourdriven.org ,  agilealliance  and  Wikipedia - BDD .", 
+            "title": "BDD - Behavior Driven Development"
+        }, 
+        {
+            "location": "/Technologies/iOS/3. Continuous Integration/#other-tools", 
+            "text": "Here  we explained the different distribution tools that we currently use. In our continuous integration flow we deliver our app's build via one of those tools.    Static analysis  We have worked with different static analysis tools on some of our projects. Beside  Clang Static Analyzer  we also have used  Infer  and  OClint . On this  link  you can find a script with examples of how we run those commands and the rules that we exclude. On some projects we have activated the option Build Settings -  Analyze During \u2018Build\u2019 to automatically get a static analysis (from  Clang Static Analyzer ) during the app Build process.", 
+            "title": "Other Tools"
+        }, 
+        {
+            "location": "/Tools/Git/", 
+            "text": "Git - Version Control System\n\n\nIf you are beginer with git you can check these blogs to get started.\n\n\n\n\n\n\nWhat is git\n Here you can find a complete guide about git. There you will find beginners article as well as some interesting advance posts.\n\n\n\n\n\n\nBasic commands\n A list with the most essential git commands.\n\n\n\n\n\n\nUseful tools\n\n\nTime is precious so here at CodigoDelSur we try to use tools that makes our life more easy. Here there are two tools that can simplify your daily work with git.\n\n\n\n\n\n\nSourceTree\n  is a visual git client, it is very useful to have fast overviews over your repos. On this \nlink\n you will find the tool documentation.  \n\n\n\n\n\n\np4merge\n This is a visual merge and diff tool. \nHere\n is an installation guide.\n\n\n\n\n\n\nBranch Management\n\n\nThere are many branch management flows that can be implemented. Some flows might work fine with some projects but can be very ineffective with others because of their nature. That\u2019s the reason why there isn't a gold rule to follow when you are creating a branch management flow. Here we are going to describe our git flow that we have been using in many projects and worked really well.\n\n\nWe can distinct between two types of branches: the \nmain branches\n and the \nsupporting branches\n. The main branches are branches that should never be deleted, these branches represents every stage of the code. The supporting branches always have a limited life time, these branches are created to develope a feature, fixing a bug ,etc.\n\n\nImportant:\n Main branches should be protected branches and should require pull request reviews before merging.\n\n\nMain branches\n\n\ndevelopment\n Contains all the latest features developed by the team. This is an unstable branch, baisically is constantly recibing features from the developers.\n\n\nqa_testing\n This branch is where the QA team do theris tests. It contains all the features that will be released to the client or beta testers.\n\n\nstage\n Holds the latest released version to the client or beta testers. This an stable branch.\n\n\nmaster\n Holds the App Store versions. As this is our production branch it must be stable.\n\n\nSupporting Branches\n\n\nfeature\n Every time a developer starts a feature, a new branch starting from development must be created. Once the developer finish the feature  and ends testing it, the feature is ready to be merged into development.\nThese branches should be named as:\nfeature/[taskid]_taskname\n\n\nepic\n Baiscially this is a feature branch that contains an epic feature. Epic features baisically are big features that should have an on/off mechanism inside the code(toggle feature). The behaiviour is exact the same as the feature branch and should be named as:\nepic/[taskid]_taskname\n\n\nbug\n Every time the QA team reports a bug, or the developer team detects one, that bug must be treated on a bug branch. These branches must always  be started from the qa_testing branch.\nThese branches should be named as:\nbug/[taskid]_taskname\n\n\nhotfix\n Every time a bug is discovered on stage or on production we should cr\u00e9ate a hotfix branch to fix this issue. The branch starts from stage or master depending on where the bug was detected.\nThese branches should be named as:\nhotfix/[taskid]_taskname\nMerges\n\n\nMain Branches Merges\n\n\ndeveloper -\n qa_testing\n Once the features that will be added to the build are completed and merged with development, we can merge with qa_testing so then the QA team can test the build.\n\n\nqa_testing -\n stage\n Once the QA team review the build and all the bugs fund were resolved, we can merge from qa_testing to stage.\n\n\nstage -\n master\n Once the Beta testers and the client give us the OK to go to production, we are ready to upload the app to the appstore and this will require to  merge stage with master.\n\n\nmaster -\n stage\n Every hotfix fixed on master must be merged in stage.\n\n\nstage  -\n qa_testing\n Every hotfix fixed on stage or any aditional code on stage must be merged in qa_testing.\n\n\nqa_testing -\n developer\n Every bug fixed on qa_testing or any aditional code on qa_testing must be merged on developer.\n\n\nSupporting Branches Merges\n\n\nFeature -\n developer\n Once a developer finish implementing a task and finish testing that feature, he must merge that feature on development.\n\n\nEpic -\n developer\n Once a developer finish implementing an epic feature and finish testing it, he must merge that feature on development.\n\n\nBug -\n qa_testing\n Once a developer finish fixing a bug detected on qa_testing he must merge that fix on qa_testing.\n\n\nHotfix -\n Stable branch (stage or master)\n Once a developer finish fixing a bug detected on a stable branch he must merge that fix on that stable branch.\n\n\nReferences\n\n\nhttp://nvie.com/posts/a-successful-git-branching-model/\n.\n\n\nhttp://martinfowler.com/bliki/FeatureToggle.html\n.\n\n\nhttps://www.atlassian.com/agile/branching\n.", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/Tools/Git/#git-version-control-system", 
+            "text": "If you are beginer with git you can check these blogs to get started.    What is git  Here you can find a complete guide about git. There you will find beginners article as well as some interesting advance posts.    Basic commands  A list with the most essential git commands.", 
+            "title": "Git - Version Control System"
+        }, 
+        {
+            "location": "/Tools/Git/#useful-tools", 
+            "text": "Time is precious so here at CodigoDelSur we try to use tools that makes our life more easy. Here there are two tools that can simplify your daily work with git.    SourceTree   is a visual git client, it is very useful to have fast overviews over your repos. On this  link  you will find the tool documentation.      p4merge  This is a visual merge and diff tool.  Here  is an installation guide.", 
+            "title": "Useful tools"
+        }, 
+        {
+            "location": "/Tools/Git/#branch-management", 
+            "text": "There are many branch management flows that can be implemented. Some flows might work fine with some projects but can be very ineffective with others because of their nature. That\u2019s the reason why there isn't a gold rule to follow when you are creating a branch management flow. Here we are going to describe our git flow that we have been using in many projects and worked really well.  We can distinct between two types of branches: the  main branches  and the  supporting branches . The main branches are branches that should never be deleted, these branches represents every stage of the code. The supporting branches always have a limited life time, these branches are created to develope a feature, fixing a bug ,etc.  Important:  Main branches should be protected branches and should require pull request reviews before merging.", 
+            "title": "Branch Management"
+        }, 
+        {
+            "location": "/Tools/Git/#main-branches", 
+            "text": "development  Contains all the latest features developed by the team. This is an unstable branch, baisically is constantly recibing features from the developers.  qa_testing  This branch is where the QA team do theris tests. It contains all the features that will be released to the client or beta testers.  stage  Holds the latest released version to the client or beta testers. This an stable branch.  master  Holds the App Store versions. As this is our production branch it must be stable.", 
+            "title": "Main branches"
+        }, 
+        {
+            "location": "/Tools/Git/#supporting-branches", 
+            "text": "feature  Every time a developer starts a feature, a new branch starting from development must be created. Once the developer finish the feature  and ends testing it, the feature is ready to be merged into development.\nThese branches should be named as:\nfeature/[taskid]_taskname  epic  Baiscially this is a feature branch that contains an epic feature. Epic features baisically are big features that should have an on/off mechanism inside the code(toggle feature). The behaiviour is exact the same as the feature branch and should be named as:\nepic/[taskid]_taskname  bug  Every time the QA team reports a bug, or the developer team detects one, that bug must be treated on a bug branch. These branches must always  be started from the qa_testing branch.\nThese branches should be named as:\nbug/[taskid]_taskname  hotfix  Every time a bug is discovered on stage or on production we should cr\u00e9ate a hotfix branch to fix this issue. The branch starts from stage or master depending on where the bug was detected.\nThese branches should be named as:\nhotfix/[taskid]_taskname\nMerges", 
+            "title": "Supporting Branches"
+        }, 
+        {
+            "location": "/Tools/Git/#main-branches-merges", 
+            "text": "developer -  qa_testing  Once the features that will be added to the build are completed and merged with development, we can merge with qa_testing so then the QA team can test the build.  qa_testing -  stage  Once the QA team review the build and all the bugs fund were resolved, we can merge from qa_testing to stage.  stage -  master  Once the Beta testers and the client give us the OK to go to production, we are ready to upload the app to the appstore and this will require to  merge stage with master.  master -  stage  Every hotfix fixed on master must be merged in stage.  stage  -  qa_testing  Every hotfix fixed on stage or any aditional code on stage must be merged in qa_testing.  qa_testing -  developer  Every bug fixed on qa_testing or any aditional code on qa_testing must be merged on developer.", 
+            "title": "Main Branches Merges"
+        }, 
+        {
+            "location": "/Tools/Git/#supporting-branches-merges", 
+            "text": "Feature -  developer  Once a developer finish implementing a task and finish testing that feature, he must merge that feature on development.  Epic -  developer  Once a developer finish implementing an epic feature and finish testing it, he must merge that feature on development.  Bug -  qa_testing  Once a developer finish fixing a bug detected on qa_testing he must merge that fix on qa_testing.  Hotfix -  Stable branch (stage or master)  Once a developer finish fixing a bug detected on a stable branch he must merge that fix on that stable branch.", 
+            "title": "Supporting Branches Merges"
+        }, 
+        {
+            "location": "/Tools/Git/#references", 
+            "text": "http://nvie.com/posts/a-successful-git-branching-model/ .  http://martinfowler.com/bliki/FeatureToggle.html .  https://www.atlassian.com/agile/branching .", 
+            "title": "References"
         }
     ]
 }

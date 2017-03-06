@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+	<title>3. Continuous Integration - CodigoDelSur</title>
+
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../css/highlight.css">
+        <link href="../../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../../..">CodigoDelSur</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">New at CodigoDelSur <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../../New at CodigoDelSur/First_Steps/">First Steps</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technologies <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">React</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../React/GettingStarted/">GettingStarted</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../React/Libraries/">Libraries</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../React/Redux/">Redux</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                    
+                        
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">iOS</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../1. New to iOS/">1. New to iOS</a>
+</li>
+
+        
+            
+<li >
+    <a href="../2. Projects/">2. Projects</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">3. Continuous Integration</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../../Tools/Git/">Git</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../2. Projects/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../../../Tools/Git/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/codigodelsur/knowledge-base">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#continuous-integration">Continuous Integration</a></li>
+        
+            <li><a href="#automation-server">Automation server</a></li>
+        
+            <li><a href="#fastlane">Fastlane</a></li>
+        
+            <li><a href="#testing">Testing</a></li>
+        
+            <li><a href="#other-tools">Other Tools</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="continuous-integration">Continuous Integration</h1>
+<p><a href="https://www.thoughtworks.com/continuous-integration">Continuous Integration</a> is a well know practice that many developer teams had acquired. Basically Continuous Integration consist in execute plenty frequently an automated integration procedure (download app source, build app, execute tests, etc.) in order to rapidly detect errors and always ensure a deliverable build. Here at <a href="../www.codigodelsur.com">CodigoDelSur</a> we are really happy with the results of this practice, it has been super helpful to anticipate issues on our apps. </p>
+<p>On this page we are going to enumerate and explain some of the tools we use to implement continuous integration in our projects. Because every project has its own nature, continuous integration flows might be very different between projects. That's why we can not give you a recipe of which ci tools you must to use, we just can tell you which ones we used and have gave us nice results.</p>
+<h2 id="automation-server">Automation server</h2>
+<p>The Automation server is in charge of execute the continuous integration flows or pipeline. Depending on the configured triggers, the automation server will execute a certain pipeline. The possible flows are almost infinite, for example you can build and test your app when the repo has received changes, or you can generate a test build every morning for the QA team etc. As it was mentioned before, all depends on the project nature. </p>
+<p>As automation servers we usually use our <a href="https://jenkins.io">Jenkins</a> locally hosted or <a href="https://www.bitrise.io">Bitrise</a>. Also we have a nice experience using <a href="https://circleci.com">CircleCi</a>.</p>
+<h2 id="fastlane">Fastlane</h2>
+<p>We love <a href="https://fastlane.tools">Fastlane</a>, it's the main automation tool that we use. It allows us to automate a lot of task like downloading the latest provisioning profile, tests our apps, archive them, distribute them, notify the results of the flows via slack, etc. Fastlane contains a series of tools that are in charge of those tasks. Also it provides you with a Fastfile file where you can write your flows. Beside the Fastlane's main tools it has a series of <a href="https://docs.fastlane.tools/actions/">actions</a> that are awesome!. You can check our generic fastfile <a href="https://github.com/codigodelsur/conventions-iOS/blob/master/FastfileExample">here</a>.</p>
+<p>Here is the <a href="https://github.com/fastlane/fastlane/tree/master/fastlane/docs">documentation</a> section where you can find some useful articles like <a href="https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Jenkins.md">Jenkins Integration</a> or <a href="https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Circle.md">CircleCi config</a>.   </p>
+<h2 id="testing">Testing</h2>
+<p>To test our apps we have used mainly the apple's test frameworks <a href="https://developer.apple.com/reference/xctest">XCtest</a> and <a href="https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/09-ui_testing.html#//apple_ref/doc/uid/TP40014132-CH13-SW1">UI XCTest</a>. For those how are new to unit testing here is a <a href="https://www.youtube.com/watch?v=S5MvykD3yiE&amp;t">video</a> explaining a little bit the basic theoretical concepts. Also we recommend you to watch the <a href="https://developer.apple.com/videos/play/wwdc2015/406/">WWDC 2015 UI Testing in Xcode</a>, it gives you a nice overview of the UI XCTest.</p>
+<p>Other links: </p>
+<ul>
+<li><a href="https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/01-introduction.html">Testing with XCode</a></li>
+<li><a href="http://masilotti.com/ui-testing-cheat-sheet">UI Testing cheat sheet</a>   </li>
+<li><a href="https://developer.apple.com/reference/xctest">XCTest API Reference</a></li>
+</ul>
+<h4 id="bdd-behavior-driven-development">BDD - Behavior Driven Development</h4>
+<p>We also have used the <a href="https://dannorth.net/introducing-bdd/">BBD</a> framework <a href="https://github.com/pivotal/cedar">Cedar</a>. It seems to us to be a really nice framework and really easy to use. If you want to know more about this great practice you can check the following links: <a href="http://behaviourdriven.org">http://behaviourdriven.org</a>, <a href="https://www.agilealliance.org/glossary/bdd/">agilealliance</a> and <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Wikipedia - BDD</a>.</p>
+<h2 id="other-tools">Other Tools</h2>
+<ul>
+<li>
+<p><a href="http://codigodelsur.github.io/conventions-iOS/projects/#distribution-tools">Here</a> we explained the different distribution tools that we currently use. In our continuous integration flow we deliver our app's build via one of those tools.</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Static_program_analysis">Static analysis</a> We have worked with different static analysis tools on some of our projects. Beside <a href="http://clang-analyzer.llvm.org">Clang Static Analyzer</a> we also have used <a href="http://fbinfer.com">Infer</a> and <a href="http://oclint.org">OClint</a>. On this <a href="https://github.com/codigodelsur/conventions-iOS/blob/master/static_analyzers.sh">link</a> you can find a script with examples of how we run those commands and the rules that we exclude. On some projects we have activated the option Build Settings -&gt; Analyze During ‘Build’ to automatically get a static analysis (from <a href="http://clang-analyzer.llvm.org">Clang Static Analyzer</a>) during the app Build process.</p>
+</li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        <script>var base_url = '../../..';</script>
+        <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script>
+        <script src="../../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
