@@ -1,0 +1,20 @@
+# CodigoDelSur's intermediate guide to Ruby.
+
+This guide is intended for those *Ruby developers* that already have practice programming on *Ruby* and have already read [CodigoDelSur's ruby beginners guide](/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide.md)
+
+The goal of this guide is to give to those that have already worked with *Ruby* a better understanding of it, thus improving their overall code quality.
+
+## Best practices
+
+[Here](https://github.com/bbatsov/ruby-style-guide) you will find a set of best practices that every *Ruby developer* must have on it's toolbelt.
+
+## Intermediate Books
+- **Metaprogramming Ruby** by Paolo Perrotta
+- **Practical Object-Oriented Design in Ruby: An Agile Primer** by Sandi Metz
+- **Eloquent Ruby** by Russell A. Olsen
+
+## Advance Books
+- **Design Patterns in Ruby ** by Russell A. Olsen
+- **Refactoring Ruby Edition** by Jay F ields, Shane Harvie, Martin Fowler and Kent Beck
+
+

@@ -16,7 +16,7 @@ Welcome to CodigoDelSur! Here you will see a tiny guide about what to do on your
  *    **Skype:** Please create a Skype account with your codigodelsur mail account.
 
 ##Github
-You will need to create a Github account with you Codigodelsur email. The account name should have this format:
+You will need to create a Github account with your Codigodelsur email. The account name should have this format:
 
 `[first character of your name][last name]cds` 
 

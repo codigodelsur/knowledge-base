@@ -1,0 +1,35 @@
+# CodigoDelSur's beginners guide to Rails.
+
+After dealing with the first Ruby concepts it's time to move on to the real world and start building full stack applications. The next challenge is to learn Rails. As you probably have heard this framework is combined with the Ruby language to build powerful software. Below you will find links to useful tutorials about Rails, what it is and how it works.
+
+## First steps
+
+[Here](http://guides.rubyonrails.org/getting_started.html) you will find the official rails guide for developers showing the basic concepts of Rails from the practice.
+
+For a more extended reading on the Ruby on Rails web development in practice have a look to [this](https://www.railstutorial.org/book/frontmatter) online book.
+
+Ruby on Rails works great for full stack web applications but is also great at biulding REST APIs. Check out [this](http://apionrails.icalialabs.com/book) tutorial book for a very detailed explanation on this topic.
+
+## Going further
+
+You probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.
+
+## Recommended Books
+ - **Jump Start Rails** by Andy Hawthorne 
+ - **Rails 4 in action** by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner
+ 
+## Begginers Rails Docs - Tutorials
+
+- [Codecademy learn rails](https://www.codecademy.com/learn/learn-rails)
+- [Railscasts tutorials](http://railscasts.com/)
+- [Learning Rails (Medium post)](https://medium.com/how-i-learned-ruby-rails/how-i-trained-to-learn-rails-e08c94e2a51e#.5msfybu9x)
+- [Rails best practices](https://www.codeschool.com/courses/rails-best-practices)
+
+## Beginners Rails Docs - Videos
+
+- [Rails tutorial](https://www.youtube.com/watch?v=GY7Ps8fqGdc)
+- [Learn Ruby on Rails from scratch](https://www.youtube.com/watch?v=exEduZlJS7Q&list=PLDmvslp_VR0xlwr5lAx2PDsZLu7oIOhpX)
+
+## What's next
+
+Once the basic Ruby on Rails concepts are clear for you and feel ready to move on, the next step is to jump to the intermediate guide. See you [there](/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide.md)!
