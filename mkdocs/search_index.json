@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/New at CodigoDelSur/First_Steps/", 
-            "text": "First Steps\n\n\nWelcome to CodigoDelSur! Here you will see a tiny guide about what to do on your first steps here at CDS. Also to know little bit more about the CodigoDelSur\u2019s team please check this \nlink\n.\n\n\nInner communication\n\n\n\n\n\n\nMail:\n On your first day you will be provided with an email account. This account should have the next format:\n\n\n[first character of your name][ last name]@codigodelsur.com.\n\n\nYou must use this mail every time you create any other service account like Github,, Bitbucket, Slack, Skype, etc.\n\n\n\n\n\n\nSlack:\n You will be invited to the slack team codigodelsur.slack.com. There you can join different channels like \n#developers\n, \n#ios_devs\n, \n#android_devs\n ,etc\n\n\n\n\n\n\nSkype:\n Please create a Skype account with your codigodelsur mail account.\n\n\n\n\n\n\nGithub\n\n\nYou will need to create a Github account with you Codigodelsur email. The account name should have this format:\n\n\n[first character of your name][last name]cds\n \n\n\nAlso please enable two-factor authentication!\nNotify the creation of the Github account so can be invited to join the CodigoDelSur\u2019s Github \norganization\n.\n\n\nIf you are new at git we highly recommend you to read this page.\n\n\nLastPass\n\n\nWhat is Lastpass?\n\n\n\n\n\n\nLastPass is a password management service that stores passwords in private accounts. So, any time you need to store or share a password please use lastpass, don\u2019t use text files, mails, slack, etc.\n\n\n\n\nHow can I start using Lastpass?\n\n\n\n\nYou will be receive an account activation email. While your are activating the account you will create you master password, please enter a password with at least 12 character that contains upper and lower cases and a digit.\n\n\n\n\n\n\n\n\nAs a rule at CodigoDelSur, all Lastpass account must include a two-factor authentication method. We recommend using Google Authenticator. Once you configure your 2fa method you are ready to start using Lastpass.\n\n\n\n\n\n\nTip:\n In order to access easily to your password vault while you are surfing the web you can download the LastPass web extensions.\n\n\nYour computer\n\n\nFirst you need to check that the software that you are using is updated (IDEs, xCode, OS, etc). Then check if your network configuration is OK. You should have a static IP and you configuration should look something like this:\n\n\nIP: 192.168.10.xxx\nGateway: 192.168.10.1\nMask: 255.255.255.0\n\nDNSs: 192.168.10.1, 206.99.44.254, 8.8.8.8\n\n\n\nClub de lectura t\u00e9cnica\n\n\nWhat is the \u201cClub de lectura t\u00e9cnica\u201d? Once in a couple of week, some developers join together to discuss a previously read tech book. Its a fun opportunity to learn about interesting things and have a good time at the same time. If you want to know more please join to the slack channel \n#club_lectura_tecnica", 
+            "text": "First Steps\n\n\nWelcome to CodigoDelSur! Here you will see a tiny guide about what to do on your first steps here at CDS. Also to know little bit more about the CodigoDelSur\u2019s team please check this \nlink\n.\n\n\nInner communication\n\n\n\n\n\n\nMail:\n On your first day you will be provided with an email account. This account should have the next format:\n\n\n[first character of your name][ last name]@codigodelsur.com.\n\n\nYou must use this mail every time you create any other service account like Github,, Bitbucket, Slack, Skype, etc.\n\n\n\n\n\n\nSlack:\n You will be invited to the slack team codigodelsur.slack.com. There you can join different channels like \n#developers\n, \n#ios_devs\n, \n#android_devs\n ,etc\n\n\n\n\n\n\nSkype:\n Please create a Skype account with your codigodelsur mail account.\n\n\n\n\n\n\nGithub\n\n\nYou will need to create a Github account with your Codigodelsur email. The account name should have this format:\n\n\n[first character of your name][last name]cds\n \n\n\nAlso please enable two-factor authentication!\nNotify the creation of the Github account so can be invited to join the CodigoDelSur\u2019s Github \norganization\n.\n\n\nIf you are new at git we highly recommend you to read this page.\n\n\nLastPass\n\n\nWhat is Lastpass?\n\n\n\n\n\n\nLastPass is a password management service that stores passwords in private accounts. So, any time you need to store or share a password please use lastpass, don\u2019t use text files, mails, slack, etc.\n\n\n\n\nHow can I start using Lastpass?\n\n\n\n\nYou will be receive an account activation email. While your are activating the account you will create you master password, please enter a password with at least 12 character that contains upper and lower cases and a digit.\n\n\n\n\n\n\n\n\nAs a rule at CodigoDelSur, all Lastpass account must include a two-factor authentication method. We recommend using Google Authenticator. Once you configure your 2fa method you are ready to start using Lastpass.\n\n\n\n\n\n\nTip:\n In order to access easily to your password vault while you are surfing the web you can download the LastPass web extensions.\n\n\nYour computer\n\n\nFirst you need to check that the software that you are using is updated (IDEs, xCode, OS, etc). Then check if your network configuration is OK. You should have a static IP and you configuration should look something like this:\n\n\nIP: 192.168.10.xxx\nGateway: 192.168.10.1\nMask: 255.255.255.0\n\nDNSs: 192.168.10.1, 206.99.44.254, 8.8.8.8\n\n\n\nClub de lectura t\u00e9cnica\n\n\nWhat is the \u201cClub de lectura t\u00e9cnica\u201d? Once in a couple of week, some developers join together to discuss a previously read tech book. Its a fun opportunity to learn about interesting things and have a good time at the same time. If you want to know more please join to the slack channel \n#club_lectura_tecnica", 
             "title": "First Steps"
         }, 
         {
@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/New at CodigoDelSur/First_Steps/#github", 
-            "text": "You will need to create a Github account with you Codigodelsur email. The account name should have this format:  [first character of your name][last name]cds    Also please enable two-factor authentication!\nNotify the creation of the Github account so can be invited to join the CodigoDelSur\u2019s Github  organization .  If you are new at git we highly recommend you to read this page.", 
+            "text": "You will need to create a Github account with your Codigodelsur email. The account name should have this format:  [first character of your name][last name]cds    Also please enable two-factor authentication!\nNotify the creation of the Github account so can be invited to join the CodigoDelSur\u2019s Github  organization .  If you are new at git we highly recommend you to read this page.", 
             "title": "Github"
         }, 
         {
@@ -56,72 +56,72 @@
             "title": "Club de lectura t\u00e9cnica"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/", 
+            "location": "/Technologies/React/Getting_Started/", 
             "text": "Getting started with the React ecosystem\n\n\nThis list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.\n\n\n\nIt is recommended to NOT SKIP any of the links of this page.\n\n\nCommand line improvements\n\n\nBecause React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.\n\n\n\nhttps://gist.github.com/kevin-smets/8568070\n\n\nJavascript new features\n\n\nJavascript ES6 Cheatsheet - the best of JS ES6\n\n\n\n\nJavascript ES6 Cheatsheet #2 - the best of JS ES6\n\n\n\n\nReact\n\n\nStart here: \nYour guide to the (sometimes overwhelming!) React ecosystem.\n\n\n\n\nThis Codecademy React Courses include exercises and explain the basics of React.\nThey are probably the most important links in this page.\n\n\nReact 101\n\n\n\n\nReact 102\n\n\nRedux tutorials\n\n\nRedux is an easy and powerful way of managing the state application.\n\n\nIt is important to follow the whole playlist, as it explains fundamental concepts of Redux\n\n\n\nRedux Tutorials\n\n\nDan Abramov (creator of Redux and React Hot Loader) tutorials:\n\n    Redux core concepts, and advanced topics.\n\n\n\n\nImmutable JS\n\n\nThis is a tutorial of a great library for simplifying the logic inside reducers\n\n\n\nImmutable.js 101 \u2013 Maps and Lists\n\n\nSagas\n\n\nSagas is a great way of structuring the behavior of an app. It is extremely useful for handling async operations.\nBefore using it, there are some key concepts that are useful to learn\n\n\n\n\nJavascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators\n\n\n\n\n\n\nAre you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators\n\n\n\n\n\n\nThis is a short article that explains the case for using Sagas, and explains how to use it in a simple way. It is probably the most important Sagas tutorial in this page.\n\n\n\nUsing redux-saga To Simplify Your Growing React Native Codebase\n\n\n\n\n\nAn excellent tutorial on how to use Sagas for forking operations\n\n\n\nAsync operations using redux-saga\n\n\n\n\n\nThis is the Beginner Tutorial of the official documentation. There are more sections available to read, but they are not vital for Sagas development\n\n\n\nBeginner Tutorial\n\n\nUsing everything in a practical example\n\n\nThis tutorial creates a ToDo app using several of the libraries described before.\n\n\n\nHow to Build a Todo App Using React, Redux, and Immutable.js\n\n\nReselect\n\n\nReselect is a library for improving the performance when components query data from the state. It can make apps dramatically faster.\n\n\n\n\n\n\n\n\n* \nComputing Derived Data\n: This section of the redux tutorial explains how to use reselect with react.\n\n\nSass\n\n\nSass is a modern and powerful way of managing the styling of components.\n\n\n\nIntro to Sass | SCSS101\n\n\nBoilerplates\n\n\nCreate-react-app (CRA) is an official boilerplate developed by Facebook. It is really useful for beginners, because it allows to have a working project in seconds. It will be automatically configured and provide an out-of-the-box simple experience.\n\n\n\nCreate Apps with No Configuration\n\n\n\n\n\nThe killer feature of this app, is that it can be converted into a complete React App, making all the configurations available to be modified.\n\n\n\nnpm run eject\n\n\n\n\n\nAnother more powerful boilerplate is \nReact Boilerplate\n. This one has the advantage that is the supported one for development with \nStructor\n (an automated tool for creating components)", 
-            "title": "GettingStarted"
+            "title": "Getting Started"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#getting-started-with-the-react-ecosystem", 
+            "location": "/Technologies/React/Getting_Started/#getting-started-with-the-react-ecosystem", 
             "text": "This list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.  It is recommended to NOT SKIP any of the links of this page.", 
             "title": "Getting started with the React ecosystem"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#command-line-improvements", 
+            "location": "/Technologies/React/Getting_Started/#command-line-improvements", 
             "text": "Because React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.  https://gist.github.com/kevin-smets/8568070", 
             "title": "Command line improvements"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#javascript-new-features", 
+            "location": "/Technologies/React/Getting_Started/#javascript-new-features", 
             "text": "", 
             "title": "Javascript new features"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#javascript-es6-cheatsheet-the-best-of-js-es6", 
+            "location": "/Technologies/React/Getting_Started/#javascript-es6-cheatsheet-the-best-of-js-es6", 
             "text": "", 
             "title": "Javascript ES6 Cheatsheet - the best of JS ES6"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#javascript-es6-cheatsheet-2-the-best-of-js-es6", 
+            "location": "/Technologies/React/Getting_Started/#javascript-es6-cheatsheet-2-the-best-of-js-es6", 
             "text": "", 
             "title": "Javascript ES6 Cheatsheet #2 - the best of JS ES6"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#react", 
+            "location": "/Technologies/React/Getting_Started/#react", 
             "text": "Start here:  Your guide to the (sometimes overwhelming!) React ecosystem.   This Codecademy React Courses include exercises and explain the basics of React.\nThey are probably the most important links in this page.  React 101   React 102", 
             "title": "React"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#redux-tutorials", 
+            "location": "/Technologies/React/Getting_Started/#redux-tutorials", 
             "text": "Redux is an easy and powerful way of managing the state application. \nIt is important to follow the whole playlist, as it explains fundamental concepts of Redux  Redux Tutorials  Dan Abramov (creator of Redux and React Hot Loader) tutorials: \n    Redux core concepts, and advanced topics.", 
             "title": "Redux tutorials"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#immutable-js", 
+            "location": "/Technologies/React/Getting_Started/#immutable-js", 
             "text": "This is a tutorial of a great library for simplifying the logic inside reducers  Immutable.js 101 \u2013 Maps and Lists", 
             "title": "Immutable JS"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#sagas", 
+            "location": "/Technologies/React/Getting_Started/#sagas", 
             "text": "Sagas is a great way of structuring the behavior of an app. It is extremely useful for handling async operations.\nBefore using it, there are some key concepts that are useful to learn  \nJavascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators   \nAre you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators   \nThis is a short article that explains the case for using Sagas, and explains how to use it in a simple way. It is probably the most important Sagas tutorial in this page.  Using redux-saga To Simplify Your Growing React Native Codebase   \nAn excellent tutorial on how to use Sagas for forking operations  Async operations using redux-saga   \nThis is the Beginner Tutorial of the official documentation. There are more sections available to read, but they are not vital for Sagas development  Beginner Tutorial", 
             "title": "Sagas"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#using-everything-in-a-practical-example", 
+            "location": "/Technologies/React/Getting_Started/#using-everything-in-a-practical-example", 
             "text": "This tutorial creates a ToDo app using several of the libraries described before.  How to Build a Todo App Using React, Redux, and Immutable.js", 
             "title": "Using everything in a practical example"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#reselect", 
+            "location": "/Technologies/React/Getting_Started/#reselect", 
             "text": "Reselect is a library for improving the performance when components query data from the state. It can make apps dramatically faster.    \n*  Computing Derived Data : This section of the redux tutorial explains how to use reselect with react.", 
             "title": "Reselect"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#sass", 
+            "location": "/Technologies/React/Getting_Started/#sass", 
             "text": "Sass is a modern and powerful way of managing the styling of components.  Intro to Sass | SCSS101", 
             "title": "Sass"
         }, 
         {
-            "location": "/Technologies/React/GettingStarted/#boilerplates", 
+            "location": "/Technologies/React/Getting_Started/#boilerplates", 
             "text": "Create-react-app (CRA) is an official boilerplate developed by Facebook. It is really useful for beginners, because it allows to have a working project in seconds. It will be automatically configured and provide an out-of-the-box simple experience.  Create Apps with No Configuration   \nThe killer feature of this app, is that it can be converted into a complete React App, making all the configurations available to be modified.  npm run eject   \nAnother more powerful boilerplate is  React Boilerplate . This one has the advantage that is the supported one for development with  Structor  (an automated tool for creating components)", 
             "title": "Boilerplates"
         }, 
@@ -201,97 +201,337 @@
             "title": "Redux"
         }, 
         {
-            "location": "/Technologies/iOS/1. New to iOS/", 
-            "text": "New in iOS development?\n\n\nFor those who are new on iOS app development, here you will find a series of  links and materials that will teach you how to get stated.\n\n\nXcode\n\n\nFirst of all you will need to install \nXcode\n which is the IDE used to develop app on every Apple platforms (iPhone, iPad, Mac, Apple watch etc.)\n\n\nHere\n is a complete guide about Xcode.\n\n\niOS Basic Concepts\n\n\nBasically you can write iOS applications in two languages: \nObjective-C\n and \nSwift\n ( this \nlink\n contains a nice guide about swift programing languages).  In order to develop apps you will be interacting with \nCocoa Touch\n that is the iOS application development environment. \n\n\nCocoa Touch includes Foundation and UIKit frameworks , which are essential to program iOS apps.\n\n\n\n\nThe \nFoundation framework\n implements the root class, NSObject, which defines basic object behavior. It implements classes that represent primitive types (for example, strings and numbers) and collections (for example, arrays and dictionaries). Foundation also provides facilities for internationalization, object persistence, file management, and XML processing. You can use its classes to access underlying system entities and services, such as ports, threads, locks, and processes.\n\n\nUIKit framework\n is use to develop the app\u2019s user interface. UIKit include classes for event handling, drawing, image-handling, text processing, typography, and interapplication data transfer. It also includes user-interface elements such as table views, sliders, buttons, text fields, and alert dialogs. \nHere\n there is a catalog about the UI elements avaliable on UIKit.\n\n\n\n\nAn other main concept is that Cocoa Touch follows the MVC (\nModel-View-Controller\n) pattern, a design patter that classifies the application\u2019s objects in three role categories (model, view, or controller) and defines their communication.\n\n\nCode Signing\n\n\nIn order to distribute your app, submit it to the AppStore, install it on devices or integrate some app services (e.g. Push Notifications) you will need to code sign your app. To get depthly on this you can go to \nApple's code signing suppot page\n or \nApp Distribution Guide\n.\n\n\nTutorials\n\n\nTo start developing iOS apps we highly recommend you to follow this tutorials: \n\n\n\n\n\n\nStart Developing iOS Apps (Swift)\n\n\n\n\n\n\nStart Developing iOS Apps (objective c)\n\n\n\n\n\n\nHelp \n Support Links\n\n\n\n\n\n\nhttps://developer.apple.com/library/content/navigation/\n\n\n\n\n\n\nhttps://www.raywenderlich.com", 
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/", 
+            "text": "CodigoDelSur's beginners guide to Rails.\n\n\nAfter dealing with the first Ruby concepts it's time to move on to the real world and start building full stack applications. The next challenge is to learn Rails. As you probably have heard this framework is combined with the Ruby language to build powerful software. Below you will find links to useful tutorials about Rails, what it is and how it works.\n\n\nFirst steps\n\n\nHere\n you will find the official rails guide for developers showing the basic concepts of Rails from the practice.\n\n\nFor a more extended reading on the Ruby on Rails web development in practice have a look to \nthis\n online book.\n\n\nRuby on Rails works great for full stack web applications but is also great at biulding REST APIs. Check out \nthis\n tutorial book for a very detailed explanation on this topic.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nJump Start Rails\n by Andy Hawthorne \n\n\nRails 4 in action\n by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner\n\n\n\n\nBegginers Rails Docs - Tutorials\n\n\n\n\nCodecademy learn rails\n\n\nRailscasts tutorials\n\n\nLearning Rails (Medium post)\n\n\nRails best practices\n\n\n\n\nBeginners Rails Docs - Videos\n\n\n\n\nRails tutorial\n\n\nLearn Ruby on Rails from scratch\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby on Rails concepts are clear for you and feel ready to move on, the next step is to jump to the intermediate guide. See you \nthere\n!", 
+            "title": "Rails Beginners Guide"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#codigodelsurs-beginners-guide-to-rails", 
+            "text": "After dealing with the first Ruby concepts it's time to move on to the real world and start building full stack applications. The next challenge is to learn Rails. As you probably have heard this framework is combined with the Ruby language to build powerful software. Below you will find links to useful tutorials about Rails, what it is and how it works.", 
+            "title": "CodigoDelSur's beginners guide to Rails."
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#first-steps", 
+            "text": "Here  you will find the official rails guide for developers showing the basic concepts of Rails from the practice.  For a more extended reading on the Ruby on Rails web development in practice have a look to  this  online book.  Ruby on Rails works great for full stack web applications but is also great at biulding REST APIs. Check out  this  tutorial book for a very detailed explanation on this topic.", 
+            "title": "First steps"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#going-further", 
+            "text": "You probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.", 
+            "title": "Going further"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#recommended-books", 
+            "text": "Jump Start Rails  by Andy Hawthorne   Rails 4 in action  by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner", 
+            "title": "Recommended Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#begginers-rails-docs-tutorials", 
+            "text": "Codecademy learn rails  Railscasts tutorials  Learning Rails (Medium post)  Rails best practices", 
+            "title": "Begginers Rails Docs - Tutorials"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#beginners-rails-docs-videos", 
+            "text": "Rails tutorial  Learn Ruby on Rails from scratch", 
+            "title": "Beginners Rails Docs - Videos"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#whats-next", 
+            "text": "Once the basic Ruby on Rails concepts are clear for you and feel ready to move on, the next step is to jump to the intermediate guide. See you  there !", 
+            "title": "What's next"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/", 
+            "text": "CodigoDelSur's intermediate guide to Rails.\n\n\nThis guide is intended for those \nRails developers\n that already have practice programming on the framework and have already read \nCodigoDelSur's rails beginners guide\n\n\nThe goal of this guide is to give to those that have already worked on \nRails\n a better understanding of it, thus improving their overall code quality.\n\n\nBest practices\n\n\nHere\n you will find a set of best practices that every \nRails developer\n must have on it's toolbelt.\n\n\nIntermediate Books\n\n\n\n\nAgile Web Development with Rails 5\n by Sam Ruby\n\n\nCrafting Rails 4 Applications\n by Jose Valim\n\n\nThe Rails 4 way\n by Obie Fernandez, Kevin Faustino, and Vitaly Kushner\n\n\n\n\nAdvance Books\n\n\n\n\nAdvanced Rails\n by Brad Ediger\n\n\nEveryday_Testing_Rails_With_RSpec\n by Aaron Summer", 
+            "title": "Rails Intermediate Guide"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#codigodelsurs-intermediate-guide-to-rails", 
+            "text": "This guide is intended for those  Rails developers  that already have practice programming on the framework and have already read  CodigoDelSur's rails beginners guide  The goal of this guide is to give to those that have already worked on  Rails  a better understanding of it, thus improving their overall code quality.", 
+            "title": "CodigoDelSur's intermediate guide to Rails."
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#best-practices", 
+            "text": "Here  you will find a set of best practices that every  Rails developer  must have on it's toolbelt.", 
+            "title": "Best practices"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#intermediate-books", 
+            "text": "Agile Web Development with Rails 5  by Sam Ruby  Crafting Rails 4 Applications  by Jose Valim  The Rails 4 way  by Obie Fernandez, Kevin Faustino, and Vitaly Kushner", 
+            "title": "Intermediate Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#advance-books", 
+            "text": "Advanced Rails  by Brad Ediger  Everyday_Testing_Rails_With_RSpec  by Aaron Summer", 
+            "title": "Advance Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/", 
+            "text": "CodigoDelSur's beginners guide to Ruby.\n\n\nIf you have already worked or experienced with \nObject Oriented Programming\n and decided it was time to add Ruby to your portfolio, then this guide is for you.\nIn here you will find links to useful tutorials about Ruby, what it is and how it works.\n\n\nIn behalf of the CodigoDelSur staff we like to wish you a nice journey into the world of Ruby.\n\n\nFirst steps\n\n\nHere\n you will find the basic concepts of Ruby, the very first step in your journey to becoming an almighty Ruby developer.\n\n\nFor another quick jump, you may also find interesting \nthis\n site which allows you to play around with the first set of instructions for the Ruby language.\n\n\nTo keep pace, you can also check out \nthis\n tutorial for a more detailed introduction on the most important topics and concepts.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nLearn Ruby the hard way\n by Zed A. Shaw and Rob Sobers\n\n\nThe Ruby programming language\n by Yukihiro Matsumoto \n\n\n\n\nBegginers Ruby Docs - Tutorials\n\n\n\n\nRuby Codecademy\n\n\nOfficial Ruby documentation\n\n\n10 mins to your first Ruby app\n\n\nThe bastards book of Ruby\n\n\n\n\nBegginers Ruby docs - Videos resources\n\n\n\n\nRuby Programming\n\n\nRuby Programming series\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby concepts are clear for you and feel ready to move on, the next step is to jump to the Rails world. See you \nthere\n!", 
+            "title": "Ruby Beginners Guide"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#codigodelsurs-beginners-guide-to-ruby", 
+            "text": "If you have already worked or experienced with  Object Oriented Programming  and decided it was time to add Ruby to your portfolio, then this guide is for you.\nIn here you will find links to useful tutorials about Ruby, what it is and how it works.  In behalf of the CodigoDelSur staff we like to wish you a nice journey into the world of Ruby.", 
+            "title": "CodigoDelSur's beginners guide to Ruby."
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#first-steps", 
+            "text": "Here  you will find the basic concepts of Ruby, the very first step in your journey to becoming an almighty Ruby developer.  For another quick jump, you may also find interesting  this  site which allows you to play around with the first set of instructions for the Ruby language.  To keep pace, you can also check out  this  tutorial for a more detailed introduction on the most important topics and concepts.", 
+            "title": "First steps"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#going-further", 
+            "text": "You probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.", 
+            "title": "Going further"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#recommended-books", 
+            "text": "Learn Ruby the hard way  by Zed A. Shaw and Rob Sobers  The Ruby programming language  by Yukihiro Matsumoto", 
+            "title": "Recommended Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#begginers-ruby-docs-tutorials", 
+            "text": "Ruby Codecademy  Official Ruby documentation  10 mins to your first Ruby app  The bastards book of Ruby", 
+            "title": "Begginers Ruby Docs - Tutorials"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#begginers-ruby-docs-videos-resources", 
+            "text": "Ruby Programming  Ruby Programming series", 
+            "title": "Begginers Ruby docs - Videos resources"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#whats-next", 
+            "text": "Once the basic Ruby concepts are clear for you and feel ready to move on, the next step is to jump to the Rails world. See you  there !", 
+            "title": "What's next"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/", 
+            "text": "CodigoDelSur's intermediate guide to Ruby.\n\n\nThis guide is intended for those \nRuby developers\n that already have practice programming on \nRuby\n and have already read \nCodigoDelSur's ruby beginners guide\n\n\nThe goal of this guide is to give to those that have already worked with \nRuby\n a better understanding of it, thus improving their overall code quality.\n\n\nBest practices\n\n\nHere\n you will find a set of best practices that every \nRuby developer\n must have on it's toolbelt.\n\n\nIntermediate Books\n\n\n\n\nMetaprogramming Ruby\n by Paolo Perrotta\n\n\nPractical Object-Oriented Design in Ruby: An Agile Primer\n by Sandi Metz\n\n\nEloquent Ruby\n by Russell A. Olsen\n\n\n\n\nAdvance Books\n\n\n\n\nDesign Patterns in Ruby \n by Russell A. Olsen\n\n\nRefactoring Ruby Edition\n by Jay F ields, Shane Harvie, Martin Fowler and Kent Beck", 
+            "title": "Ruby Intermediate Guide"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#codigodelsurs-intermediate-guide-to-ruby", 
+            "text": "This guide is intended for those  Ruby developers  that already have practice programming on  Ruby  and have already read  CodigoDelSur's ruby beginners guide  The goal of this guide is to give to those that have already worked with  Ruby  a better understanding of it, thus improving their overall code quality.", 
+            "title": "CodigoDelSur's intermediate guide to Ruby."
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#best-practices", 
+            "text": "Here  you will find a set of best practices that every  Ruby developer  must have on it's toolbelt.", 
+            "title": "Best practices"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#intermediate-books", 
+            "text": "Metaprogramming Ruby  by Paolo Perrotta  Practical Object-Oriented Design in Ruby: An Agile Primer  by Sandi Metz  Eloquent Ruby  by Russell A. Olsen", 
+            "title": "Intermediate Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#advance-books", 
+            "text": "Design Patterns in Ruby   by Russell A. Olsen  Refactoring Ruby Edition  by Jay F ields, Shane Harvie, Martin Fowler and Kent Beck", 
+            "title": "Advance Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/", 
+            "text": "CodigoDelSur's Ruby and Rails useful gems\n\n\nRuby Gems\n is a package manager for Ruby that provides the distribution of Ruby programs and libraries in a format called \"gem\", a tool designed to easily manage the installation of gems, and a server for distributing them.\n\n\nThis is a list of useful gems, some added by its fame and some others used for our Ruby on Rails projects and that we find very intersing and want to share with you. Please visit the gems page for more details and full documentation.\n\n\n\n\nUser\n\n\nActive Record\n\n\nPlugins\n\n\nAPI\n\n\nEmail\n\n\nFile Uploading\n\n\nSearching\n\n\nScheduled/Recurrence Jobs\n\n\nView Helper\n\n\nEnvironment Variables\n\n\nAdmin Panel\n\n\nLogging\n\n\nDebug\n\n\nCoding Style\n\n\nTesting\n\n\nProduction\n\n\nError Logging\n\n\n\n\nUser\n\n\nAuthentication\n\n\n\n\nDevise\n - Devise is a flexible authentication solution for Rails based on Warden.\n\n\nKnock\n - Seamless JWT authentication for Rails API.\n\n\nClearance\n - Rails authentication with email \n password.\n\n\nDevise token auth\n - Token based authentication for Rails JSON APIs.\n\n\n\n\nAuthorization\n\n\n\n\nPundit\n - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.\n\n\ncancancan\n - Continuation of CanCan, the authorization Gem for Ruby on Rails.CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.\n\n\nrolify\n - Role management library with resource scoping.\n\n\n\n\nOmniauth\n\n\n\n\nomniauth-facebook\n\n\nomniauth-google-oauth2\n\n\nomniauth-twitter\n\n\nomniauth-github\n\n\nomniauth-linkedin-oauth2\n\n\n\n\nActive Record\n\n\n\n\nEnumerize\n - Enumerated attributes with I18n and ActiveRecord/Mongoid support. It can be integrated with Simple Form.\n\n\nSequenced\n - Sequenced is a simple gem that generates scoped sequential IDs for ActiveRecord models.\n\n\nFriendlyId\n - FriendlyId is the \u201cSwiss Army bulldozer\u201d of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL\u2019s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.\n\n\nAASM\n - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid).\n\n\nPaperTrail\n - PaperTrail lets you track changes to your models' data. It's good for auditing or versioning.\n\n\nparanoia\n - ActiveRecord plugin allowing you to hide and restore records without actually deleting them.\n\n\nValidates\n - Validates provides collection of useful custom validators for Rails applications, including:\n\n\nEmailValidator\n\n\nUrlValidator\n\n\nSlugValidator\n\n\nMoneyValidator\n\n\nIpValidator\n\n\nAssociationLengthValidator\n\n\nAbsolutePathValidator\n\n\nUriComponentValidator\n\n\nColorValidator\n\n\nEanValidator (EAN-8 \n EAN-13)\n\n\n\n\nPlugins\n\n\n\n\nkaminari\n - A Scope \n Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4.\n\n\nSlack Notifier\n is a simple wrapper to send notifications to \nSlack\n webhooks.\n\n\nRails ERD\n - Generate Entity-Relationship Diagrams for Rails applications.\n\n\nBitly\n - Compress your link with Bitly shortcut urls.\n\n\n\n\nAPI\n\n\n\n\nActiveModel::Serializers\n - Serializer brings convention over configuration to your JSON generation.\n\n\nJbuilder\n - Jbuilder gives you a simple DSL for declaring JSON structures that beats massaging giant hash structures. This is particularly helpful when the generation process is fraught with conditionals and loops.\n\n\nrest-client\n - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.\n\n\nhas_scope\n - Map incoming controller parameters to named scopes in your resources.\n\n\nDocumentation\n\n\nGrape Swagger\n - Autogenerate documentation on Grape API.\n\n\nGrape Swagger UI\n - Display documentation that is generated using Grape Swagger.\n\n\napiary\n - Work together to quickly design, prototype, document and test APIs.\n\n\n\n\n\n\n\n\nEmail\n\n\n\n\nletter_opener\n - Preview mail in the browser instead of sending.\n\n\n\n\nFile Uploading\n\n\n\n\nCarrierwave\n - Carrierwave is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.\n\n\ncarrierwave_backgrounder\n - Offload CarrierWave's image processing and storage to a background process using Delayed Job, Resque, Sidekiq, Qu, Queue Classic or Girl Friday.\n\n\nCarrierWave Crop\n - Carrierwave extension to crop uploaded images using Jcrop plugin with preview.\n\n\nCarrierWave ImageOptimizer\n - This gem allows you to simply optimize CarrierWave images via jpegoptim or optipng using the image_optimizer gem.\n\n\nrefile\n - Refile is a modern file upload library for Ruby applications. It is simple, yet powerful.\n\n\nPaperclip\n - Easy file attachment management for ActiveRecord.\n\n\n\n\nSearching\n\n\n\n\nransack\n - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application.\n\n\nelasticsearch-rails\n - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.\n\n\nChewy\n - High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.\n\n\npg_search\n - pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL's full text search\n\n\n\n\nScheduled/Recurrence Jobs\n\n\n\n\nWhenever\n - Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.\n\n\nResque\n - Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.\n\n\nRufus-Scheduler\n - Rufus-scheduler is a Ruby gem for scheduling pieces of code (jobs). It understands running a job AT a certain time, IN a certain time, EVERY x time or simply via a CRON statement.\n\n\nDelayed Job\n - Database based asynchronous priority queue system.\n\n\nSidekiq\n - Simple, efficient background processing for Ruby.\n\n\nsidetiq\n - Recurring jobs for sidekiq.\n\n\nsidekiq-cron\n - Scheduler / Cron for Sidekiq jobs\n\n\nsidekiq-scheduler\n - Lightweight job scheduler extension for Sidekiq\n\n\n\n\nEnvironment Variables\n\n\n\n\nConfig\n - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.\n\n\nFigaro\n - Figaro is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.\n\n\ndotenv\n - Dotenv is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.\n\n\n\n\nAdmin Panel\n\n\n\n\nActive Admin\n - Ruby on Rails framework for creating elegant backends for website administration.\n\n\n\n\nLogging\n\n\n\n\nImpressionist\n - Impressionist can log page impressions (technically action impressions), but it is not limited to that. You can log impressions multiple times per request. And you can also attach it to a model. The goal of this project is to provide customizable stats that are immediately accessible in your application as opposed to using Google Analytics and pulling data using their API.\n\n\nAhoy\n - Ahoy provides a solid foundation to track visits and events in Ruby, JavaScript, and native apps.\n\n\nLograge\n - An attempt to tame Rails' default policy to log everything.\n\n\n\n\nDebug\n\n\n\n\nbyebug\n - Byebug is a simple to use, feature rich debugger for Ruby 2. It uses the new TracePoint API for execution control and the new Debug Inspector API for call stack navigation, so it doesn't depend on internal core sources.\n\n\nawesome_print\n - Awesome Print is a Ruby library that pretty prints Ruby objects in full color exposing their internal structure with proper indentation.\n\n\nweb-console\n - Web Console is a debugging tool for your Ruby on Rails applications.\n\n\nspring\n - Spring is a Rails application preloader. It speeds up development by keeping your application running in the background so you don't need to boot it every time you run a test, rake task or migration.\n\n\nletter_opener\n - Preview email in the default browser instead of sending it. This means you do not need to set up email delivery in your development environment, and you no longer need to worry about accidentally sending a test email to someone else's address.\n\n\n\n\nCoding Style\n\n\n\n\nRuboCop\n - Rubocop is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community \nRuby Style Guide\n.\n\n\nRails Best Practice\n - Rails best practice is a code metric tool to check the quality of rails codes.\n\n\nPronto\n - Quick automated code review of your changes\n\n\n\n\nTesting\n\n\n\n\nrspec-rails\n - Rspec-rails is a testing framework for Rails 3.x and 4.x.\n\n\nCapybara\n - Capybara helps you test web applications by simulating how a real user would interact with your app. And drivers:\n\n\ncapybara-webkit\n - Capybara-webkit is a capybara driver that uses Webkit via QtWebkit.\n\n\nselenium-webdriver\n - Selenium-webdriver provides ruby bindings for WebDriver.\n\n\npoltergeist\n - Poltergeist allows you to run your Capybara tests on a headless WebKit browser, provided by PhantomJS.\n\n\nfactory_girl\n - Factory_girl is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.\n\n\nfactory_girl_rails\n - Factory_girl_rails provides Rails integration for factory_girl.\n\n\nDatabase Cleaner\n - Database Cleaner is a set of strategies for cleaning your database in Ruby.Support ActiveRecord, DataMapper, Sequel, MongoMapper, Mongoid, CouchPotato, Ohm and Redis.\n\n\nshoulda-matchers\n - Shoulda-matchers provides serveral matchers for testing common Rails functionality.\n\n\nResponseCodeMatchers\n - ResponseCodeMatchers provides rspec matchers to match http response code.\n\n\nSimpleCov\n - SimpleCov is a code coverage analysis tool for Ruby.\n\n\nTimecop\n - A gem providing \"time travel\" and \"time freezing\" capabilities, making it dead simple to test time-dependent code.\n\n\n\n\nSecurity\n\n\n\n\nbrakeman\n - Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.\n\n\nbundle-audit\n - bundler-audit is a patch-level verification tool for Bundler which checks for vulnerable versions of gems and insecure gem sources.\n\n\n\n\nProduction\n\n\n\n\nCapistrano\n - Remote multi-server automation tool.\n\n\nRack Attack\n - Rack middleware to blocking \n throttling.\n\n\nResponders\n - A set of Rails responders to dry up your application.\n\n\nproduction_rails\n - Best practices for running Rails in production.\n\n\n\n\nError Logging\n\n\n\n\nRollbar\n - Exception tracking and logging from Ruby to Rollbar.\n\n\nAirbrake\n - Notifier gem for integrating apps with Airbrake.", 
+            "title": "Useful Gems"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#codigodelsurs-ruby-and-rails-useful-gems", 
+            "text": "Ruby Gems  is a package manager for Ruby that provides the distribution of Ruby programs and libraries in a format called \"gem\", a tool designed to easily manage the installation of gems, and a server for distributing them.  This is a list of useful gems, some added by its fame and some others used for our Ruby on Rails projects and that we find very intersing and want to share with you. Please visit the gems page for more details and full documentation.   User  Active Record  Plugins  API  Email  File Uploading  Searching  Scheduled/Recurrence Jobs  View Helper  Environment Variables  Admin Panel  Logging  Debug  Coding Style  Testing  Production  Error Logging", 
+            "title": "CodigoDelSur's Ruby and Rails useful gems"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#user", 
+            "text": "", 
+            "title": "User"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#authentication", 
+            "text": "Devise  - Devise is a flexible authentication solution for Rails based on Warden.  Knock  - Seamless JWT authentication for Rails API.  Clearance  - Rails authentication with email   password.  Devise token auth  - Token based authentication for Rails JSON APIs.", 
+            "title": "Authentication"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#authorization", 
+            "text": "Pundit  - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.  cancancan  - Continuation of CanCan, the authorization Gem for Ruby on Rails.CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.  rolify  - Role management library with resource scoping.", 
+            "title": "Authorization"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#omniauth", 
+            "text": "omniauth-facebook  omniauth-google-oauth2  omniauth-twitter  omniauth-github  omniauth-linkedin-oauth2", 
+            "title": "Omniauth"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#active-record", 
+            "text": "Enumerize  - Enumerated attributes with I18n and ActiveRecord/Mongoid support. It can be integrated with Simple Form.  Sequenced  - Sequenced is a simple gem that generates scoped sequential IDs for ActiveRecord models.  FriendlyId  - FriendlyId is the \u201cSwiss Army bulldozer\u201d of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL\u2019s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.  AASM  - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid).  PaperTrail  - PaperTrail lets you track changes to your models' data. It's good for auditing or versioning.  paranoia  - ActiveRecord plugin allowing you to hide and restore records without actually deleting them.  Validates  - Validates provides collection of useful custom validators for Rails applications, including:  EmailValidator  UrlValidator  SlugValidator  MoneyValidator  IpValidator  AssociationLengthValidator  AbsolutePathValidator  UriComponentValidator  ColorValidator  EanValidator (EAN-8   EAN-13)", 
+            "title": "Active Record"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#plugins", 
+            "text": "kaminari  - A Scope   Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4.  Slack Notifier  is a simple wrapper to send notifications to  Slack  webhooks.  Rails ERD  - Generate Entity-Relationship Diagrams for Rails applications.  Bitly  - Compress your link with Bitly shortcut urls.", 
+            "title": "Plugins"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#api", 
+            "text": "ActiveModel::Serializers  - Serializer brings convention over configuration to your JSON generation.  Jbuilder  - Jbuilder gives you a simple DSL for declaring JSON structures that beats massaging giant hash structures. This is particularly helpful when the generation process is fraught with conditionals and loops.  rest-client  - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.  has_scope  - Map incoming controller parameters to named scopes in your resources.  Documentation  Grape Swagger  - Autogenerate documentation on Grape API.  Grape Swagger UI  - Display documentation that is generated using Grape Swagger.  apiary  - Work together to quickly design, prototype, document and test APIs.", 
+            "title": "API"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#email", 
+            "text": "letter_opener  - Preview mail in the browser instead of sending.", 
+            "title": "Email"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#file-uploading", 
+            "text": "Carrierwave  - Carrierwave is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.  carrierwave_backgrounder  - Offload CarrierWave's image processing and storage to a background process using Delayed Job, Resque, Sidekiq, Qu, Queue Classic or Girl Friday.  CarrierWave Crop  - Carrierwave extension to crop uploaded images using Jcrop plugin with preview.  CarrierWave ImageOptimizer  - This gem allows you to simply optimize CarrierWave images via jpegoptim or optipng using the image_optimizer gem.  refile  - Refile is a modern file upload library for Ruby applications. It is simple, yet powerful.  Paperclip  - Easy file attachment management for ActiveRecord.", 
+            "title": "File Uploading"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#searching", 
+            "text": "ransack  - Ransack enables the creation of both simple and advanced search forms for your Ruby on Rails application.  elasticsearch-rails  - Elasticsearch integrations for ActiveModel/Record and Ruby on Rails.  Chewy  - High-level Elasticsearch Ruby framework based on the official elasticsearch-ruby client.  pg_search  - pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL's full text search", 
+            "title": "Searching"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#scheduledrecurrence-jobs", 
+            "text": "Whenever  - Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.  Resque  - Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.  Rufus-Scheduler  - Rufus-scheduler is a Ruby gem for scheduling pieces of code (jobs). It understands running a job AT a certain time, IN a certain time, EVERY x time or simply via a CRON statement.  Delayed Job  - Database based asynchronous priority queue system.  Sidekiq  - Simple, efficient background processing for Ruby.  sidetiq  - Recurring jobs for sidekiq.  sidekiq-cron  - Scheduler / Cron for Sidekiq jobs  sidekiq-scheduler  - Lightweight job scheduler extension for Sidekiq", 
+            "title": "Scheduled/Recurrence Jobs"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#environment-variables", 
+            "text": "Config  - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.  Figaro  - Figaro is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.  dotenv  - Dotenv is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.", 
+            "title": "Environment Variables"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#admin-panel", 
+            "text": "Active Admin  - Ruby on Rails framework for creating elegant backends for website administration.", 
+            "title": "Admin Panel"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#logging", 
+            "text": "Impressionist  - Impressionist can log page impressions (technically action impressions), but it is not limited to that. You can log impressions multiple times per request. And you can also attach it to a model. The goal of this project is to provide customizable stats that are immediately accessible in your application as opposed to using Google Analytics and pulling data using their API.  Ahoy  - Ahoy provides a solid foundation to track visits and events in Ruby, JavaScript, and native apps.  Lograge  - An attempt to tame Rails' default policy to log everything.", 
+            "title": "Logging"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#debug", 
+            "text": "byebug  - Byebug is a simple to use, feature rich debugger for Ruby 2. It uses the new TracePoint API for execution control and the new Debug Inspector API for call stack navigation, so it doesn't depend on internal core sources.  awesome_print  - Awesome Print is a Ruby library that pretty prints Ruby objects in full color exposing their internal structure with proper indentation.  web-console  - Web Console is a debugging tool for your Ruby on Rails applications.  spring  - Spring is a Rails application preloader. It speeds up development by keeping your application running in the background so you don't need to boot it every time you run a test, rake task or migration.  letter_opener  - Preview email in the default browser instead of sending it. This means you do not need to set up email delivery in your development environment, and you no longer need to worry about accidentally sending a test email to someone else's address.", 
+            "title": "Debug"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#coding-style", 
+            "text": "RuboCop  - Rubocop is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community  Ruby Style Guide .  Rails Best Practice  - Rails best practice is a code metric tool to check the quality of rails codes.  Pronto  - Quick automated code review of your changes", 
+            "title": "Coding Style"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#testing", 
+            "text": "rspec-rails  - Rspec-rails is a testing framework for Rails 3.x and 4.x.  Capybara  - Capybara helps you test web applications by simulating how a real user would interact with your app. And drivers:  capybara-webkit  - Capybara-webkit is a capybara driver that uses Webkit via QtWebkit.  selenium-webdriver  - Selenium-webdriver provides ruby bindings for WebDriver.  poltergeist  - Poltergeist allows you to run your Capybara tests on a headless WebKit browser, provided by PhantomJS.  factory_girl  - Factory_girl is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.  factory_girl_rails  - Factory_girl_rails provides Rails integration for factory_girl.  Database Cleaner  - Database Cleaner is a set of strategies for cleaning your database in Ruby.Support ActiveRecord, DataMapper, Sequel, MongoMapper, Mongoid, CouchPotato, Ohm and Redis.  shoulda-matchers  - Shoulda-matchers provides serveral matchers for testing common Rails functionality.  ResponseCodeMatchers  - ResponseCodeMatchers provides rspec matchers to match http response code.  SimpleCov  - SimpleCov is a code coverage analysis tool for Ruby.  Timecop  - A gem providing \"time travel\" and \"time freezing\" capabilities, making it dead simple to test time-dependent code.", 
+            "title": "Testing"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#security", 
+            "text": "brakeman  - Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.  bundle-audit  - bundler-audit is a patch-level verification tool for Bundler which checks for vulnerable versions of gems and insecure gem sources.", 
+            "title": "Security"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#production", 
+            "text": "Capistrano  - Remote multi-server automation tool.  Rack Attack  - Rack middleware to blocking   throttling.  Responders  - A set of Rails responders to dry up your application.  production_rails  - Best practices for running Rails in production.", 
+            "title": "Production"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#error-logging", 
+            "text": "Rollbar  - Exception tracking and logging from Ruby to Rollbar.  Airbrake  - Notifier gem for integrating apps with Airbrake.", 
+            "title": "Error Logging"
+        }, 
+        {
+            "location": "/Technologies/iOS/1._New to iOS/", 
+            "text": "New in iOS development?\n\n\nFor those who are new on iOS app development, here you will find a series of  links and materials that will teach you how to get stated.\n\n\nXcode\n\n\nFirst of all you will need to install \nXcode\n which is the IDE used to develop app on every Apple platforms (iPhone, iPad, Mac, Apple watch etc.)\n\n\nHere\n is a complete guide about Xcode.\n\n\niOS Basic Concepts\n\n\nBasically you can write iOS native applications in two languages: \nObjective-C\n and \nSwift\n ( this \nlink\n contains a nice guide about swift programing languages).  In order to develop apps you will be interacting with \nCocoa Touch\n that is the iOS application development environment. \n\n\nCocoa Touch includes Foundation and UIKit frameworks , which are essential to program iOS apps.\n\n\n\n\nThe \nFoundation framework\n implements the root class, NSObject, which defines basic object behavior. It implements classes that represent primitive types (for example, strings and numbers) and collections (for example, arrays and dictionaries). Foundation also provides facilities for internationalization, object persistence, file management, and XML processing. You can use its classes to access underlying system entities and services, such as ports, threads, locks, and processes.\n\n\nUIKit framework\n is use to develop the app\u2019s user interface. UIKit include classes for event handling, drawing, image-handling, text processing, typography, and interapplication data transfer. It also includes user-interface elements such as table views, sliders, buttons, text fields, and alert dialogs. \nHere\n there is a catalog about the UI elements avaliable on UIKit.\n\n\n\n\nAn other main concept is that Cocoa Touch follows the MVC (\nModel-View-Controller\n) pattern, a design patter that classifies the application\u2019s objects in three role categories (model, view, or controller) and defines their communication.\n\n\nCode Signing\n\n\nIn order to distribute your app, submit it to the AppStore, install it on devices or integrate some app services (e.g. Push Notifications) you will need to code sign your app. To get depthly on this you can go to \nApple's code signing suppot page\n or \nApp Distribution Guide\n.\n\n\nTutorials\n\n\nTo start developing iOS apps we highly recommend you to follow this tutorials: \n\n\n\n\n\n\nStart Developing iOS Apps (Swift)\n\n\n\n\n\n\nStart Developing iOS Apps (objective c)\n\n\n\n\n\n\nHelp \n Support Links\n\n\n\n\n\n\nhttps://developer.apple.com/library/content/navigation/\n\n\n\n\n\n\nhttps://www.raywenderlich.com", 
             "title": "1. New to iOS"
         }, 
         {
-            "location": "/Technologies/iOS/1. New to iOS/#new-in-ios-development", 
+            "location": "/Technologies/iOS/1._New to iOS/#new-in-ios-development", 
             "text": "For those who are new on iOS app development, here you will find a series of  links and materials that will teach you how to get stated.", 
             "title": "New in iOS development?"
         }, 
         {
-            "location": "/Technologies/iOS/1. New to iOS/#xcode", 
+            "location": "/Technologies/iOS/1._New to iOS/#xcode", 
             "text": "First of all you will need to install  Xcode  which is the IDE used to develop app on every Apple platforms (iPhone, iPad, Mac, Apple watch etc.)  Here  is a complete guide about Xcode.", 
             "title": "Xcode"
         }, 
         {
-            "location": "/Technologies/iOS/1. New to iOS/#ios-basic-concepts", 
-            "text": "Basically you can write iOS applications in two languages:  Objective-C  and  Swift  ( this  link  contains a nice guide about swift programing languages).  In order to develop apps you will be interacting with  Cocoa Touch  that is the iOS application development environment.   Cocoa Touch includes Foundation and UIKit frameworks , which are essential to program iOS apps.   The  Foundation framework  implements the root class, NSObject, which defines basic object behavior. It implements classes that represent primitive types (for example, strings and numbers) and collections (for example, arrays and dictionaries). Foundation also provides facilities for internationalization, object persistence, file management, and XML processing. You can use its classes to access underlying system entities and services, such as ports, threads, locks, and processes.  UIKit framework  is use to develop the app\u2019s user interface. UIKit include classes for event handling, drawing, image-handling, text processing, typography, and interapplication data transfer. It also includes user-interface elements such as table views, sliders, buttons, text fields, and alert dialogs.  Here  there is a catalog about the UI elements avaliable on UIKit.   An other main concept is that Cocoa Touch follows the MVC ( Model-View-Controller ) pattern, a design patter that classifies the application\u2019s objects in three role categories (model, view, or controller) and defines their communication.", 
+            "location": "/Technologies/iOS/1._New to iOS/#ios-basic-concepts", 
+            "text": "Basically you can write iOS native applications in two languages:  Objective-C  and  Swift  ( this  link  contains a nice guide about swift programing languages).  In order to develop apps you will be interacting with  Cocoa Touch  that is the iOS application development environment.   Cocoa Touch includes Foundation and UIKit frameworks , which are essential to program iOS apps.   The  Foundation framework  implements the root class, NSObject, which defines basic object behavior. It implements classes that represent primitive types (for example, strings and numbers) and collections (for example, arrays and dictionaries). Foundation also provides facilities for internationalization, object persistence, file management, and XML processing. You can use its classes to access underlying system entities and services, such as ports, threads, locks, and processes.  UIKit framework  is use to develop the app\u2019s user interface. UIKit include classes for event handling, drawing, image-handling, text processing, typography, and interapplication data transfer. It also includes user-interface elements such as table views, sliders, buttons, text fields, and alert dialogs.  Here  there is a catalog about the UI elements avaliable on UIKit.   An other main concept is that Cocoa Touch follows the MVC ( Model-View-Controller ) pattern, a design patter that classifies the application\u2019s objects in three role categories (model, view, or controller) and defines their communication.", 
             "title": "iOS Basic Concepts"
         }, 
         {
-            "location": "/Technologies/iOS/1. New to iOS/#code-signing", 
+            "location": "/Technologies/iOS/1._New to iOS/#code-signing", 
             "text": "In order to distribute your app, submit it to the AppStore, install it on devices or integrate some app services (e.g. Push Notifications) you will need to code sign your app. To get depthly on this you can go to  Apple's code signing suppot page  or  App Distribution Guide .", 
             "title": "Code Signing"
         }, 
         {
-            "location": "/Technologies/iOS/1. New to iOS/#tutorials", 
+            "location": "/Technologies/iOS/1._New to iOS/#tutorials", 
             "text": "To start developing iOS apps we highly recommend you to follow this tutorials:     Start Developing iOS Apps (Swift)    Start Developing iOS Apps (objective c)", 
             "title": "Tutorials"
         }, 
         {
-            "location": "/Technologies/iOS/1. New to iOS/#help-support-links", 
+            "location": "/Technologies/iOS/1._New to iOS/#help-support-links", 
             "text": "https://developer.apple.com/library/content/navigation/    https://www.raywenderlich.com", 
             "title": "Help &amp; Support Links"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/", 
+            "location": "/Technologies/iOS/2._Projects/", 
             "text": "iOS Projects\n\n\nWe are going to describe the most essential tools that we usually use on our iOS projects. \n\n\nDependency management\n\n\nThere are two main dependency management tools in iOS: \ncocoapods\n and \nCarthage\n. Here at \nCodigoDelSur\n we mostly use cocoapods. Using cocoapods, the dependencies are listed in a text file named Podfile. To initialize the project you just need to go to the Xcode project folder and run on a terminal the command \n$ pod init\n, this will create the podfile setup. Once the project has the podfile with the dependency libraries listed inside you can install them by typing the command \n$ pod intall\n. After the command finishes you can open the generated workspace to start coding. \n\n\nDistribution tools\n\n\nFor distribute our app to our clients and test teams we use the next platforms:\n\n\n\n\nHockeyapp\n Is a complete platform for distributing app builds, it provides a lot of useful feature like feedback, metrics and crash reporting.  \n\n\nCrashlytics\n Another nice distribution tool. Originally it was a crash reporting tool and now is part of the \nFabric\n platform and also provides a distribution system. \n\n\nTestflight\n The apple distribution system, is integrated with \nXcode\n and it can allow the app to be tested by up to 2,000 testers by only having their emails.\n\n\nDiawi\n is a very straight forward platform you just drag and drop the ipa file and it will return you the url where the users can download it.\n\n\n\n\nCode Style\n\n\nObjective-C Code Style\n\n\nOn what concerns about naming classes, variables and methods we follow the \nApple's Coding Guidelines for Cocoa\n. Regarding code style we have created an uncrustify configuration file to automatically apply our code style. On this \nlink\n you can access to it.\nHere you can see some guides that we based from: \n\n\n\n\nNew York Times\n\n\nGitHub\n\n\nCocoaDevCentral\n\n\nWikimedia\n\n\nRaywenderlich.com Objective-C style guide\n\n\n\n\nSwift Code Style\n\n\n\n\nThe Official raywenderlich.com Swift Style Guide\n\n\nLinkedIn's Swift Style Guide\n\n\n\n\nCommenting code\n\n\nWhen commenting our code we like to comments our header's using the \nHeaderDoc\n notation. Usually we use the \n/** - */\n notation to start a documentation block. HeaderDoc works with a series of tags. These tags can be grouped into two categories: \nTop-level tags\n describe the type of declaration that and \nSecond-Level Tags\n that adds additional information about the declaration. Our preferred tags are:\n\n\nTop-Level Tags\n\n\n\n\n@class\n Used to point the starting point of a documentation block regarding a class. \n\n\n@protocol\n Just like the above, just for protocols.\n\n\n\n\nSecond-Level Tags\n\n\n\n\n@brief\n Used to write a short description about the method, property, class, file, struct, or enum you\u2019re documenting. No line breaks are allowed. \n\n\n@discussion\n Used to write a thorough description. You can add line breaks if needed.\n\n\n@param\n With this you can describe a parameter of a method or function. You can have multiple such tags.\n\n\n@return\n Used to specify the return value of a method or function.\n\n\n\n\nBy using this notation, you can build easily html documentation using tools like \njazzy\n, \nDoxygen\n and \nHeaderDoc\n.\nOn this \nlink\n you can check an interesting article describing those tools.\n\n\nAlso we use the \npragma mark\n directive in all of our classes. The \npragma mark\n directive helps to organize the methods of a class making the code more clean and easy to read. It help us to separate methods and group them by delegates implementations, IBAction, etc.\n\n\nLibraries\n\n\nHere is the list of our most used iOS libraries:\n\n\n\n\nAFNetworking\n This is the networking framework that we mostly use. Its really nice, and it really makes life a little bit easy. \n\n\nAlamofire\n The networking framework we use for swift projects..\n\n\nCrashlytics\n is the crash reporting to that we use here.\n\n\nCocoaLumberjack\n Its a logging framework that helps us to organize and manage our app's console logs. \n\n\nFLEX\n An in-app debugging and exploration tool for iOS.\n\n\nReachability\n A really simple but good way to evaluate host availability is using this library.\n\n\nSVProgressHUD\n Provides us a easy way to implement loading alert while waiting for something.\n\n\n\n\nOther nice libraries\n\n\n\n\nPusher\n Is a library that we have used to establish socket communication with the backend.\n\n\nCharts\n Help us when we want to display awesome charts.\n\n\nMapbox\n Provide us ablilty to show really nice maps in our iOS apps.\n\n\n\n\nOn the links below you can find really complete list of iOS libraries:\n\n\n\n\nAwesome-ios\n\n\nAwesome-ios-ui", 
             "title": "2. Projects"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#ios-projects", 
+            "location": "/Technologies/iOS/2._Projects/#ios-projects", 
             "text": "We are going to describe the most essential tools that we usually use on our iOS projects.", 
             "title": "iOS Projects"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#dependency-management", 
+            "location": "/Technologies/iOS/2._Projects/#dependency-management", 
             "text": "There are two main dependency management tools in iOS:  cocoapods  and  Carthage . Here at  CodigoDelSur  we mostly use cocoapods. Using cocoapods, the dependencies are listed in a text file named Podfile. To initialize the project you just need to go to the Xcode project folder and run on a terminal the command  $ pod init , this will create the podfile setup. Once the project has the podfile with the dependency libraries listed inside you can install them by typing the command  $ pod intall . After the command finishes you can open the generated workspace to start coding.", 
             "title": "Dependency management"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#distribution-tools", 
+            "location": "/Technologies/iOS/2._Projects/#distribution-tools", 
             "text": "For distribute our app to our clients and test teams we use the next platforms:   Hockeyapp  Is a complete platform for distributing app builds, it provides a lot of useful feature like feedback, metrics and crash reporting.    Crashlytics  Another nice distribution tool. Originally it was a crash reporting tool and now is part of the  Fabric  platform and also provides a distribution system.   Testflight  The apple distribution system, is integrated with  Xcode  and it can allow the app to be tested by up to 2,000 testers by only having their emails.  Diawi  is a very straight forward platform you just drag and drop the ipa file and it will return you the url where the users can download it.", 
             "title": "Distribution tools"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#code-style", 
+            "location": "/Technologies/iOS/2._Projects/#code-style", 
             "text": "", 
             "title": "Code Style"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#objective-c-code-style", 
+            "location": "/Technologies/iOS/2._Projects/#objective-c-code-style", 
             "text": "On what concerns about naming classes, variables and methods we follow the  Apple's Coding Guidelines for Cocoa . Regarding code style we have created an uncrustify configuration file to automatically apply our code style. On this  link  you can access to it.\nHere you can see some guides that we based from:    New York Times  GitHub  CocoaDevCentral  Wikimedia  Raywenderlich.com Objective-C style guide", 
             "title": "Objective-C Code Style"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#swift-code-style", 
+            "location": "/Technologies/iOS/2._Projects/#swift-code-style", 
             "text": "The Official raywenderlich.com Swift Style Guide  LinkedIn's Swift Style Guide", 
             "title": "Swift Code Style"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#commenting-code", 
+            "location": "/Technologies/iOS/2._Projects/#commenting-code", 
             "text": "When commenting our code we like to comments our header's using the  HeaderDoc  notation. Usually we use the  /** - */  notation to start a documentation block. HeaderDoc works with a series of tags. These tags can be grouped into two categories:  Top-level tags  describe the type of declaration that and  Second-Level Tags  that adds additional information about the declaration. Our preferred tags are:", 
             "title": "Commenting code"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#top-level-tags", 
+            "location": "/Technologies/iOS/2._Projects/#top-level-tags", 
             "text": "@class  Used to point the starting point of a documentation block regarding a class.   @protocol  Just like the above, just for protocols.", 
             "title": "Top-Level Tags"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#second-level-tags", 
+            "location": "/Technologies/iOS/2._Projects/#second-level-tags", 
             "text": "@brief  Used to write a short description about the method, property, class, file, struct, or enum you\u2019re documenting. No line breaks are allowed.   @discussion  Used to write a thorough description. You can add line breaks if needed.  @param  With this you can describe a parameter of a method or function. You can have multiple such tags.  @return  Used to specify the return value of a method or function.   By using this notation, you can build easily html documentation using tools like  jazzy ,  Doxygen  and  HeaderDoc .\nOn this  link  you can check an interesting article describing those tools.  Also we use the  pragma mark  directive in all of our classes. The  pragma mark  directive helps to organize the methods of a class making the code more clean and easy to read. It help us to separate methods and group them by delegates implementations, IBAction, etc.", 
             "title": "Second-Level Tags"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#libraries", 
+            "location": "/Technologies/iOS/2._Projects/#libraries", 
             "text": "Here is the list of our most used iOS libraries:   AFNetworking  This is the networking framework that we mostly use. Its really nice, and it really makes life a little bit easy.   Alamofire  The networking framework we use for swift projects..  Crashlytics  is the crash reporting to that we use here.  CocoaLumberjack  Its a logging framework that helps us to organize and manage our app's console logs.   FLEX  An in-app debugging and exploration tool for iOS.  Reachability  A really simple but good way to evaluate host availability is using this library.  SVProgressHUD  Provides us a easy way to implement loading alert while waiting for something.", 
             "title": "Libraries"
         }, 
         {
-            "location": "/Technologies/iOS/2. Projects/#other-nice-libraries", 
+            "location": "/Technologies/iOS/2._Projects/#other-nice-libraries", 
             "text": "Pusher  Is a library that we have used to establish socket communication with the backend.  Charts  Help us when we want to display awesome charts.  Mapbox  Provide us ablilty to show really nice maps in our iOS apps.   On the links below you can find really complete list of iOS libraries:   Awesome-ios  Awesome-ios-ui", 
             "title": "Other nice libraries"
         }, 
