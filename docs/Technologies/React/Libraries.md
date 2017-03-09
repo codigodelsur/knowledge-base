@@ -16,6 +16,7 @@
 * <a href='https://github.com/KELiON/redux-async-initial-state'>Redux Async Initial State</a>: Redux middleware for async loading of initial app state.
 * <a href='https://github.com/garbles/why-did-you-update'>Why did you update</a>: Tool that will output a warning every time a component is updated and the state didn't change.
 * <a href='https://github.com/ipselon/structor'>Structor</a>: Generate the source code for components, containers, actions, reducers, selectors and sagas. Amazing.
+* <a href='https://github.com/amplitude/redux-query'>redux-query</a>: redux-query is a library for querying and managing network state in React/Redux applications.
 
 ##Boilerplates
 * <a href='https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html'>Create React App (CRA)</a>
