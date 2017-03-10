@@ -4,6 +4,7 @@
 
 * <a href='https://github.com/reactjs/react-redux'>react-redux</a>: Redux is a predictable state container for JavaScript apps.
 * <a href='https://github.com/facebook/immutable-js/'>ImmutableJS</a>: Immutable persistent data collections for Javascript which increase efficiency and simplicity.
+* <a href='https://github.com/tommikaikkonen/redux-orm'>redux-orm</a>: If the redux state becomes complex, this library creates an ORM on it. This allows for easier querying and modification of the state structure (while maintaining immutability).
 * <a href='https://github.com/redux-saga/redux-saga'>redux-saga</a>: redux-saga is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.
 * <a href='https://github.com/reactjs/reselect'>reselect</a>: Reselect is a simple library for creating memoized, composable selector functions. Reselect selectors can be used to efficiently compute derived data from the Redux store.
 * <a href='https://github.com/mobxjs/mobx'>MobX</a>: Simple, scalable state management. It's an alternative to react-redux.
