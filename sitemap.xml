@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2017-03-10</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-03-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,36 +12,14 @@
     
         
     <url>
-     <loc>None/New at CodigoDelSur/First_Steps/</loc>
-     <lastmod>2017-03-10</lastmod>
+     <loc>/New at CodigoDelSur/First_Steps/</loc>
+     <lastmod>2017-03-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/New at CodigoDelSur/Learn_Agile/</loc>
-     <lastmod>2017-03-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
+     <loc>/New at CodigoDelSur/Learn_Agile/</loc>
+     <lastmod>2017-03-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -50,8 +28,36 @@
     
         
     <url>
-     <loc>None/Tools/Git/</loc>
-     <lastmod>2017-03-10</lastmod>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/Tools/Git/</loc>
+     <lastmod>2017-03-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

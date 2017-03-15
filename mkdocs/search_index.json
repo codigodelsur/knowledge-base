@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to CodigoDelSur Knowledge Base\n\n\nOn this website we want to share some useful links, infromation and lessons learned here at \nCodigoDelSur\n. \n\n\nHope you enjoy it!", 
+            "text": "Welcome to CodigoDelSur's Knowledge Base\n\n\n\n    \n\n\n\n\n\n\n    On this website we want to share some useful links, information and lessons learned here at \nCodigoDelSur\n. This site is built by us, feel free to contribute your knowledge so others can learn from you as well!\n\n\n\n\n\n    To get started find in the menu tabs technologies and other resources for you to take a look.\n\n\n\n\nHope you enjoy it!", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-codigodelsur-knowledge-base", 
-            "text": "On this website we want to share some useful links, infromation and lessons learned here at  CodigoDelSur .   Hope you enjoy it!", 
-            "title": "Welcome to CodigoDelSur Knowledge Base"
+            "location": "/#welcome-to-codigodelsurs-knowledge-base", 
+            "text": "On this website we want to share some useful links, information and lessons learned here at  CodigoDelSur . This site is built by us, feel free to contribute your knowledge so others can learn from you as well!  \n    To get started find in the menu tabs technologies and other resources for you to take a look.  Hope you enjoy it!", 
+            "title": "Welcome to CodigoDelSur's Knowledge Base"
         }, 
         {
             "location": "/New at CodigoDelSur/First_Steps/", 
@@ -84,6 +84,56 @@
             "location": "/New at CodigoDelSur/Learn_Agile/#references", 
             "text": "https://www.scrumalliance.org/community/articles/2008/september/what-is-definition-of-done-(dod)  https://martinfowler.com/bliki/FlaccidScrum.html  https://martinfowler.com/bliki/TechnicalDebt.html  https://www.scrumalliance.org/why-scrum", 
             "title": "References:"
+        }, 
+        {
+            "location": "/Technologies/AWS/1._Getting_Started/", 
+            "text": "Getting started with Amazon Web Services\n\n\n\n\n\n\nAmazon Web Services also known simply as AWS is a cloud services platform which offers application hosting, database storage, content delivery and many other services.\n\n\n\n\nAWS is one of the most used infrastructures in software development. Its large number of services and tools makes it a preferred system. Although it is considered one of the most expensive, the continuous maintenance and improvement of the system are notorious in the quality and support of the utilities that distinguish it from the rest of the competitors.\n\n\n\n\nOn the web you can find a lot of information related to AWS, but here we focus to describe the mostly common services and resources which are used on every project making use of Amazon. The vast amount of concepts that are handled in AWS can be overwhelming so you might want to follow the basics here and then you can expand your knowledge out there.\n\n\n\n\nAs mentioned earlier AWS provides an extensive list of services thus the things you might want to learn probably depends on the things you need to do. Nevertheless the most common usage is to deploy an application, an API or any other type of software so others can se it from around the globe. So let's start with such assumption and move around from there.\n\n\n\n\nThe following topics will be covered along this documentation:\n\n\n\n    \nEC2\n\n    \nS3\n\n    \nRDS\n\n    \nLoad Balancing\n\n    \nSSH on AWS\n\n    \nAutoScaling\n\n    \nElastic Beanstalk", 
+            "title": "1. Getting Started"
+        }, 
+        {
+            "location": "/Technologies/AWS/1._Getting_Started/#getting-started-with-amazon-web-services", 
+            "text": "Amazon Web Services also known simply as AWS is a cloud services platform which offers application hosting, database storage, content delivery and many other services.  \nAWS is one of the most used infrastructures in software development. Its large number of services and tools makes it a preferred system. Although it is considered one of the most expensive, the continuous maintenance and improvement of the system are notorious in the quality and support of the utilities that distinguish it from the rest of the competitors.  \nOn the web you can find a lot of information related to AWS, but here we focus to describe the mostly common services and resources which are used on every project making use of Amazon. The vast amount of concepts that are handled in AWS can be overwhelming so you might want to follow the basics here and then you can expand your knowledge out there.  \nAs mentioned earlier AWS provides an extensive list of services thus the things you might want to learn probably depends on the things you need to do. Nevertheless the most common usage is to deploy an application, an API or any other type of software so others can se it from around the globe. So let's start with such assumption and move around from there.", 
+            "title": "Getting started with Amazon Web Services"
+        }, 
+        {
+            "location": "/Technologies/AWS/2._EC2/", 
+            "text": "Getting started on EC2\n\n\n\n\nEC2 is the abbreviation for Amazon Elastic Compute Cloud. This service consists in the usage of computers instances existing in the cloud which we can use in the same manner as if they would be in our own desktops. The EC2 service is highly flexible giving the developer the ability to choose for the instance the hardware capacity, such as memory, CPU, hard drive space, as well as the software configuration, such as operating system, installed application and packages, network configuration among others.\n\n\nHow to create an EC2 instance and connect to it?\n\n\nThe creating flow for an EC2 instance can be easily done through the AWS console. Go to services EC2 and then EC2 Dashboard. The normal flow is divided in the steps detailed below.\n\n\n\n1. Choosing a basic image.\n\nThe selected image comes with a set of basic resources installed. The right option for us depends on what we want to develop and if it important an specific OS. But in general, or at least for the projects we manage at CDS, the Linux image is the right one most of the times. It is importan to mention that you can also create custom images, also known as AMI that can be used in the future as the base for other instances. For example you create a basic Linux instance, then you install git, npm and node js. You can save a new AMI with the configuration and the next time you need a instance with those things installed you can use it again.\n\n\n2. Choose an instance type.\n\n\n\nHere we specify the hardware properties which basically depends on the things we need to support. For example if we want to deploy a game we might want to choose an instance with high card graphics resource. For a general purpose, an m3.medium is a very good choise. If you are wondering how will work my app with the free t2.micro instance, well, the free things are free for something. This instance has very low resources thus is very common your application becomes unavailable after a while.\n\n\n3. Set storage.\n\n\n\nThis indicates the space for the hard drive attached to the instance. The size selected for this depends if we plan to store a database or local files on the instance. Otherwise it would be enough with just a few GB.\n\n\n4. Security groups\n\n\n\nSecurity groups as its name describes in in charge of setting up security access into the instance. The configuration is based on inbound/outbound rules allowing network access to your application. Normally for a web app we want to have port 80 open to the world and port 22 for SSH access. Usually the default security group is enough to get started.\n\n\n5. Create an API key\n\n\n\nThis key will provide SSH access into the instance allowing us to manipulate and install the machine on the cloud same was as we do it locally. Put a nice name, store it safely and don't share with anyone else besides your teammates.\n\n\n6. Monitor and connect to the instance\n\n\n\nFinish the setup and wait a few minutes while things get cook. Take a look to the EC2 Dashboard where you can found information about the instance and its performance status. In order to connect to the instance we should use the key described in the last point. Run the following command on your console to access the instance:\n    \nssh -i your_key_file.pem ec2-user@ec2-instance-ip\n\n\nWhere ec2-instance-ip is clearly your instance's IP address which you can also found in the Dashboard.\nIn case you receive an error with the above command you might need to set proper permissions to the KEY. Try running \nchmod 400 your_key_file.pem\n\n\nFor further reading on this topic please visit \nthis\n.\n\n\nNext steps\n\n\nIs very common for a project the need to store files such as images, videos, or any other content. AWS provides another great service for files storage and management: \nS3", 
+            "title": "2. EC2"
+        }, 
+        {
+            "location": "/Technologies/AWS/2._EC2/#getting-started-on-ec2", 
+            "text": "EC2 is the abbreviation for Amazon Elastic Compute Cloud. This service consists in the usage of computers instances existing in the cloud which we can use in the same manner as if they would be in our own desktops. The EC2 service is highly flexible giving the developer the ability to choose for the instance the hardware capacity, such as memory, CPU, hard drive space, as well as the software configuration, such as operating system, installed application and packages, network configuration among others.", 
+            "title": "Getting started on EC2"
+        }, 
+        {
+            "location": "/Technologies/AWS/2._EC2/#how-to-create-an-ec2-instance-and-connect-to-it", 
+            "text": "The creating flow for an EC2 instance can be easily done through the AWS console. Go to services EC2 and then EC2 Dashboard. The normal flow is divided in the steps detailed below.", 
+            "title": "How to create an EC2 instance and connect to it?"
+        }, 
+        {
+            "location": "/Technologies/AWS/2._EC2/#next-steps", 
+            "text": "Is very common for a project the need to store files such as images, videos, or any other content. AWS provides another great service for files storage and management:  S3", 
+            "title": "Next steps"
+        }, 
+        {
+            "location": "/Technologies/AWS/3._S3/", 
+            "text": "Amazon Web Services: S3\n\n\n\n\nIt is very common for a project to use static files such as images, videos, style files, scripts, audios, etc. Handling this type of data ourselves can become complex for security and availability mainly. A great alternative is to use AWS S3, the storage service that offers optimised file management as well as a robust and reliable space to store our content. Its operation is similar to any file system where directories and paths are used to reference static data. The main division comes under the concept of buckets that can be used to separate environments or concepts from our application, then each bucket will have its own file system.\n\n\nThere are four basic operations over S3 that you can perform:\n\n\n\n\nCreate a bucket\n\n\nAdd an object to a bucket\n\n\nEdit an object\n\n\nDelete an object\n\n\n\n\nThese operations can be done directly from the Dashboard but more important you can do it from your application using the proper AWS SDK for the technology you are using.\n\n\nCloudfront", 
+            "title": "3. S3"
+        }, 
+        {
+            "location": "/Technologies/AWS/3._S3/#amazon-web-services-s3", 
+            "text": "It is very common for a project to use static files such as images, videos, style files, scripts, audios, etc. Handling this type of data ourselves can become complex for security and availability mainly. A great alternative is to use AWS S3, the storage service that offers optimised file management as well as a robust and reliable space to store our content. Its operation is similar to any file system where directories and paths are used to reference static data. The main division comes under the concept of buckets that can be used to separate environments or concepts from our application, then each bucket will have its own file system.  There are four basic operations over S3 that you can perform:   Create a bucket  Add an object to a bucket  Edit an object  Delete an object   These operations can be done directly from the Dashboard but more important you can do it from your application using the proper AWS SDK for the technology you are using.", 
+            "title": "Amazon Web Services: S3"
+        }, 
+        {
+            "location": "/Technologies/AWS/3._S3/#cloudfront", 
+            "text": "", 
+            "title": "Cloudfront"
+        }, 
+        {
+            "location": "/Technologies/AWS/Resources/", 
+            "text": "", 
+            "title": "Resources"
         }, 
         {
             "location": "/Technologies/React/Getting_Started/", 
@@ -231,133 +281,138 @@
             "title": "Redux"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/", 
-            "text": "CodigoDelSur's beginners guide to Rails.\n\n\nAfter dealing with the first Ruby concepts it's time to move on to the real world and start building full stack applications. The next challenge is to learn Rails. As you probably have heard this framework is combined with the Ruby language to build powerful software. Below you will find links to useful tutorials about Rails, what it is and how it works.\n\n\nFirst steps\n\n\nHere\n you will find the official rails guide for developers showing the basic concepts of Rails from the practice.\n\n\nFor a more extended reading on the Ruby on Rails web development in practice have a look to \nthis\n online book.\n\n\nRuby on Rails works great for full stack web applications but is also great at biulding REST APIs. Check out \nthis\n tutorial book for a very detailed explanation on this topic.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nJump Start Rails\n by Andy Hawthorne \n\n\nRails 4 in action\n by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner\n\n\n\n\nBegginers Rails Docs - Tutorials\n\n\n\n\nCodecademy learn rails\n\n\nRailscasts tutorials\n\n\nLearning Rails (Medium post)\n\n\nRails best practices\n\n\n\n\nBeginners Rails Docs - Videos\n\n\n\n\nRails tutorial\n\n\nLearn Ruby on Rails from scratch\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby on Rails concepts are clear for you and feel ready to move on, the next step is to jump to the intermediate guide. See you \nthere\n!", 
-            "title": "Rails Beginners Guide"
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/", 
+            "text": "CodigoDelSur's beginners guide to Ruby.\n\n\nIf you have already worked or experienced with \nObject Oriented Programming\n and decided it was time to add Ruby to your portfolio, then this guide is for you.\nIn here you will find links to useful tutorials about Ruby, what it is and how it works.\n\n\nIn behalf of the CodigoDelSur staff we like to wish you a nice journey into the world of Ruby.\n\n\nFirst steps\n\n\nHere\n you will find the basic concepts of Ruby, the very first step in your journey to becoming an almighty Ruby developer.\n\n\nFor another quick jump, you may also find interesting \nthis\n site which allows you to play around with the first set of instructions for the Ruby language.\n\n\nTo keep pace, you can also check out \nthis\n tutorial for a more detailed introduction on the most important topics and concepts.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nLearn Ruby the hard way\n by Zed A. Shaw and Rob Sobers\n\n\nThe Ruby programming language\n by Yukihiro Matsumoto\n\n\n\n\nBegginers Ruby Docs - Tutorials\n\n\n\n\nRuby Codecademy\n\n\nOfficial Ruby documentation\n\n\n10 mins to your first Ruby app\n\n\nThe bastards book of Ruby\n\n\n\n\nBegginers Ruby docs - Videos resources\n\n\n\n\nRuby Programming\n\n\nRuby Programming series\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby concepts are clear for you and feel ready to move on, the next step is to jump to the Rails world. See you \nthere\n!", 
+            "title": "1. Ruby Beginners Guide"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#codigodelsurs-beginners-guide-to-rails", 
-            "text": "After dealing with the first Ruby concepts it's time to move on to the real world and start building full stack applications. The next challenge is to learn Rails. As you probably have heard this framework is combined with the Ruby language to build powerful software. Below you will find links to useful tutorials about Rails, what it is and how it works.", 
-            "title": "CodigoDelSur's beginners guide to Rails."
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#first-steps", 
-            "text": "Here  you will find the official rails guide for developers showing the basic concepts of Rails from the practice.  For a more extended reading on the Ruby on Rails web development in practice have a look to  this  online book.  Ruby on Rails works great for full stack web applications but is also great at biulding REST APIs. Check out  this  tutorial book for a very detailed explanation on this topic.", 
-            "title": "First steps"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#going-further", 
-            "text": "You probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.", 
-            "title": "Going further"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#recommended-books", 
-            "text": "Jump Start Rails  by Andy Hawthorne   Rails 4 in action  by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner", 
-            "title": "Recommended Books"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#begginers-rails-docs-tutorials", 
-            "text": "Codecademy learn rails  Railscasts tutorials  Learning Rails (Medium post)  Rails best practices", 
-            "title": "Begginers Rails Docs - Tutorials"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#beginners-rails-docs-videos", 
-            "text": "Rails tutorial  Learn Ruby on Rails from scratch", 
-            "title": "Beginners Rails Docs - Videos"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Beginners_Guide/#whats-next", 
-            "text": "Once the basic Ruby on Rails concepts are clear for you and feel ready to move on, the next step is to jump to the intermediate guide. See you  there !", 
-            "title": "What's next"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/", 
-            "text": "CodigoDelSur's intermediate guide to Rails.\n\n\nThis guide is intended for those \nRails developers\n that already have practice programming on the framework and have already read \nCodigoDelSur's rails beginners guide\n\n\nThe goal of this guide is to give to those that have already worked on \nRails\n a better understanding of it, thus improving their overall code quality.\n\n\nBest practices\n\n\nHere\n you will find a set of best practices that every \nRails developer\n must have on it's toolbelt.\n\n\nIntermediate Books\n\n\n\n\nAgile Web Development with Rails 5\n by Sam Ruby\n\n\nCrafting Rails 4 Applications\n by Jose Valim\n\n\nThe Rails 4 way\n by Obie Fernandez, Kevin Faustino, and Vitaly Kushner\n\n\n\n\nAdvance Books\n\n\n\n\nAdvanced Rails\n by Brad Ediger\n\n\nEveryday_Testing_Rails_With_RSpec\n by Aaron Summer", 
-            "title": "Rails Intermediate Guide"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#codigodelsurs-intermediate-guide-to-rails", 
-            "text": "This guide is intended for those  Rails developers  that already have practice programming on the framework and have already read  CodigoDelSur's rails beginners guide  The goal of this guide is to give to those that have already worked on  Rails  a better understanding of it, thus improving their overall code quality.", 
-            "title": "CodigoDelSur's intermediate guide to Rails."
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#best-practices", 
-            "text": "Here  you will find a set of best practices that every  Rails developer  must have on it's toolbelt.", 
-            "title": "Best practices"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#intermediate-books", 
-            "text": "Agile Web Development with Rails 5  by Sam Ruby  Crafting Rails 4 Applications  by Jose Valim  The Rails 4 way  by Obie Fernandez, Kevin Faustino, and Vitaly Kushner", 
-            "title": "Intermediate Books"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Rails_Intermediate_Guide/#advance-books", 
-            "text": "Advanced Rails  by Brad Ediger  Everyday_Testing_Rails_With_RSpec  by Aaron Summer", 
-            "title": "Advance Books"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/", 
-            "text": "CodigoDelSur's beginners guide to Ruby.\n\n\nIf you have already worked or experienced with \nObject Oriented Programming\n and decided it was time to add Ruby to your portfolio, then this guide is for you.\nIn here you will find links to useful tutorials about Ruby, what it is and how it works.\n\n\nIn behalf of the CodigoDelSur staff we like to wish you a nice journey into the world of Ruby.\n\n\nFirst steps\n\n\nHere\n you will find the basic concepts of Ruby, the very first step in your journey to becoming an almighty Ruby developer.\n\n\nFor another quick jump, you may also find interesting \nthis\n site which allows you to play around with the first set of instructions for the Ruby language.\n\n\nTo keep pace, you can also check out \nthis\n tutorial for a more detailed introduction on the most important topics and concepts.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nLearn Ruby the hard way\n by Zed A. Shaw and Rob Sobers\n\n\nThe Ruby programming language\n by Yukihiro Matsumoto \n\n\n\n\nBegginers Ruby Docs - Tutorials\n\n\n\n\nRuby Codecademy\n\n\nOfficial Ruby documentation\n\n\n10 mins to your first Ruby app\n\n\nThe bastards book of Ruby\n\n\n\n\nBegginers Ruby docs - Videos resources\n\n\n\n\nRuby Programming\n\n\nRuby Programming series\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby concepts are clear for you and feel ready to move on, the next step is to jump to the Rails world. See you \nthere\n!", 
-            "title": "Ruby Beginners Guide"
-        }, 
-        {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#codigodelsurs-beginners-guide-to-ruby", 
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/#codigodelsurs-beginners-guide-to-ruby", 
             "text": "If you have already worked or experienced with  Object Oriented Programming  and decided it was time to add Ruby to your portfolio, then this guide is for you.\nIn here you will find links to useful tutorials about Ruby, what it is and how it works.  In behalf of the CodigoDelSur staff we like to wish you a nice journey into the world of Ruby.", 
             "title": "CodigoDelSur's beginners guide to Ruby."
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#first-steps", 
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/#first-steps", 
             "text": "Here  you will find the basic concepts of Ruby, the very first step in your journey to becoming an almighty Ruby developer.  For another quick jump, you may also find interesting  this  site which allows you to play around with the first set of instructions for the Ruby language.  To keep pace, you can also check out  this  tutorial for a more detailed introduction on the most important topics and concepts.", 
             "title": "First steps"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#going-further", 
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/#going-further", 
             "text": "You probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.", 
             "title": "Going further"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#recommended-books", 
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/#recommended-books", 
             "text": "Learn Ruby the hard way  by Zed A. Shaw and Rob Sobers  The Ruby programming language  by Yukihiro Matsumoto", 
             "title": "Recommended Books"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#begginers-ruby-docs-tutorials", 
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/#begginers-ruby-docs-tutorials", 
             "text": "Ruby Codecademy  Official Ruby documentation  10 mins to your first Ruby app  The bastards book of Ruby", 
             "title": "Begginers Ruby Docs - Tutorials"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#begginers-ruby-docs-videos-resources", 
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/#begginers-ruby-docs-videos-resources", 
             "text": "Ruby Programming  Ruby Programming series", 
             "title": "Begginers Ruby docs - Videos resources"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Beginners_Guide/#whats-next", 
+            "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/#whats-next", 
             "text": "Once the basic Ruby concepts are clear for you and feel ready to move on, the next step is to jump to the Rails world. See you  there !", 
             "title": "What's next"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/", 
-            "text": "CodigoDelSur's intermediate guide to Ruby.\n\n\nThis guide is intended for those \nRuby developers\n that already have practice programming on \nRuby\n and have already read \nCodigoDelSur's ruby beginners guide\n\n\nThe goal of this guide is to give to those that have already worked with \nRuby\n a better understanding of it, thus improving their overall code quality.\n\n\nBest practices\n\n\nHere\n you will find a set of best practices that every \nRuby developer\n must have on it's toolbelt.\n\n\nIntermediate Books\n\n\n\n\nMetaprogramming Ruby\n by Paolo Perrotta\n\n\nPractical Object-Oriented Design in Ruby: An Agile Primer\n by Sandi Metz\n\n\nEloquent Ruby\n by Russell A. Olsen\n\n\n\n\nAdvance Books\n\n\n\n\nDesign Patterns in Ruby \n by Russell A. Olsen\n\n\nRefactoring Ruby Edition\n by Jay F ields, Shane Harvie, Martin Fowler and Kent Beck", 
-            "title": "Ruby Intermediate Guide"
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/", 
+            "text": "CodigoDelSur's beginners guide to Rails.\n\n\nAfter dealing with the first Ruby concepts it's time to move on to the real world and start building full stack applications. The next challenge is to learn Rails. As you probably have heard this framework is combined with the Ruby language to build powerful software. Below you will find links to useful tutorials about Rails, what it is and how it works.\n\n\nFirst steps\n\n\nHere\n you will find the official rails guide for developers showing the basic concepts of Rails from the practice.\n\n\nFor a more extended reading on the Ruby on Rails web development in practice have a look to \nthis\n online book.\n\n\nRuby on Rails works great for full stack web applications but is also great at biulding REST APIs. Check out \nthis\n tutorial book for a very detailed explanation on this topic.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nJump Start Rails\n by Andy Hawthorne\n\n\nRails 4 in action\n by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner\n\n\n\n\nBegginers Rails Docs - Tutorials\n\n\n\n\nCodecademy learn rails\n\n\nRailscasts tutorials\n\n\nLearning Rails (Medium post)\n\n\nRails best practices\n\n\n\n\nBeginners Rails Docs - Videos\n\n\n\n\nRails tutorial\n\n\nLearn Ruby on Rails from scratch\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby on Rails concepts are clear for you and feel ready to move on, the next step is to jump to the intermediate guide. See you \nthere\n!", 
+            "title": "2. Rails Beginners Guide"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#codigodelsurs-intermediate-guide-to-ruby", 
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/#codigodelsurs-beginners-guide-to-rails", 
+            "text": "After dealing with the first Ruby concepts it's time to move on to the real world and start building full stack applications. The next challenge is to learn Rails. As you probably have heard this framework is combined with the Ruby language to build powerful software. Below you will find links to useful tutorials about Rails, what it is and how it works.", 
+            "title": "CodigoDelSur's beginners guide to Rails."
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/#first-steps", 
+            "text": "Here  you will find the official rails guide for developers showing the basic concepts of Rails from the practice.  For a more extended reading on the Ruby on Rails web development in practice have a look to  this  online book.  Ruby on Rails works great for full stack web applications but is also great at biulding REST APIs. Check out  this  tutorial book for a very detailed explanation on this topic.", 
+            "title": "First steps"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/#going-further", 
+            "text": "You probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.", 
+            "title": "Going further"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/#recommended-books", 
+            "text": "Jump Start Rails  by Andy Hawthorne  Rails 4 in action  by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner", 
+            "title": "Recommended Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/#begginers-rails-docs-tutorials", 
+            "text": "Codecademy learn rails  Railscasts tutorials  Learning Rails (Medium post)  Rails best practices", 
+            "title": "Begginers Rails Docs - Tutorials"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/#beginners-rails-docs-videos", 
+            "text": "Rails tutorial  Learn Ruby on Rails from scratch", 
+            "title": "Beginners Rails Docs - Videos"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/2._Rails_Beginners_Guide/#whats-next", 
+            "text": "Once the basic Ruby on Rails concepts are clear for you and feel ready to move on, the next step is to jump to the intermediate guide. See you  there !", 
+            "title": "What's next"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/3._Ruby_Intermediate_Guide/", 
+            "text": "CodigoDelSur's intermediate guide to Ruby.\n\n\nThis guide is intended for those \nRuby developers\n that already have practice programming on \nRuby\n and have already read \nCodigoDelSur's ruby beginners guide\n\n\nThe goal of this guide is to give to those that have already worked with \nRuby\n a better understanding of it, thus improving their overall code quality.\n\n\nBest practices\n\n\nHere\n you will find a set of best practices that every \nRuby developer\n must have on it's toolbelt.\n\n\nIntermediate Books\n\n\n\n\nMetaprogramming Ruby\n by Paolo Perrotta\n\n\nPractical Object-Oriented Design in Ruby: An Agile Primer\n by Sandi Metz\n\n\nEloquent Ruby\n by Russell A. Olsen\n\n\n\n\nAdvance Books\n\n\n\n\nDesign Patterns in Ruby \n by Russell A. Olsen\n\n\nRefactoring Ruby Edition\n by Jay F ields, Shane Harvie, Martin Fowler and Kent Beck\n\n\n\n\nWhat's next\n\n\nAnother level of Rails expertise is waiting for you \nhere\n!", 
+            "title": "3. Ruby Intermediate Guide"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/3._Ruby_Intermediate_Guide/#codigodelsurs-intermediate-guide-to-ruby", 
             "text": "This guide is intended for those  Ruby developers  that already have practice programming on  Ruby  and have already read  CodigoDelSur's ruby beginners guide  The goal of this guide is to give to those that have already worked with  Ruby  a better understanding of it, thus improving their overall code quality.", 
             "title": "CodigoDelSur's intermediate guide to Ruby."
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#best-practices", 
+            "location": "/Technologies/Ruby_&_Rails/3._Ruby_Intermediate_Guide/#best-practices", 
             "text": "Here  you will find a set of best practices that every  Ruby developer  must have on it's toolbelt.", 
             "title": "Best practices"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#intermediate-books", 
+            "location": "/Technologies/Ruby_&_Rails/3._Ruby_Intermediate_Guide/#intermediate-books", 
             "text": "Metaprogramming Ruby  by Paolo Perrotta  Practical Object-Oriented Design in Ruby: An Agile Primer  by Sandi Metz  Eloquent Ruby  by Russell A. Olsen", 
             "title": "Intermediate Books"
         }, 
         {
-            "location": "/Technologies/Ruby_&_Rails/Ruby_Intermediate_Guide/#advance-books", 
+            "location": "/Technologies/Ruby_&_Rails/3._Ruby_Intermediate_Guide/#advance-books", 
             "text": "Design Patterns in Ruby   by Russell A. Olsen  Refactoring Ruby Edition  by Jay F ields, Shane Harvie, Martin Fowler and Kent Beck", 
+            "title": "Advance Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/3._Ruby_Intermediate_Guide/#whats-next", 
+            "text": "Another level of Rails expertise is waiting for you  here !", 
+            "title": "What's next"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/4._Rails_Intermediate_Guide/", 
+            "text": "CodigoDelSur's intermediate guide to Rails.\n\n\nThis guide is intended for those \nRails developers\n that already have practice programming on the framework and have already read \nCodigoDelSur's rails beginners guide\n\n\nThe goal of this guide is to give to those that have already worked on \nRails\n a better understanding of it, thus improving their overall code quality.\n\n\nBest practices\n\n\nHere\n you will find a set of best practices that every \nRails developer\n must have on it's toolbelt.\n\n\nIntermediate Books\n\n\n\n\nAgile Web Development with Rails 5\n by Sam Ruby\n\n\nCrafting Rails 4 Applications\n by Jose Valim\n\n\nThe Rails 4 way\n by Obie Fernandez, Kevin Faustino, and Vitaly Kushner\n\n\n\n\nAdvance Books\n\n\n\n\nAdvanced Rails\n by Brad Ediger\n\n\nEveryday_Testing_Rails_With_RSpec\n by Aaron Summer", 
+            "title": "4. Rails Intermediate Guide"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/4._Rails_Intermediate_Guide/#codigodelsurs-intermediate-guide-to-rails", 
+            "text": "This guide is intended for those  Rails developers  that already have practice programming on the framework and have already read  CodigoDelSur's rails beginners guide  The goal of this guide is to give to those that have already worked on  Rails  a better understanding of it, thus improving their overall code quality.", 
+            "title": "CodigoDelSur's intermediate guide to Rails."
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/4._Rails_Intermediate_Guide/#best-practices", 
+            "text": "Here  you will find a set of best practices that every  Rails developer  must have on it's toolbelt.", 
+            "title": "Best practices"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/4._Rails_Intermediate_Guide/#intermediate-books", 
+            "text": "Agile Web Development with Rails 5  by Sam Ruby  Crafting Rails 4 Applications  by Jose Valim  The Rails 4 way  by Obie Fernandez, Kevin Faustino, and Vitaly Kushner", 
+            "title": "Intermediate Books"
+        }, 
+        {
+            "location": "/Technologies/Ruby_&_Rails/4._Rails_Intermediate_Guide/#advance-books", 
+            "text": "Advanced Rails  by Brad Ediger  Everyday_Testing_Rails_With_RSpec  by Aaron Summer", 
             "title": "Advance Books"
         }, 
         {
