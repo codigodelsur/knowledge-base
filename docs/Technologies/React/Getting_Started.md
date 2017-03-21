@@ -30,11 +30,6 @@ It is important to follow the whole playlist, as it explains fundamental concept
 <br />
 <a href='https://www.youtube.com/playlist?list=PLoYCgNOIyGADILc3iUJzygCqC8Tt3bRXt'>Redux Tutorials</a>
 
-<a href='https://egghead.io/instructors/dan-abramov'>Dan Abramov (creator of Redux and React Hot Loader) tutorials:</a>
-    Redux core concepts, and advanced topics.
-
-<br />
-
 ##Immutable JS
 This is a tutorial of a great library for simplifying the logic inside reducers
 <br />
@@ -102,3 +97,5 @@ Another more powerful boilerplate is <a href='https://github.com/react-boilerpla
 
 ## Other tutorials guides
 Start here: <a href='https://github.com/petehunt/react-howto'>Your guide to the (sometimes overwhelming!) React ecosystem.</a>
+<br />
+<a href='https://egghead.io/instructors/dan-abramov'>Dan Abramov (creator of Redux and React Hot Loader) tutorials</a>: Redux core concepts, and advanced topics.
