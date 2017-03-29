@@ -16,9 +16,6 @@ Because React makes extensive use of the command line, this gist describes sever
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LmL0Gh193M0?ecver=1" frameborder="0" allowfullscreen></iframe>
 
 ##React
-Start here: <a href='https://github.com/petehunt/react-howto'>Your guide to the (sometimes overwhelming!) React ecosystem.</a>
-<br />
-
 This Codecademy React Courses include exercises and explain the basics of React.
 They are probably the most important links in this page.
 
@@ -32,11 +29,6 @@ Redux is an easy and powerful way of managing the state application.
 It is important to follow the whole playlist, as it explains fundamental concepts of Redux
 <br />
 <a href='https://www.youtube.com/playlist?list=PLoYCgNOIyGADILc3iUJzygCqC8Tt3bRXt'>Redux Tutorials</a>
-
-<a href='https://egghead.io/instructors/dan-abramov'>Dan Abramov (creator of Redux and React Hot Loader) tutorials:</a>
-    Redux core concepts, and advanced topics.
-
-<br />
 
 ##Immutable JS
 This is a tutorial of a great library for simplifying the logic inside reducers
@@ -102,3 +94,8 @@ The killer feature of this app, is that it can be converted into a complete Reac
 <br />
 Another more powerful boilerplate is <a href='https://github.com/react-boilerplate/react-boilerplate'>React Boilerplate</a>. This one has the advantage that is the supported one for development with <a href='https://helmetrex.com/'>Structor</a> (an automated tool for creating components)
 <br />
+
+## Other tutorials guides
+Start here: <a href='https://github.com/petehunt/react-howto'>Your guide to the (sometimes overwhelming!) React ecosystem.</a>
+<br />
+<a href='https://egghead.io/instructors/dan-abramov'>Dan Abramov (creator of Redux and React Hot Loader) tutorials</a>: Redux core concepts, and advanced topics.

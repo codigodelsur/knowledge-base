@@ -77,6 +77,44 @@ Merges
 
 `Hotfix -> Stable branch (stage or master)` Once a developer finish fixing a bug detected on a stable branch he must merge that fix on that stable branch.
 
+##How to Write Git Commit Messages
+Writing good commit messages is essential for project maintainability. It’s worth taking the time to learn how to write commit messages so that we end with a useful revision history.
+Other developers, especially you-in-two-weeks and you-from-next-year, will thank you for your forethought and verbosity when they run git blame to see why that conditional is there.
+
+Please refer to this link for an in-depth review of the topic: [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)
+
+###Useful Tips For A Better Commit Message
+1. The first line should always be 50 characters or less and that it should be followed by a blank line.
+2. Never use the -m <msg> / --message=<msg> flag to git commit.
+	It gives you a poor mindset right off the bat as you will feel that you have to fit your commit message into the terminal command, and makes the commit feel more like a one-off argument than a page in history:
+
+	`git commit -m "Fix login bug"`
+
+3. Answer the following questions:
+
+	a. Why is this change necessary?
+
+	This question tells reviewers of your pull request what to expect in the commit, allowing them to more easily identify and point out unrelated changes.
+
+	b. How does it address the issue?
+
+	Describe, at a high level, what was done to affect change. "Introduce a red/black tree to increase search speed" or "Remove <troublesome gem X>, which was causing <specific description of issue introduced by gem>" are good examples.
+
+	If your change is obvious, you may be able to omit addressing this question.
+
+	c. What side effects does this change have?
+
+	This is the most important question to answer, as it can point out problems where you are making too many changes in one commit or branch. One or two bullet points for related changes may be okay, but five or six are likely indicators of a commit that is doing too many things.
+
+	Your team should have guidelines and rules-of-thumb for how much can be done in a single commit/branch.
+
+4. Consider making including a link to the issue/story/card in the commit message a standard for your project. Full urls are more useful than issue numbers, as they are more permanent and avoid confusion over which issue tracker it references.
+
+
+Pro-tip: configure a template so that when using `git commit` the editor opens with the message template. This way it's easier to keep writing good messages! [https://gist.github.com/adeekshith/cd4c95a064977cdc6c50](git-commit-template)
+
+More about commit messages: [http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+
 ## References
 
 [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/).
