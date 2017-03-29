@@ -31,7 +31,7 @@ Although we love all the Scrum components, we are conscious that Scrum is just a
 
 ##Internal Quality
 
-In contrast to other methodologies like Extreme Programming, Scrum doesn't specify technical practices to tackle products internal quality, it is mainly centered on project management techniques. We strongly believe that the software internal quality is something that should not be negotiable. If you don't pay attention to the internal quality of your products, you will end soon fighting with your software code to add functionalities and fixing bugs, and this will decrease drastically the productivity of the team. 
+In contrast to other methodologies like Extreme Programming, Scrum doesn't specify technical practices to tackle products internal quality, it is mainly centered on project management techniques. We strongly believe that the software internal quality is something that should not be negotiable. If you don't pay attention to the internal quality of your products, you will end soon fighting with your software code to add functionalities and fixing bugs. This will decrease drastically the productivity of the team. 
 
 We have learned that the technical practices that monitors and take care of the internal quality may vary between projects and technologies but here we will mention some common practices that can be applied on every project:
 
