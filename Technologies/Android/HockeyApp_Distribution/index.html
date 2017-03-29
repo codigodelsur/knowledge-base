@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>2. EC2 - CodigoDelSur</title>
+	<title>HockeyApp Distribution - CodigoDelSur</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -88,43 +88,43 @@
         
             
 <li >
-    <a href="../1._Getting_Started/">1. Getting Started</a>
-</li>
-
-        
-            
-<li class="active">
-    <a href="./">2. EC2</a>
+    <a href="../../AWS/1._Getting_Started/">1. Getting Started</a>
 </li>
 
         
             
 <li >
-    <a href="../3._S3/">3. S3</a>
+    <a href="../../AWS/2._EC2/">2. EC2</a>
 </li>
 
         
             
 <li >
-    <a href="../4._RDS/">4. RDS</a>
+    <a href="../../AWS/3._S3/">3. S3</a>
 </li>
 
         
             
 <li >
-    <a href="../5._LoadBalancer/">5. LoadBalancer</a>
+    <a href="../../AWS/4._RDS/">4. RDS</a>
 </li>
 
         
             
 <li >
-    <a href="../6._EB/">6. EB</a>
+    <a href="../../AWS/5._LoadBalancer/">5. LoadBalancer</a>
 </li>
 
         
             
 <li >
-    <a href="../Resources/">Resources</a>
+    <a href="../../AWS/6._EB/">6. EB</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../AWS/Resources/">Resources</a>
 </li>
 
         
@@ -138,8 +138,8 @@
     <ul class="dropdown-menu">
         
             
-<li >
-    <a href="../../Android/HockeyApp_Distribution/">HockeyApp Distribution</a>
+<li class="active">
+    <a href="./">HockeyApp Distribution</a>
 </li>
 
         
@@ -269,12 +269,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../1._Getting_Started/">
+                    <a rel="next" href="../../AWS/Resources/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../3._S3/">
+                    <a rel="prev" href="../../React/Getting_Started/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -297,44 +297,49 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#getting-started-on-ec2">Getting started on EC2</a></li>
+        <li class="main active"><a href="#hockeyapp-for-beta-distribution">HockeyApp for beta distribution</a></li>
         
-            <li><a href="#how-to-create-an-ec2-instance-and-connect-to-it">How to create an EC2 instance and connect to it?</a></li>
+            <li><a href="#android-specific">Android Specific</a></li>
+        
+            <li><a href="#other-useful-links">Other useful links:</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="getting-started-on-ec2">Getting started on EC2</h1>
-<p><p style="text-align: center; margin: 30px"><img width="250px" src="../img/EC2_logo.jpg"></p></p>
-<p>EC2 is the abbreviation for Amazon Elastic Compute Cloud. This service consists in the usage of computers instances existing in the cloud which we can use in the same manner as if they would be in our own desktops. The EC2 service is highly flexible giving the developer the ability to choose for the instance the hardware capacity, such as memory, CPU, hard drive space, as well as the software configuration, such as operating system, installed application and packages, network configuration among others.</p>
-<h2 id="how-to-create-an-ec2-instance-and-connect-to-it">How to create an EC2 instance and connect to it?</h2>
-<p>The creating flow for an EC2 instance can be easily done through the AWS console. Go to services EC2 and then EC2 Dashboard. The normal flow is divided in the steps detailed below.
-<br/><br/>
-<h4>1. Choosing a basic image.</h4>
-The selected image comes with a set of basic resources installed. The right option for us depends on what we want to develop and if it important an specific OS. But in general, or at least for the projects we manage at CDS, the Linux image is the right one most of the times. It is importan to mention that you can also create custom images, also known as AMI that can be used in the future as the base for other instances. For example you create a basic Linux instance, then you install git, npm and node js. You can save a new AMI with the configuration and the next time you need a instance with those things installed you can use it again.</p>
-<h4>2. Choose an instance type.</h4>
-
-<p>Here we specify the hardware properties which basically depends on the things we need to support. For example if we want to deploy a game we might want to choose an instance with high card graphics resource. For a general purpose, an m3.medium is a very good choise. If you are wondering how will work my app with the free t2.micro instance, well, the free things are free for something. This instance has very low resources thus is very common your application becomes unavailable after a while.</p>
-<h4>3. Set storage.</h4>
-
-<p>This indicates the space for the hard drive attached to the instance. The size selected for this depends if we plan to store a database or local files on the instance. Otherwise it would be enough with just a few GB.</p>
-<h4>4. Security groups</h4>
-
-<p>Security groups as its name describes in in charge of setting up security access into the instance. The configuration is based on inbound/outbound rules allowing network access to your application. Normally for a web app we want to have port 80 open to the world and port 22 for SSH access. Usually the default security group is enough to get started.</p>
-<h4>5. Create an API key</h4>
-
-<p>This key will provide SSH access into the instance allowing us to manipulate and install the machine on the cloud same was as we do it locally. Put a nice name, store it safely and don't share with anyone else besides your teammates.</p>
-<h4>6. Monitor and connect to the instance</h4>
-
-<p>Finish the setup and wait a few minutes while things get cook. Take a look to the EC2 Dashboard where you can found information about the instance and its performance status. In order to connect to the instance we should use the key described in the last point. Run the following command on your console to access the instance:
-    <code>ssh -i your_key_file.pem ec2-user@ec2-instance-ip</code></p>
-<p>Where ec2-instance-ip is clearly your instance's IP address which you can also found in the Dashboard.
-In case you receive an error with the above command you might need to set proper permissions to the KEY. Try running <code>chmod 400 your_key_file.pem</code></p>
-<p>For further reading on this topic please visit <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance_linux.html">this</a>.</p>
-<h3 id="next-steps">Next steps</h3>
-<p>Is very common for a project the need to store files such as images, videos, or any other content. AWS provides another great service for files storage and management: <a href="../3._S3/">S3</a></p></div>
+<h1 id="hockeyapp-for-beta-distribution">HockeyApp for beta distribution</h1>
+<p><a href="https://hockeyapp.net">HockeyApp</a> is a service provided by Microsoft to help developers manage mobile apps though all phases of developing. It provides features such as:  <a href="https://hockeyapp.net/features/distribution/">Distribution</a>, <a href="https://hockeyapp.net/features/crashreports/">Crash Reports</a>, <a href="https://hockeyapp.net/features/feedback/">Feedback</a> and basic <a href="https://hockeyapp.net/features/user-metrics/">User Metrics</a>. However, as of today, there are more sophisticated solutions in the market for Crash Reporting (such as <a href="https://try.crashlytics.com">Crashlytics</a> and <a href="https://firebase.google.com/docs/crash/">Firebase Crash Reporting</a>) and User Metrics (such as <a href="https://developers.google.com/analytics/">Google Analytics</a> and <a href="https://firebase.google.com/docs/analytics/">Firebase Analytics</a>). This article focuses on the distribution feature of HockeyApp.</p>
+<p>By using HockeyApp for distribution purposes we can make a beta release available for testers or send demos to clients. It is necessary to mention that as of today, the free version of HockeyApp only allows the management of 10 apps, refer to <a href="https://hockeyapp.net/pricing/">pricing</a> for more updated information. </p>
+<p>This are the steps to follow in order to distribute an app for beta testing. </p>
+<p>1) <strong>Creating a HockeyApp account:</strong> First you need to <a href="https://rink.hockeyapp.net/users/sign_up">sign up</a> to use this service. </p>
+<p>2) <strong>Creating a new app in the dashboard:</strong> This can be done by following this <a href="https://support.hockeyapp.net/kb/app-management-2/how-to-create-a-new-app">tutorial</a>. </p>
+<p>3) <strong>Integrating the HockeyApp SDK:</strong> HockeyApp has SDKs for <a href="https://support.hockeyapp.net/kb/client-integration-android/hockeyapp-for-android-sdk">Android</a> and <a href="https://support.hockeyapp.net/kb/client-integration-ios-mac-os-x-tvos/hockeyapp-for-ios">iOS</a>. Integrating this SDKs in our app allow us to use the following features: </p>
+<ul>
+<li>Collect crash reports from the beta testing.</li>
+<li>In-app feedback from testers. </li>
+<li>Track basic user metrics such as number of users, number of sessions and session times. </li>
+<li>Display an update dialog in the app once a new beta version is released. This allows testers to make an update directly form within the app.</li>
+<li>Force the authentication of a user through HockeyApp to prevent the usage of the app by non invited users. </li>
+</ul>
+<p>If you add code for using this features after integrating the SDK, it is necessary to make sure this code is not included in the release build of the app. Having this features such as HockeyApp´s feedback, automatic updates or force authentication in a release build can confuse end users, make them download a beta build that is not ready for release or deny the usage of the app altogether, respectively. For features such as Crash Reporting and User Metrics in a production environment, refer to the other solutions discussed in the beginning of this article. A way of encapsulating this code and use it only in a beta build in Android is configuring a <a href="https://developer.android.com/studio/build/build-variants.html#build-types">build type</a> or <a href="https://developer.android.com/studio/build/build-variants.html#product-flavors">product flavor</a>, as long as the code is not ran in the release build you are good to go. </p>
+<p>The integration of this SDK is not necessary if you are not interested in the features exposed above. The app can still be distributed and downloaded using the dashboard and native apps discussed in the next steps. By not using the SDK you will only receive information about the number of Downloads the app has and which user downloaded it, on top of that, there is no update option so the user will need to uninstall the previous build and reinstall the new one. </p>
+<p>4) <strong>Creating a new version for the app in the dashboard:</strong> This can be done using this <a href="https://support.hockeyapp.net/kb/app-management-2/how-to-create-a-new-version">tutorial</a>. Subsequent version released can be managed in the same manner. </p>
+<p>5) <strong>Downloading the native apps of HockeyApp:</strong> Android and iOS <a href="https://hockeyapp.net/apps/">native apps</a> are provided to download and manage beta distributions. This apps will also allow beta testers to download the distribution of new versions of the app. If the SDK is not integrated, there will be no limitation as to who can install and use the beta app once it is downloaded from the HockeyApp native app (this could be achieved with the force authentication feature). Once the app is downloaded and installed you should login with your credentials and see if you can see and download the beta version that you created in the previous step.  </p>
+<p>6) <strong>Invite new beta testers:</strong> This can be done by following this <a href="https://support.hockeyapp.net/kb/app-management-2/how-to-invite-beta-testers">tutorial</a>. You will usually use the Invite User feature in the dashboard and send an email invitation to the tester / client you want to invite. Once the user accepts the invitation you will be able to manage it by defining which apps he can see, adding him to a team, editing his information or deleting him all together. You can also restrict a version of the app so that just some users can download it. For more information on managing users follow this <a href="https://support.hockeyapp.net/kb/app-management-2/how-to-manage-users-and-restrict-builds">link</a>. </p>
+<h2 id="android-specific">Android Specific</h2>
+<p>Here is a short guide oriented to Android clients that had not used HockeyApp before:</p>
+<p>1) Accept the HockeyApp invitation that will arrive to your email address and create a new account.
+2) Download the HockeyApp native app to your device and login with your credentials.
+3) Browser the Android apps and tap <BETA APP NAME>. If by any chance you can´t see the app listed, notify us and we can give you permission to see it.
+4) Download the available version of the apk for beta testing and install it.</p>
+<p>During this process you might need to enable the installation of apps from unknown sources. This is necessary because Android by default prevents the installation of apps that doesn’t come from the Google Play Store for security reasons. The location of this setting varies between different device brands but it is usually located in Settings -&gt; Security -&gt; Device Administration - &gt; Unknown sources. Simply enable this option.</p>
+<p>If you have not integrated the HockeyApp SDK for update dialogs you might also need to ask the client to uninstall the previous version of the beta app before installing any new version. </p>
+<h2 id="other-useful-links">Other useful links:</h2>
+<ul>
+<li><a href="https://support.hockeyapp.net/kb">HockeyApp Knowledge Base:</a> In this link you can find information and guides on pretty much all HockeyApp has to offer, as well as forum discussions of other developers that might have encountered the same problems as you.  </li>
+<li><a href="https://support.hockeyapp.net">HockeyApp Support:</a> For asking questions and starting new discussions in their forum if necessary. </li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
