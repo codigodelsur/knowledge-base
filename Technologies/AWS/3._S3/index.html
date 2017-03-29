@@ -106,6 +106,24 @@
         
             
 <li >
+    <a href="../4._RDS/">4. RDS</a>
+</li>
+
+        
+            
+<li >
+    <a href="../5._LoadBalancer/">5. LoadBalancer</a>
+</li>
+
+        
+            
+<li >
+    <a href="../6._EB/">6. EB</a>
+</li>
+
+        
+            
+<li >
     <a href="../Resources/">Resources</a>
 </li>
 
@@ -241,7 +259,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../Resources/">
+                    <a rel="prev" href="../4._RDS/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -284,7 +302,13 @@
 <li>Delete an object</li>
 </ul>
 <p>These operations can be done directly from the Dashboard but more important you can do it from your application using the proper AWS SDK for the technology you are using.</p>
-<h2 id="cloudfront">Cloudfront</h2></div>
+<p>More about S3 <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html">here</a></p>
+<h2 id="cloudfront">Cloudfront</h2>
+<p>Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. Is the perfect complement for S3. It works by taking into account the origin of a certain request to deliver the requested content from the optmimal path. That way the bytes travel along the fastest route for the client ensuring the best posible network perfomance. AWS can provide this capabilities by replicating the resources along its infrastructure centers</p>
+<p>This service is really useful if clients or users acccesing our application come from around the globe. We then can offer the same performance for all of them if we have for example a web app or simply certain content with files hosted in S3.</p>
+<p>Read more about Cloudfront service <a href="http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html">here</a></p>
+<h3 id="next-steps">Next steps</h3>
+<p>Now that we know we can store static files in AWS, let's jump to Databases management into AWS, where we will only focus in relational databases, which are provided for a service called <a href="../4._RDS/">RDS</a></p></div>
         </div>
 
         <footer class="col-md-12">
