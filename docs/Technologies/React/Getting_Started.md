@@ -2,7 +2,7 @@
 
 This list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.
 <br/>
-<b>It is recommended to NOT SKIP any of the links of this page.</b>
+<b>It is recommended NOT TO SKIP any of the links of this page.</b>
 
 ## Command line improvements
 Because React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.
