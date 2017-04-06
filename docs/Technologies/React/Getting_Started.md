@@ -19,7 +19,7 @@ Because React makes extensive use of the command line, this gist describes sever
 This Codecademy React Courses include exercises and explain the basics of React.
 They are probably the most important links in this page.
 
-<a href='https://www.codecademy.com/learn/react-102'>React 101</a>
+<a href='https://www.codecademy.com/learn/react-101'>React 101</a>
 <br />
 <a href='https://www.codecademy.com/learn/react-102'>React 102</a>
 
