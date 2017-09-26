@@ -82,18 +82,9 @@ Sass is a modern and powerful way of managing the styling of components.
 <a href='https://codepen.io/sasstantrum/post/intro-to-sass'>Intro to Sass | SCSS101</a>
 
 ## Boilerplates
-Create-react-app (CRA) is an official boilerplate developed by Facebook. It is really useful for beginners, because it allows to have a working project in seconds. It will be automatically configured and provide an out-of-the-box simple experience.
-<br />
-<a href='https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html'>Create Apps with No Configuration</a>
-<br />
-<br />
-The killer feature of this app, is that it can be converted into a complete React App, making all the configurations available to be modified.
-<br />
-<a href='https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject'>npm run eject</a>
-<br />
-<br />
-Another more powerful boilerplate is <a href='https://github.com/react-boilerplate/react-boilerplate'>React Boilerplate</a>. This one has the advantage that is the supported one for development with <a href='https://helmetrex.com/'>Structor</a> (an automated tool for creating components)
-<br />
+
+See the [Boilerplate](Project_Boilerplate) section of this KB
+
 
 ## Other tutorials guides
 Start here: <a href='https://github.com/petehunt/react-howto'>Your guide to the (sometimes overwhelming!) React ecosystem.</a>
