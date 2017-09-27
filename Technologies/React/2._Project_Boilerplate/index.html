@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>4. RDS - CodigoDelSur</title>
+	<title>2. Project Boilerplate - CodigoDelSur</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -88,43 +88,43 @@
         
             
 <li >
-    <a href="../1._Getting_Started/">1. Getting Started</a>
+    <a href="../../AWS/1._Getting_Started/">1. Getting Started</a>
 </li>
 
         
             
 <li >
-    <a href="../2._EC2/">2. EC2</a>
+    <a href="../../AWS/2._EC2/">2. EC2</a>
 </li>
 
         
             
 <li >
-    <a href="../3._S3/">3. S3</a>
-</li>
-
-        
-            
-<li class="active">
-    <a href="./">4. RDS</a>
+    <a href="../../AWS/3._S3/">3. S3</a>
 </li>
 
         
             
 <li >
-    <a href="../5._LoadBalancer/">5. LoadBalancer</a>
+    <a href="../../AWS/4._RDS/">4. RDS</a>
 </li>
 
         
             
 <li >
-    <a href="../6._EB/">6. EB</a>
+    <a href="../../AWS/5._LoadBalancer/">5. LoadBalancer</a>
 </li>
 
         
             
 <li >
-    <a href="../Resources/">Resources</a>
+    <a href="../../AWS/6._EB/">6. EB</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../AWS/Resources/">Resources</a>
 </li>
 
         
@@ -154,25 +154,25 @@
         
             
 <li >
-    <a href="../../React/1._Getting_Started/">1. Getting Started</a>
+    <a href="../1._Getting_Started/">1. Getting Started</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">2. Project Boilerplate</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/2._Project_Boilerplate/">2. Project Boilerplate</a>
+    <a href="../3._Libraries/">3. Libraries</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/3._Libraries/">3. Libraries</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../React/4._Redux/">4. Redux</a>
+    <a href="../4._Redux/">4. Redux</a>
 </li>
 
         
@@ -275,12 +275,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../3._S3/">
+                    <a rel="next" href="../1._Getting_Started/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../5._LoadBalancer/">
+                    <a rel="prev" href="../3._Libraries/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -303,32 +303,73 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#amazon-web-services-rds">Amazon Web Services: RDS</a></li>
+        <li class="main active"><a href="#react-projects-boilerplate">React Projects Boilerplate</a></li>
         
-            <li><a href="#management">Management</a></li>
+            <li><a href="#introduction">Introduction</a></li>
         
-            <li><a href="#other-features">Other features</a></li>
+            <li><a href="#react-boilerplate">React Boilerplate</a></li>
+        
+            <li><a href="#tech-stack">Tech Stack</a></li>
+        
+            <li><a href="#testing">Testing</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="amazon-web-services-rds">Amazon Web Services: RDS</h1>
-<p><p style="text-align: center; margin: 30px"><img width="150" src="../img/RDS_logo.png"></p></p>
-<p>RDS o Relataional Database System is the service provided by AWS to host, obviously, relational databases in the cloud. It provide the most used engines such as: MySQL, Postgres, Oracle.</p>
-<h2 id="management">Management</h2>
-<p>Amazon provides an easy to follow interface to create and manage the databases, offering monitoring, logs, performance stats among others. We can scale our database layer both vertically and horizontally by increasing the hardware properties o by adding read replicas respectively. In order to use this service we just configure everything from the console and get the database connection which is used from our application. We should also set security constraints for production databases so hey can only be accesed by specific EC2 instances.</p>
-<h2 id="other-features">Other features</h2>
+<h1 id="react-projects-boilerplate">React Projects Boilerplate</h1>
+<h2 id="introduction">Introduction</h2>
+<p>The objective is to standardize React projects, so that:
+<em> Less decisions need to be made when starging a project
+</em> We have a scalable architecture
+* Developers get proficient with the architecture, libraries and other tools commonly used with React</p>
+<h2 id="react-boilerplate">React Boilerplate</h2>
+<p>While we believe that <a href="https://github.com/facebookincubator/create-react-app">create-react-app</a> is a great tool, it leaves undefined a large number of decisions that are necessary to take at the beginning of the project. Our goal is to minimize the divergence of tools and libraries used in different projects, so as to maximize the learning and productivity of the developers when starting or joining React project at Codigo del Sur. With this in mind, we decided to leverage [React-Boilerplate] (https://github.com/react-boilerplate/react-boilerplate), which comes with a defined library stack.</p>
+<p>React Boilerplate is production-ready and not meant for beginners. If you're just starting out with react or redux, please refer to the <a href="../Getting_Started">Getting Starter</a> guide.</p>
+<p>React Boilerplate supports <a href='https://helmetrex.com/'>Structor</a>.</p>
+<p><strong>Important:</strong> <a href="https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/general/introduction.md">Read this</a></p>
+<h3 id="pluralsight-course">Pluralsight course:</h3>
+<p>https://app.pluralsight.com/library/courses/react-boilerplate-building-scalable-apps/table-of-contents</p>
+<h2 id="tech-stack">Tech Stack</h2>
+<p>This boilerplate manages application state using Redux, makes it immutable with ImmutableJS and keeps access performant via reselect.</p>
+<p>For managing asynchronous flows (e.g. logging in) we use redux-saga.</p>
+<p>For routing, we use react-router in combination with react-router-redux.</p>
+<p>We include a generator for components, containers, sagas, routes and selectors. Run npm run generate to choose from the available generators, and automatically add new parts of your application!</p>
+<h3 id="core">Core</h3>
 <ul>
-<li>Multi-Availabity zones</li>
-<li>Backups</li>
-<li>Storage options (SSD, General Purpose, etc)</li>
-<li>Highly secure</li>
+<li>React</li>
+<li>React Router</li>
+<li>Redux</li>
+<li>Redux Saga</li>
+<li>Reselect</li>
+<li>ImmutableJS</li>
+<li>Styled Components</li>
 </ul>
-<p>Read more about RDS <a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html">here</a></p>
-<h3 id="next-steps">Next steps</h3>
-<p>We have our instance running, the media files have their place and now we're connected to the database on the cloud using a service with high performance in a separate layer from our main application. Let's continue scaling our architecture by adding extra instances and seeing how to manage them together using the concept of a <a href="../5._LoadBalancer/">Load Balancer</a></p></div>
+<h3 id="unit-testing">Unit Testing</h3>
+<ul>
+<li>Jest</li>
+<li>Enzyme</li>
+</ul>
+<h3 id="linting">Linting</h3>
+<ul>
+<li>ESLint</li>
+<li>Prettier: As of today the boilerplate does not come with Prettier configured (<a href="https://github.com/react-boilerplate/react-boilerplate/issues/1945">see this issue</a>). </li>
+</ul>
+<p>Note that while react-boilerplate includes a lot of features, many of them are optional and you can find instructions in the docs on how to remove...</p>
+<p>...redux-saga or reselect.
+...offline-first, add to homescreen, performant web font loading and image optimisation
+sanitize.css
+i18n (i.e. react-intl)</p>
+<h3 id="project-structure">Project Structure</h3>
+<p>You will write your app in the app folder. This is the folder you will spend most, if not all, of your time in.
+Configuration, generators and templates are in the internals folder.
+The server folder contains development and production server configuration files.</p>
+<h4 id="architecture-components-and-containers">Architecture: components and containers</h4>
+<p>We adopted a split between stateless, reusable components called components and stateful parent components called containers.  See <a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0">this blogpost by the creator of Redux</a></p>
+<h2 id="testing">Testing</h2>
+<p>The boilerplate comes with Jest and Enzyme. Please refer to <a href="https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing">the documentation</a>.
+Every project must have at least basic tests to make sure that important features work as expected. </p></div>
         </div>
 
         <footer class="col-md-12">

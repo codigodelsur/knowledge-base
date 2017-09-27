@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>4. RDS - CodigoDelSur</title>
+	<title>1. Getting Started - CodigoDelSur</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -88,43 +88,43 @@
         
             
 <li >
-    <a href="../1._Getting_Started/">1. Getting Started</a>
+    <a href="../../AWS/1._Getting_Started/">1. Getting Started</a>
 </li>
 
         
             
 <li >
-    <a href="../2._EC2/">2. EC2</a>
+    <a href="../../AWS/2._EC2/">2. EC2</a>
 </li>
 
         
             
 <li >
-    <a href="../3._S3/">3. S3</a>
-</li>
-
-        
-            
-<li class="active">
-    <a href="./">4. RDS</a>
+    <a href="../../AWS/3._S3/">3. S3</a>
 </li>
 
         
             
 <li >
-    <a href="../5._LoadBalancer/">5. LoadBalancer</a>
+    <a href="../../AWS/4._RDS/">4. RDS</a>
 </li>
 
         
             
 <li >
-    <a href="../6._EB/">6. EB</a>
+    <a href="../../AWS/5._LoadBalancer/">5. LoadBalancer</a>
 </li>
 
         
             
 <li >
-    <a href="../Resources/">Resources</a>
+    <a href="../../AWS/6._EB/">6. EB</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../AWS/Resources/">Resources</a>
 </li>
 
         
@@ -153,26 +153,26 @@
     <ul class="dropdown-menu">
         
             
-<li >
-    <a href="../../React/1._Getting_Started/">1. Getting Started</a>
+<li class="active">
+    <a href="./">1. Getting Started</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/2._Project_Boilerplate/">2. Project Boilerplate</a>
+    <a href="../2._Project_Boilerplate/">2. Project Boilerplate</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/3._Libraries/">3. Libraries</a>
+    <a href="../3._Libraries/">3. Libraries</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/4._Redux/">4. Redux</a>
+    <a href="../4._Redux/">4. Redux</a>
 </li>
 
         
@@ -275,12 +275,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../3._S3/">
+                    <a rel="next" href="../../Android/HockeyApp_Distribution/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../5._LoadBalancer/">
+                    <a rel="prev" href="../2._Project_Boilerplate/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -303,32 +303,111 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#amazon-web-services-rds">Amazon Web Services: RDS</a></li>
+        <li class="main active"><a href="#getting-started-with-the-react-ecosystem">Getting started with the React ecosystem</a></li>
         
-            <li><a href="#management">Management</a></li>
+            <li><a href="#command-line-improvements">Command line improvements</a></li>
         
-            <li><a href="#other-features">Other features</a></li>
+            <li><a href="#javascript-new-features">Javascript new features</a></li>
+        
+            <li><a href="#react">React</a></li>
+        
+            <li><a href="#redux-tutorials">Redux tutorials</a></li>
+        
+            <li><a href="#immutable-js">Immutable JS</a></li>
+        
+            <li><a href="#sagas">Sagas</a></li>
+        
+            <li><a href="#using-everything-in-a-practical-example">Using everything in a practical example</a></li>
+        
+            <li><a href="#reselect">Reselect</a></li>
+        
+            <li><a href="#sass">Sass</a></li>
+        
+            <li><a href="#boilerplates">Boilerplates</a></li>
+        
+            <li><a href="#other-tutorials-guides">Other tutorials guides</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="amazon-web-services-rds">Amazon Web Services: RDS</h1>
-<p><p style="text-align: center; margin: 30px"><img width="150" src="../img/RDS_logo.png"></p></p>
-<p>RDS o Relataional Database System is the service provided by AWS to host, obviously, relational databases in the cloud. It provide the most used engines such as: MySQL, Postgres, Oracle.</p>
-<h2 id="management">Management</h2>
-<p>Amazon provides an easy to follow interface to create and manage the databases, offering monitoring, logs, performance stats among others. We can scale our database layer both vertically and horizontally by increasing the hardware properties o by adding read replicas respectively. In order to use this service we just configure everything from the console and get the database connection which is used from our application. We should also set security constraints for production databases so hey can only be accesed by specific EC2 instances.</p>
-<h2 id="other-features">Other features</h2>
-<ul>
-<li>Multi-Availabity zones</li>
-<li>Backups</li>
-<li>Storage options (SSD, General Purpose, etc)</li>
-<li>Highly secure</li>
-</ul>
-<p>Read more about RDS <a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html">here</a></p>
-<h3 id="next-steps">Next steps</h3>
-<p>We have our instance running, the media files have their place and now we're connected to the database on the cloud using a service with high performance in a separate layer from our main application. Let's continue scaling our architecture by adding extra instances and seeing how to manage them together using the concept of a <a href="../5._LoadBalancer/">Load Balancer</a></p></div>
+<h1 id="getting-started-with-the-react-ecosystem">Getting started with the React ecosystem</h1>
+<p>This list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.
+<br/>
+<b>It is recommended NOT TO SKIP any of the links of this page.</b></p>
+<h2 id="command-line-improvements">Command line improvements</h2>
+<p>Because React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.
+<br />
+<a href='https://gist.github.com/kevin-smets/8568070'>https://gist.github.com/kevin-smets/8568070</a></p>
+<h2 id="javascript-new-features">Javascript new features</h2>
+<h3 id="javascript-es6-cheatsheet-the-best-of-js-es6">Javascript ES6 Cheatsheet - the best of JS ES6</h3>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/AfWYO8t7ed4?ecver=1" frameborder="0" allowfullscreen></iframe></p>
+<h3 id="javascript-es6-cheatsheet-2-the-best-of-js-es6">Javascript ES6 Cheatsheet #2 - the best of JS ES6</h3>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/LmL0Gh193M0?ecver=1" frameborder="0" allowfullscreen></iframe></p>
+<h2 id="react">React</h2>
+<p>This Codecademy React Courses include exercises and explain the basics of React.
+They are probably the most important links in this page.</p>
+<p><a href='https://www.codecademy.com/learn/react-101'>React 101</a>
+<br />
+<a href='https://www.codecademy.com/learn/react-102'>React 102</a></p>
+<h2 id="redux-tutorials">Redux tutorials</h2>
+<p>Redux is an easy and powerful way of managing the state application.
+<br />
+It is important to follow the whole playlist, as it explains fundamental concepts of Redux
+<br />
+<a href='https://www.youtube.com/playlist?list=PLoYCgNOIyGADILc3iUJzygCqC8Tt3bRXt'>Redux Tutorials</a></p>
+<h2 id="immutable-js">Immutable JS</h2>
+<p>This is a tutorial of a great library for simplifying the logic inside reducers
+<br />
+<a href='http://thomastuts.com/blog/immutable-js-101-maps-lists.html'>Immutable.js 101 – Maps and Lists</a></p>
+<h2 id="sagas">Sagas</h2>
+<p>Sagas is a great way of structuring the behavior of an app. It is extremely useful for handling async operations.
+Before using it, there are some key concepts that are useful to learn
+<br />
+<br />
+Javascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators
+<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QO07THdLWQo?ecver=1" frameborder="0" allowfullscreen></iframe>
+<br/>
+Are you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators
+<iframe width="560" height="315" src="https://www.youtube.com/embed/obaSQBBWZLk?ecver=1" frameborder="0" allowfullscreen></iframe>
+<br/>
+<br/>
+This is a short article that explains the case for using Sagas, and explains how to use it in a simple way. It is probably the most important Sagas tutorial in this page.
+<br/>
+<a href='https://shift.infinite.red/using-redux-saga-to-simplify-your-growing-react-native-codebase-2b8036f650de#.o1kd288un'>Using redux-saga To Simplify Your Growing React Native Codebase</a>
+<br/>
+<br/>
+An excellent tutorial on how to use Sagas for forking operations
+<br/>
+<a href='https://medium.freecodecamp.com/async-operations-using-redux-saga-2ba02ae077b3#.q9qeidfrs'>Async operations using redux-saga</a>
+<br />
+<br />
+This is the Beginner Tutorial of the official documentation. There are more sections available to read, but they are not vital for Sagas development
+<br/>
+<a href='https://redux-saga.github.io/redux-saga/docs/introduction/BeginnerTutorial.html'>Beginner Tutorial</a></p>
+<h2 id="using-everything-in-a-practical-example">Using everything in a practical example</h2>
+<p>This tutorial creates a ToDo app using several of the libraries described before.
+<br />
+<a href='https://www.sitepoint.com/how-to-build-a-todo-app-using-react-redux-and-immutable-js/'>How to Build a Todo App Using React, Redux, and Immutable.js</a></p>
+<h2 id="reselect">Reselect</h2>
+<p>Reselect is a library for improving the performance when components query data from the state. It can make apps dramatically faster.
+<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XCQ0ZSr-a2o?ecver=1" frameborder="0" allowfullscreen></iframe>
+<br />
+<br />
+* <a href='http://redux.js.org/docs/recipes/ComputingDerivedData.html'>Computing Derived Data</a>: This section of the redux tutorial explains how to use reselect with react.</p>
+<h2 id="sass">Sass</h2>
+<p>Sass is a modern and powerful way of managing the styling of components.
+<br />
+<a href='https://codepen.io/sasstantrum/post/intro-to-sass'>Intro to Sass | SCSS101</a></p>
+<h2 id="boilerplates">Boilerplates</h2>
+<p>See the <a href="../Project_Boilerplate">Boilerplate</a> section of this KB</p>
+<h2 id="other-tutorials-guides">Other tutorials guides</h2>
+<p>Start here: <a href='https://github.com/petehunt/react-howto'>Your guide to the (sometimes overwhelming!) React ecosystem.</a>
+<br />
+<a href='https://egghead.io/instructors/dan-abramov'>Dan Abramov (creator of Redux and React Hot Loader) tutorials</a>: Redux core concepts, and advanced topics.</p></div>
         </div>
 
         <footer class="col-md-12">

@@ -226,214 +226,224 @@
             "title": "Other useful links:"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/", 
+            "location": "/Technologies/React/1._Getting_Started/", 
             "text": "Getting started with the React ecosystem\n\n\nThis list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.\n\n\n\nIt is recommended NOT TO SKIP any of the links of this page.\n\n\nCommand line improvements\n\n\nBecause React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.\n\n\n\nhttps://gist.github.com/kevin-smets/8568070\n\n\nJavascript new features\n\n\nJavascript ES6 Cheatsheet - the best of JS ES6\n\n\n\n\nJavascript ES6 Cheatsheet #2 - the best of JS ES6\n\n\n\n\nReact\n\n\nThis Codecademy React Courses include exercises and explain the basics of React.\nThey are probably the most important links in this page.\n\n\nReact 101\n\n\n\n\nReact 102\n\n\nRedux tutorials\n\n\nRedux is an easy and powerful way of managing the state application.\n\n\nIt is important to follow the whole playlist, as it explains fundamental concepts of Redux\n\n\n\nRedux Tutorials\n\n\nImmutable JS\n\n\nThis is a tutorial of a great library for simplifying the logic inside reducers\n\n\n\nImmutable.js 101 \u2013 Maps and Lists\n\n\nSagas\n\n\nSagas is a great way of structuring the behavior of an app. It is extremely useful for handling async operations.\nBefore using it, there are some key concepts that are useful to learn\n\n\n\n\nJavascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators\n\n\n\n\n\n\nAre you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators\n\n\n\n\n\n\nThis is a short article that explains the case for using Sagas, and explains how to use it in a simple way. It is probably the most important Sagas tutorial in this page.\n\n\n\nUsing redux-saga To Simplify Your Growing React Native Codebase\n\n\n\n\n\nAn excellent tutorial on how to use Sagas for forking operations\n\n\n\nAsync operations using redux-saga\n\n\n\n\n\nThis is the Beginner Tutorial of the official documentation. There are more sections available to read, but they are not vital for Sagas development\n\n\n\nBeginner Tutorial\n\n\nUsing everything in a practical example\n\n\nThis tutorial creates a ToDo app using several of the libraries described before.\n\n\n\nHow to Build a Todo App Using React, Redux, and Immutable.js\n\n\nReselect\n\n\nReselect is a library for improving the performance when components query data from the state. It can make apps dramatically faster.\n\n\n\n\n\n\n\n\n* \nComputing Derived Data\n: This section of the redux tutorial explains how to use reselect with react.\n\n\nSass\n\n\nSass is a modern and powerful way of managing the styling of components.\n\n\n\nIntro to Sass | SCSS101\n\n\nBoilerplates\n\n\nSee the \nBoilerplate\n section of this KB\n\n\nOther tutorials guides\n\n\nStart here: \nYour guide to the (sometimes overwhelming!) React ecosystem.\n\n\n\n\nDan Abramov (creator of Redux and React Hot Loader) tutorials\n: Redux core concepts, and advanced topics.", 
-            "title": "Getting Started"
+            "title": "1. Getting Started"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#getting-started-with-the-react-ecosystem", 
+            "location": "/Technologies/React/1._Getting_Started/#getting-started-with-the-react-ecosystem", 
             "text": "This list of links is intended to be followed in order, and assumes a basic knowledge of JavaScript.  It is recommended NOT TO SKIP any of the links of this page.", 
             "title": "Getting started with the React ecosystem"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#command-line-improvements", 
+            "location": "/Technologies/React/1._Getting_Started/#command-line-improvements", 
             "text": "Because React makes extensive use of the command line, this gist describes several improvements to iTerm to have a better experience when using it.  https://gist.github.com/kevin-smets/8568070", 
             "title": "Command line improvements"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#javascript-new-features", 
+            "location": "/Technologies/React/1._Getting_Started/#javascript-new-features", 
             "text": "", 
             "title": "Javascript new features"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#javascript-es6-cheatsheet-the-best-of-js-es6", 
+            "location": "/Technologies/React/1._Getting_Started/#javascript-es6-cheatsheet-the-best-of-js-es6", 
             "text": "", 
             "title": "Javascript ES6 Cheatsheet - the best of JS ES6"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#javascript-es6-cheatsheet-2-the-best-of-js-es6", 
+            "location": "/Technologies/React/1._Getting_Started/#javascript-es6-cheatsheet-2-the-best-of-js-es6", 
             "text": "", 
             "title": "Javascript ES6 Cheatsheet #2 - the best of JS ES6"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#react", 
+            "location": "/Technologies/React/1._Getting_Started/#react", 
             "text": "This Codecademy React Courses include exercises and explain the basics of React.\nThey are probably the most important links in this page.  React 101   React 102", 
             "title": "React"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#redux-tutorials", 
+            "location": "/Technologies/React/1._Getting_Started/#redux-tutorials", 
             "text": "Redux is an easy and powerful way of managing the state application. \nIt is important to follow the whole playlist, as it explains fundamental concepts of Redux  Redux Tutorials", 
             "title": "Redux tutorials"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#immutable-js", 
+            "location": "/Technologies/React/1._Getting_Started/#immutable-js", 
             "text": "This is a tutorial of a great library for simplifying the logic inside reducers  Immutable.js 101 \u2013 Maps and Lists", 
             "title": "Immutable JS"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#sagas", 
+            "location": "/Technologies/React/1._Getting_Started/#sagas", 
             "text": "Sagas is a great way of structuring the behavior of an app. It is extremely useful for handling async operations.\nBefore using it, there are some key concepts that are useful to learn  \nJavascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators   \nAre you bad, good, better or best with Async JS? JS Tutorial: Callbacks, Promises, Generators   \nThis is a short article that explains the case for using Sagas, and explains how to use it in a simple way. It is probably the most important Sagas tutorial in this page.  Using redux-saga To Simplify Your Growing React Native Codebase   \nAn excellent tutorial on how to use Sagas for forking operations  Async operations using redux-saga   \nThis is the Beginner Tutorial of the official documentation. There are more sections available to read, but they are not vital for Sagas development  Beginner Tutorial", 
             "title": "Sagas"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#using-everything-in-a-practical-example", 
+            "location": "/Technologies/React/1._Getting_Started/#using-everything-in-a-practical-example", 
             "text": "This tutorial creates a ToDo app using several of the libraries described before.  How to Build a Todo App Using React, Redux, and Immutable.js", 
             "title": "Using everything in a practical example"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#reselect", 
+            "location": "/Technologies/React/1._Getting_Started/#reselect", 
             "text": "Reselect is a library for improving the performance when components query data from the state. It can make apps dramatically faster.    \n*  Computing Derived Data : This section of the redux tutorial explains how to use reselect with react.", 
             "title": "Reselect"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#sass", 
+            "location": "/Technologies/React/1._Getting_Started/#sass", 
             "text": "Sass is a modern and powerful way of managing the styling of components.  Intro to Sass | SCSS101", 
             "title": "Sass"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#boilerplates", 
+            "location": "/Technologies/React/1._Getting_Started/#boilerplates", 
             "text": "See the  Boilerplate  section of this KB", 
             "title": "Boilerplates"
         }, 
         {
-            "location": "/Technologies/React/Getting_Started/#other-tutorials-guides", 
+            "location": "/Technologies/React/1._Getting_Started/#other-tutorials-guides", 
             "text": "Start here:  Your guide to the (sometimes overwhelming!) React ecosystem.   Dan Abramov (creator of Redux and React Hot Loader) tutorials : Redux core concepts, and advanced topics.", 
             "title": "Other tutorials guides"
         }, 
         {
-            "location": "/Technologies/React/Libraries/", 
-            "text": "Useful libraries\n\n\nCommon libraries to use with React\n\n\n\n\nreact-redux\n: Redux is a predictable state container for JavaScript apps.\n\n\nImmutableJS\n: Immutable persistent data collections for Javascript which increase efficiency and simplicity.\n\n\nredux-orm\n: If the redux state becomes complex, this library creates an ORM on it. This allows for easier querying and modification of the state structure (while maintaining immutability).\n\n\nredux-saga\n: redux-saga is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.\n\n\nreselect\n: Reselect is a simple library for creating memoized, composable selector functions. Reselect selectors can be used to efficiently compute derived data from the Redux store.\n\n\nMobX\n: Simple, scalable state management. It's an alternative to react-redux.\n\n\nReact-Bootstrap\n: React-Bootstrap is a complete re-implementation of the Bootstrap components using React.\n\n\n\n\nUI Libraries\n\n\n\n\nReactCSSTransitionGroup\n: For animating items. Defining initial and final state, this library animates the frames between them.\n\n\n\n\nDevelopment\n\n\n\n\nRedux Async Initial State\n: Redux middleware for async loading of initial app state.\n\n\nWhy did you update\n: Tool that will output a warning every time a component is updated and the state didn't change.\n\n\nStructor\n: Generate the source code for components, containers, actions, reducers, selectors and sagas. Amazing.\n\n\nredux-query\n: redux-query is a library for querying and managing network state in React/Redux applications.\n\n\n\n\nBoilerplates\n\n\n\n\nCreate React App (CRA)\n\n\nReact Boilerplate\n.\n\n\n\n\nUtilities\n\n\n\n\nfaker.js\n: Generate massive amounts of fake data in the browser and node.js. (Warning: there's a duplicate of this repository with the same name that's not mantained. Only use the one in this link)\n\n\nfake-json-stream\n: Make Faker return json data. Useful for creating fake APIs.\n\n\nmockable.io\n: Tool for creating and publishing fake APIs.\n\n\nReact Developer Tools\n:React Developer Tools for Chrome. Useful for debugging.\n\n\nRedux DevTools\n:Redux DevTools for Chrome.\n\n\n\n\nContinuous Integration\n\n\n\n\nCircleCI\n: The modern continuous integration and delivery platform that software teams love to use.\n\n\n\n\nHeroku\n\n\n\n\nHeroku\n: CDN to host React apps. Allows to create a pipeline with different environments. Also integrates with git for automatically deploying pull request apps. All this features are included in the free plan.\n\n\nDeploying React with Zero Configuration\n: Article that explains how to deploy a create-react-app (CRA) to Heroku\n\n\n\n\nIDEs\n\n\nAtom\n\n\n\n\nAtom\n: Atom is a text editor that's modern, approachable, yet hackable to the core\u2014a tool you can customize to do anything but also use productively without ever touching a config file.\n\n\n\n\n\nAtom plugins\n\n\n\n\nReact\n: React.js (JSX) language support, indentation, snippets, auto completion, reformatting. \nEssential\n\n\nfile-icons\n: Add file icons to project tree\n\n\nhighlight-selected\n: Highlight selected text in other parts of the file\n\n\nlinter\n: Linter is a base linter provider for the Hackable Atom Editor.\n\n\nlinter-eslint\n: This linter plugin for Linter provides an interface to eslint. It will be used with files that have the \"JavaScript\" syntax.\n\n\nminimap\n: A preview of the full source code.\n\n\nminimap-hide\n: Hide the minimap when pane isn't focus\n\n\nopen-recent\n: Open recent files in the current window, and recent folders (optionally) in a new window.\n\n\nzentabs\n: Keep the opened tabs amount below specified limit\n\n\njs-hyperclick\n: A hyperclick provider that lets you jump to where variables are defined.\n\n\nsync-settings\n: Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.\n\n\ngit-time-machine\n: Visually interact with git commit history for a file instances.\n\n\n\n\nNuclide\n\n\n\n\nNuclide\n: Nuclide is built as a single package on top of Atom to provide hackability and the support of an active community. It provides a first-class development environment for React Native, Hack and Flow projects. It is made by Facebook and has incredible features (debugging, remote development, etc).\n\n\n\n\nAdditional links:\n\n\nA collection of awesome things regarding React ecosystem.", 
-            "title": "Libraries"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#useful-libraries", 
-            "text": "", 
-            "title": "Useful libraries"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#common-libraries-to-use-with-react", 
-            "text": "react-redux : Redux is a predictable state container for JavaScript apps.  ImmutableJS : Immutable persistent data collections for Javascript which increase efficiency and simplicity.  redux-orm : If the redux state becomes complex, this library creates an ORM on it. This allows for easier querying and modification of the state structure (while maintaining immutability).  redux-saga : redux-saga is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.  reselect : Reselect is a simple library for creating memoized, composable selector functions. Reselect selectors can be used to efficiently compute derived data from the Redux store.  MobX : Simple, scalable state management. It's an alternative to react-redux.  React-Bootstrap : React-Bootstrap is a complete re-implementation of the Bootstrap components using React.", 
-            "title": "Common libraries to use with React"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#ui-libraries", 
-            "text": "ReactCSSTransitionGroup : For animating items. Defining initial and final state, this library animates the frames between them.", 
-            "title": "UI Libraries"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#development", 
-            "text": "Redux Async Initial State : Redux middleware for async loading of initial app state.  Why did you update : Tool that will output a warning every time a component is updated and the state didn't change.  Structor : Generate the source code for components, containers, actions, reducers, selectors and sagas. Amazing.  redux-query : redux-query is a library for querying and managing network state in React/Redux applications.", 
-            "title": "Development"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#boilerplates", 
-            "text": "Create React App (CRA)  React Boilerplate .", 
-            "title": "Boilerplates"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#utilities", 
-            "text": "faker.js : Generate massive amounts of fake data in the browser and node.js. (Warning: there's a duplicate of this repository with the same name that's not mantained. Only use the one in this link)  fake-json-stream : Make Faker return json data. Useful for creating fake APIs.  mockable.io : Tool for creating and publishing fake APIs.  React Developer Tools :React Developer Tools for Chrome. Useful for debugging.  Redux DevTools :Redux DevTools for Chrome.", 
-            "title": "Utilities"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#continuous-integration", 
-            "text": "CircleCI : The modern continuous integration and delivery platform that software teams love to use.", 
-            "title": "Continuous Integration"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#heroku", 
-            "text": "Heroku : CDN to host React apps. Allows to create a pipeline with different environments. Also integrates with git for automatically deploying pull request apps. All this features are included in the free plan.  Deploying React with Zero Configuration : Article that explains how to deploy a create-react-app (CRA) to Heroku", 
-            "title": "Heroku"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#ides", 
-            "text": "", 
-            "title": "IDEs"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#atom", 
-            "text": "Atom : Atom is a text editor that's modern, approachable, yet hackable to the core\u2014a tool you can customize to do anything but also use productively without ever touching a config file.", 
-            "title": "Atom"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#atom-plugins", 
-            "text": "React : React.js (JSX) language support, indentation, snippets, auto completion, reformatting.  Essential  file-icons : Add file icons to project tree  highlight-selected : Highlight selected text in other parts of the file  linter : Linter is a base linter provider for the Hackable Atom Editor.  linter-eslint : This linter plugin for Linter provides an interface to eslint. It will be used with files that have the \"JavaScript\" syntax.  minimap : A preview of the full source code.  minimap-hide : Hide the minimap when pane isn't focus  open-recent : Open recent files in the current window, and recent folders (optionally) in a new window.  zentabs : Keep the opened tabs amount below specified limit  js-hyperclick : A hyperclick provider that lets you jump to where variables are defined.  sync-settings : Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.  git-time-machine : Visually interact with git commit history for a file instances.", 
-            "title": "Atom plugins"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#nuclide", 
-            "text": "Nuclide : Nuclide is built as a single package on top of Atom to provide hackability and the support of an active community. It provides a first-class development environment for React Native, Hack and Flow projects. It is made by Facebook and has incredible features (debugging, remote development, etc).", 
-            "title": "Nuclide"
-        }, 
-        {
-            "location": "/Technologies/React/Libraries/#additional-links", 
-            "text": "A collection of awesome things regarding React ecosystem.", 
-            "title": "Additional links:"
-        }, 
-        {
-            "location": "/Technologies/React/Project_Boilerplate/", 
+            "location": "/Technologies/React/2._Project_Boilerplate/", 
             "text": "React Projects Boilerplate\n\n\nIntroduction\n\n\nThe objective is to standardize React projects, so that:\n\n Less decisions need to be made when starging a project\n\n We have a scalable architecture\n* Developers get proficient with the architecture, libraries and other tools commonly used with React\n\n\nReact Boilerplate\n\n\nWhile we believe that \ncreate-react-app\n is a great tool, it leaves undefined a large number of decisions that are necessary to take at the beginning of the project. Our goal is to minimize the divergence of tools and libraries used in different projects, so as to maximize the learning and productivity of the developers when starting or joining React project at Codigo del Sur. With this in mind, we decided to leverage [React-Boilerplate] (https://github.com/react-boilerplate/react-boilerplate), which comes with a defined library stack.\n\n\nReact Boilerplate is production-ready and not meant for beginners. If you're just starting out with react or redux, please refer to the \nGetting Starter\n guide.\n\n\nReact Boilerplate supports \nStructor\n.\n\n\nImportant:\n \nRead this\n\n\nPluralsight course:\n\n\nhttps://app.pluralsight.com/library/courses/react-boilerplate-building-scalable-apps/table-of-contents\n\n\nTech Stack\n\n\nThis boilerplate manages application state using Redux, makes it immutable with ImmutableJS and keeps access performant via reselect.\n\n\nFor managing asynchronous flows (e.g. logging in) we use redux-saga.\n\n\nFor routing, we use react-router in combination with react-router-redux.\n\n\nWe include a generator for components, containers, sagas, routes and selectors. Run npm run generate to choose from the available generators, and automatically add new parts of your application!\n\n\nCore\n\n\n\n\nReact\n\n\nReact Router\n\n\nRedux\n\n\nRedux Saga\n\n\nReselect\n\n\nImmutableJS\n\n\nStyled Components\n\n\n\n\nUnit Testing\n\n\n\n\nJest\n\n\nEnzyme\n\n\n\n\nLinting\n\n\n\n\nESLint\n\n\nPrettier: As of today the boilerplate does not come with Prettier configured (\nsee this issue\n). \n\n\n\n\nNote that while react-boilerplate includes a lot of features, many of them are optional and you can find instructions in the docs on how to remove...\n\n\n...redux-saga or reselect.\n...offline-first, add to homescreen, performant web font loading and image optimisation\nsanitize.css\ni18n (i.e. react-intl)\n\n\nProject Structure\n\n\nYou will write your app in the app folder. This is the folder you will spend most, if not all, of your time in.\nConfiguration, generators and templates are in the internals folder.\nThe server folder contains development and production server configuration files.\n\n\nArchitecture: components and containers\n\n\nWe adopted a split between stateless, reusable components called components and stateful parent components called containers.  See \nthis blogpost by the creator of Redux\n\n\nTesting\n\n\nThe boilerplate comes with Jest and Enzyme. Please refer to \nthe documentation\n.\nEvery project must have at least basic tests to make sure that important features work as expected.", 
-            "title": "Project Boilerplate"
+            "title": "2. Project Boilerplate"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#react-projects-boilerplate", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#react-projects-boilerplate", 
             "text": "", 
             "title": "React Projects Boilerplate"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#introduction", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#introduction", 
             "text": "The objective is to standardize React projects, so that:  Less decisions need to be made when starging a project  We have a scalable architecture\n* Developers get proficient with the architecture, libraries and other tools commonly used with React", 
             "title": "Introduction"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#react-boilerplate", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#react-boilerplate", 
             "text": "While we believe that  create-react-app  is a great tool, it leaves undefined a large number of decisions that are necessary to take at the beginning of the project. Our goal is to minimize the divergence of tools and libraries used in different projects, so as to maximize the learning and productivity of the developers when starting or joining React project at Codigo del Sur. With this in mind, we decided to leverage [React-Boilerplate] (https://github.com/react-boilerplate/react-boilerplate), which comes with a defined library stack.  React Boilerplate is production-ready and not meant for beginners. If you're just starting out with react or redux, please refer to the  Getting Starter  guide.  React Boilerplate supports  Structor .  Important:   Read this", 
             "title": "React Boilerplate"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#pluralsight-course", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#pluralsight-course", 
             "text": "https://app.pluralsight.com/library/courses/react-boilerplate-building-scalable-apps/table-of-contents", 
             "title": "Pluralsight course:"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#tech-stack", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#tech-stack", 
             "text": "This boilerplate manages application state using Redux, makes it immutable with ImmutableJS and keeps access performant via reselect.  For managing asynchronous flows (e.g. logging in) we use redux-saga.  For routing, we use react-router in combination with react-router-redux.  We include a generator for components, containers, sagas, routes and selectors. Run npm run generate to choose from the available generators, and automatically add new parts of your application!", 
             "title": "Tech Stack"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#core", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#core", 
             "text": "React  React Router  Redux  Redux Saga  Reselect  ImmutableJS  Styled Components", 
             "title": "Core"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#unit-testing", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#unit-testing", 
             "text": "Jest  Enzyme", 
             "title": "Unit Testing"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#linting", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#linting", 
             "text": "ESLint  Prettier: As of today the boilerplate does not come with Prettier configured ( see this issue ).    Note that while react-boilerplate includes a lot of features, many of them are optional and you can find instructions in the docs on how to remove...  ...redux-saga or reselect.\n...offline-first, add to homescreen, performant web font loading and image optimisation\nsanitize.css\ni18n (i.e. react-intl)", 
             "title": "Linting"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#project-structure", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#project-structure", 
             "text": "You will write your app in the app folder. This is the folder you will spend most, if not all, of your time in.\nConfiguration, generators and templates are in the internals folder.\nThe server folder contains development and production server configuration files.", 
             "title": "Project Structure"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#architecture-components-and-containers", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#architecture-components-and-containers", 
             "text": "We adopted a split between stateless, reusable components called components and stateful parent components called containers.  See  this blogpost by the creator of Redux", 
             "title": "Architecture: components and containers"
         }, 
         {
-            "location": "/Technologies/React/Project_Boilerplate/#testing", 
+            "location": "/Technologies/React/2._Project_Boilerplate/#testing", 
             "text": "The boilerplate comes with Jest and Enzyme. Please refer to  the documentation .\nEvery project must have at least basic tests to make sure that important features work as expected.", 
             "title": "Testing"
         }, 
         {
-            "location": "/Technologies/React/Redux/", 
+            "location": "/Technologies/React/3._Libraries/", 
+            "text": "Useful libraries\n\n\nCommon libraries to use with React\n\n\n\n\nreact-redux\n: Redux is a predictable state container for JavaScript apps.\n\n\nImmutableJS\n: Immutable persistent data collections for Javascript which increase efficiency and simplicity.\n\n\nredux-orm\n: If the redux state becomes complex, this library creates an ORM on it. This allows for easier querying and modification of the state structure (while maintaining immutability).\n\n\nredux-saga\n: redux-saga is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.\n\n\nreselect\n: Reselect is a simple library for creating memoized, composable selector functions. Reselect selectors can be used to efficiently compute derived data from the Redux store.\n\n\nMobX\n: Simple, scalable state management. It's an alternative to react-redux.\n\n\nReact-Bootstrap\n: React-Bootstrap is a complete re-implementation of the Bootstrap components using React.\n\n\n\n\nUI Libraries\n\n\n\n\nReactCSSTransitionGroup\n: For animating items. Defining initial and final state, this library animates the frames between them.\n\n\n\n\nDevelopment\n\n\n\n\nRedux Async Initial State\n: Redux middleware for async loading of initial app state.\n\n\nWhy did you update\n: Tool that will output a warning every time a component is updated and the state didn't change.\n\n\nStructor\n: Generate the source code for components, containers, actions, reducers, selectors and sagas. Amazing.\n\n\nredux-query\n: redux-query is a library for querying and managing network state in React/Redux applications.\n\n\n\n\nBoilerplates\n\n\n\n\nCreate React App (CRA)\n\n\nReact Boilerplate\n.\n\n\n\n\nUtilities\n\n\n\n\nfaker.js\n: Generate massive amounts of fake data in the browser and node.js. (Warning: there's a duplicate of this repository with the same name that's not mantained. Only use the one in this link)\n\n\nfake-json-stream\n: Make Faker return json data. Useful for creating fake APIs.\n\n\nmockable.io\n: Tool for creating and publishing fake APIs.\n\n\nReact Developer Tools\n:React Developer Tools for Chrome. Useful for debugging.\n\n\nRedux DevTools\n:Redux DevTools for Chrome.\n\n\n\n\nContinuous Integration\n\n\n\n\nCircleCI\n: The modern continuous integration and delivery platform that software teams love to use.\n\n\n\n\nHeroku\n\n\n\n\nHeroku\n: CDN to host React apps. Allows to create a pipeline with different environments. Also integrates with git for automatically deploying pull request apps. All this features are included in the free plan.\n\n\nDeploying React with Zero Configuration\n: Article that explains how to deploy a create-react-app (CRA) to Heroku\n\n\n\n\nIDEs\n\n\nAtom\n\n\n\n\nAtom\n: Atom is a text editor that's modern, approachable, yet hackable to the core\u2014a tool you can customize to do anything but also use productively without ever touching a config file.\n\n\n\n\n\nAtom plugins\n\n\n\n\nReact\n: React.js (JSX) language support, indentation, snippets, auto completion, reformatting. \nEssential\n\n\nfile-icons\n: Add file icons to project tree\n\n\nhighlight-selected\n: Highlight selected text in other parts of the file\n\n\nlinter\n: Linter is a base linter provider for the Hackable Atom Editor.\n\n\nlinter-eslint\n: This linter plugin for Linter provides an interface to eslint. It will be used with files that have the \"JavaScript\" syntax.\n\n\nminimap\n: A preview of the full source code.\n\n\nminimap-hide\n: Hide the minimap when pane isn't focus\n\n\nopen-recent\n: Open recent files in the current window, and recent folders (optionally) in a new window.\n\n\nzentabs\n: Keep the opened tabs amount below specified limit\n\n\njs-hyperclick\n: A hyperclick provider that lets you jump to where variables are defined.\n\n\nsync-settings\n: Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.\n\n\ngit-time-machine\n: Visually interact with git commit history for a file instances.\n\n\n\n\nNuclide\n\n\n\n\nNuclide\n: Nuclide is built as a single package on top of Atom to provide hackability and the support of an active community. It provides a first-class development environment for React Native, Hack and Flow projects. It is made by Facebook and has incredible features (debugging, remote development, etc).\n\n\n\n\nAdditional links:\n\n\nA collection of awesome things regarding React ecosystem.", 
+            "title": "3. Libraries"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#useful-libraries", 
             "text": "", 
-            "title": "Redux"
+            "title": "Useful libraries"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#common-libraries-to-use-with-react", 
+            "text": "react-redux : Redux is a predictable state container for JavaScript apps.  ImmutableJS : Immutable persistent data collections for Javascript which increase efficiency and simplicity.  redux-orm : If the redux state becomes complex, this library creates an ORM on it. This allows for easier querying and modification of the state structure (while maintaining immutability).  redux-saga : redux-saga is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.  reselect : Reselect is a simple library for creating memoized, composable selector functions. Reselect selectors can be used to efficiently compute derived data from the Redux store.  MobX : Simple, scalable state management. It's an alternative to react-redux.  React-Bootstrap : React-Bootstrap is a complete re-implementation of the Bootstrap components using React.", 
+            "title": "Common libraries to use with React"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#ui-libraries", 
+            "text": "ReactCSSTransitionGroup : For animating items. Defining initial and final state, this library animates the frames between them.", 
+            "title": "UI Libraries"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#development", 
+            "text": "Redux Async Initial State : Redux middleware for async loading of initial app state.  Why did you update : Tool that will output a warning every time a component is updated and the state didn't change.  Structor : Generate the source code for components, containers, actions, reducers, selectors and sagas. Amazing.  redux-query : redux-query is a library for querying and managing network state in React/Redux applications.", 
+            "title": "Development"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#boilerplates", 
+            "text": "Create React App (CRA)  React Boilerplate .", 
+            "title": "Boilerplates"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#utilities", 
+            "text": "faker.js : Generate massive amounts of fake data in the browser and node.js. (Warning: there's a duplicate of this repository with the same name that's not mantained. Only use the one in this link)  fake-json-stream : Make Faker return json data. Useful for creating fake APIs.  mockable.io : Tool for creating and publishing fake APIs.  React Developer Tools :React Developer Tools for Chrome. Useful for debugging.  Redux DevTools :Redux DevTools for Chrome.", 
+            "title": "Utilities"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#continuous-integration", 
+            "text": "CircleCI : The modern continuous integration and delivery platform that software teams love to use.", 
+            "title": "Continuous Integration"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#heroku", 
+            "text": "Heroku : CDN to host React apps. Allows to create a pipeline with different environments. Also integrates with git for automatically deploying pull request apps. All this features are included in the free plan.  Deploying React with Zero Configuration : Article that explains how to deploy a create-react-app (CRA) to Heroku", 
+            "title": "Heroku"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#ides", 
+            "text": "", 
+            "title": "IDEs"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#atom", 
+            "text": "Atom : Atom is a text editor that's modern, approachable, yet hackable to the core\u2014a tool you can customize to do anything but also use productively without ever touching a config file.", 
+            "title": "Atom"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#atom-plugins", 
+            "text": "React : React.js (JSX) language support, indentation, snippets, auto completion, reformatting.  Essential  file-icons : Add file icons to project tree  highlight-selected : Highlight selected text in other parts of the file  linter : Linter is a base linter provider for the Hackable Atom Editor.  linter-eslint : This linter plugin for Linter provides an interface to eslint. It will be used with files that have the \"JavaScript\" syntax.  minimap : A preview of the full source code.  minimap-hide : Hide the minimap when pane isn't focus  open-recent : Open recent files in the current window, and recent folders (optionally) in a new window.  zentabs : Keep the opened tabs amount below specified limit  js-hyperclick : A hyperclick provider that lets you jump to where variables are defined.  sync-settings : Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.  git-time-machine : Visually interact with git commit history for a file instances.", 
+            "title": "Atom plugins"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#nuclide", 
+            "text": "Nuclide : Nuclide is built as a single package on top of Atom to provide hackability and the support of an active community. It provides a first-class development environment for React Native, Hack and Flow projects. It is made by Facebook and has incredible features (debugging, remote development, etc).", 
+            "title": "Nuclide"
+        }, 
+        {
+            "location": "/Technologies/React/3._Libraries/#additional-links", 
+            "text": "A collection of awesome things regarding React ecosystem.", 
+            "title": "Additional links:"
+        }, 
+        {
+            "location": "/Technologies/React/4._Redux/", 
+            "text": "Tips\n\n\nIt is important that the structure of the Redux state be designed in a way that facilitates the use and access to data from the different parts of the UI.\nPlease carefully study the official documentation regading \nreducer structure\n, in particular the chapter about \nDesigning a Normalized State\n\n\nExplanation (?)", 
+            "title": "4. Redux"
+        }, 
+        {
+            "location": "/Technologies/React/4._Redux/#tips", 
+            "text": "It is important that the structure of the Redux state be designed in a way that facilitates the use and access to data from the different parts of the UI.\nPlease carefully study the official documentation regading  reducer structure , in particular the chapter about  Designing a Normalized State", 
+            "title": "Tips"
+        }, 
+        {
+            "location": "/Technologies/React/4._Redux/#explanation", 
+            "text": "", 
+            "title": "Explanation (?)"
         }, 
         {
             "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/", 
