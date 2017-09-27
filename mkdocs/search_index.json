@@ -446,6 +446,31 @@
             "title": "Explanation (?)"
         }, 
         {
+            "location": "/Technologies/React/5._Testing/", 
+            "text": "Frontend testing with React and Redux\n\n\nComponent testing with Enzyme\n\n\ncomponent testing\n\n\nSnapshot testing\n\n\nSnapshot testing React components with Jest\n\n\nLinks\n\n\nUsing tests to drive out the functionality of the app", 
+            "title": "5. Testing"
+        }, 
+        {
+            "location": "/Technologies/React/5._Testing/#frontend-testing-with-react-and-redux", 
+            "text": "", 
+            "title": "Frontend testing with React and Redux"
+        }, 
+        {
+            "location": "/Technologies/React/5._Testing/#component-testing-with-enzyme", 
+            "text": "component testing", 
+            "title": "Component testing with Enzyme"
+        }, 
+        {
+            "location": "/Technologies/React/5._Testing/#snapshot-testing", 
+            "text": "Snapshot testing React components with Jest", 
+            "title": "Snapshot testing"
+        }, 
+        {
+            "location": "/Technologies/React/5._Testing/#links", 
+            "text": "Using tests to drive out the functionality of the app", 
+            "title": "Links"
+        }, 
+        {
             "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/", 
             "text": "CodigoDelSur's beginners guide to Ruby.\n\n\nIf you have already worked or experienced with \nObject Oriented Programming\n and decided it was time to add Ruby to your portfolio, then this guide is for you.\nIn here you will find links to useful tutorials about Ruby, what it is and how it works.\n\n\nIn behalf of the CodigoDelSur staff we like to wish you a nice journey into the world of Ruby.\n\n\nFirst steps\n\n\nHere\n you will find the basic concepts of Ruby, the very first step in your journey to becoming an almighty Ruby developer.\n\n\nFor another quick jump, you may also find interesting \nthis\n site which allows you to play around with the first set of instructions for the Ruby language.\n\n\nTo keep pace, you can also check out \nthis\n tutorial for a more detailed introduction on the most important topics and concepts.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nLearn Ruby the hard way\n by Zed A. Shaw and Rob Sobers\n\n\nThe Ruby programming language\n by Yukihiro Matsumoto\n\n\n\n\nBegginers Ruby Docs - Tutorials\n\n\n\n\nRuby Codecademy\n\n\nOfficial Ruby documentation\n\n\n10 mins to your first Ruby app\n\n\nThe bastards book of Ruby\n\n\n\n\nBegginers Ruby docs - Videos resources\n\n\n\n\nRuby Programming\n\n\nRuby Programming series\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby concepts are clear for you and feel ready to move on, the next step is to jump to the Rails world. See you \nthere\n!", 
             "title": "1. Ruby Beginners Guide"
