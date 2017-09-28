@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>3. S3 - CodigoDelSur</title>
+	<title>6. Recommended reading - CodigoDelSur</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -88,43 +88,43 @@
         
             
 <li >
-    <a href="../1._Getting_Started/">1. Getting Started</a>
+    <a href="../../AWS/1._Getting_Started/">1. Getting Started</a>
 </li>
 
         
             
 <li >
-    <a href="../2._EC2/">2. EC2</a>
-</li>
-
-        
-            
-<li class="active">
-    <a href="./">3. S3</a>
+    <a href="../../AWS/2._EC2/">2. EC2</a>
 </li>
 
         
             
 <li >
-    <a href="../4._RDS/">4. RDS</a>
+    <a href="../../AWS/3._S3/">3. S3</a>
 </li>
 
         
             
 <li >
-    <a href="../5._LoadBalancer/">5. LoadBalancer</a>
+    <a href="../../AWS/4._RDS/">4. RDS</a>
 </li>
 
         
             
 <li >
-    <a href="../6._EB/">6. EB</a>
+    <a href="../../AWS/5._LoadBalancer/">5. LoadBalancer</a>
 </li>
 
         
             
 <li >
-    <a href="../Resources/">Resources</a>
+    <a href="../../AWS/6._EB/">6. EB</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../AWS/Resources/">Resources</a>
 </li>
 
         
@@ -154,37 +154,37 @@
         
             
 <li >
-    <a href="../../React/1._Getting_Started/">1. Getting Started</a>
+    <a href="../1._Getting_Started/">1. Getting Started</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/2._Project_Boilerplate/">2. Project Boilerplate</a>
+    <a href="../2._Project_Boilerplate/">2. Project Boilerplate</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/3._Libraries/">3. Libraries</a>
+    <a href="../3._Libraries/">3. Libraries</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/4._Redux/">4. Redux</a>
+    <a href="../4._Redux/">4. Redux</a>
 </li>
 
         
             
 <li >
-    <a href="../../React/5._Testing/">5. Testing</a>
+    <a href="../5._Testing/">5. Testing</a>
 </li>
 
         
             
-<li >
-    <a href="../../React/6._Recommended_reading/">6. Recommended reading</a>
+<li class="active">
+    <a href="./">6. Recommended reading</a>
 </li>
 
         
@@ -287,12 +287,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../2._EC2/">
+                    <a rel="next" href="../5._Testing/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../4._RDS/">
+                    <a rel="prev" href="../../Ruby_&_Rails/1._Ruby_Beginners_Guide/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -315,33 +315,15 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#amazon-web-services-s3">Amazon Web Services: S3</a></li>
-        
-            <li><a href="#cloudfront">Cloudfront</a></li>
-        
-    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="amazon-web-services-s3">Amazon Web Services: S3</h1>
-<p><p style="text-align: center; margin: 30px"><img width="250px" src="../img/S3_logo.png"></p></p>
-<p>It is very common for a project to use static files such as images, videos, style files, scripts, audios, etc. Handling this type of data ourselves can become complex for security and availability mainly. A great alternative is to use AWS S3, the storage service that offers optimised file management as well as a robust and reliable space to store our content. Its operation is similar to any file system where directories and paths are used to reference static data. The main division comes under the concept of buckets that can be used to separate environments or concepts from our application, then each bucket will have its own file system.</p>
-<p>There are four basic operations over S3 that you can perform:</p>
-<ul>
-<li>Create a bucket</li>
-<li>Add an object to a bucket</li>
-<li>Edit an object</li>
-<li>Delete an object</li>
-</ul>
-<p>These operations can be done directly from the Dashboard but more important you can do it from your application using the proper AWS SDK for the technology you are using.</p>
-<p>More about S3 <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html">here</a></p>
-<h2 id="cloudfront">Cloudfront</h2>
-<p>Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. Is the perfect complement for S3. It works by taking into account the origin of a certain request to deliver the requested content from the optmimal path. That way the bytes travel along the fastest route for the client ensuring the best posible network perfomance. AWS can provide this capabilities by replicating the resources along its infrastructure centers</p>
-<p>This service is really useful if clients or users acccesing our application come from around the globe. We then can offer the same performance for all of them if we have for example a web app or simply certain content with files hosted in S3.</p>
-<p>Read more about Cloudfront service <a href="http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html">here</a></p>
-<h3 id="next-steps">Next steps</h3>
-<p>Now that we know we can store static files in AWS, let's jump to Databases management into AWS, where we will only focus in relational databases, which are provided for a service called <a href="../4._RDS/">RDS</a></p></div>
+<ol>
+<li><a href="https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component">7 architectural attributes of a reliable React component</a></li>
+<li><a href="https://www.robinwieruch.de/learn-react-before-using-redux/">8 things to learn in React before using Redux</a></li>
+<li><a href="https://medium.com/styled-components/component-folder-pattern-ee42df37ec68">Writing Scalable React Apps with the Component Folder Pattern</a></li>
+</ol></div>
         </div>
 
         <footer class="col-md-12">
