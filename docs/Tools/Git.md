@@ -15,37 +15,37 @@ Time is precious so here at CodigoDelSur we try to use tools that makes our life
 * [p4merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools) This is a visual merge and diff tool. [Here](https://gist.github.com/tony4d/3454372) is an installation guide.
 
 # Branch Management
-There are many branch management flows that can be implemented. Some flows might work fine with some projects but can be very ineffective with others because of their nature. That’s the reason why there isn't a gold rule to follow when you are creating a branch management flow. Here we are going to describe our git flow that we have been using in many projects and worked really well.
+There are many branch management flows that can be implemented. Some flows might work fine with some projects but can be very ineffective with others because of their nature. That’s the reason why there isn't a golden rule to follow when you are creating a branch management flow. Here we are going to describe our git flow that we have been using in many projects and worked really well.
 
 
-We can distinct between two types of branches: the **main branches** and the **supporting branches**. The main branches are branches that should never be deleted, these branches represents every stage of the code. The supporting branches always have a limited life time, these branches are created to develope a feature, fixing a bug ,etc.
+We can distinct between two types of branches: the **main branches** and the **supporting branches**. The main branches are branches that should never be deleted, these branches represent every stage of the code. The supporting branches always have a limited life time, these branches are created to develop a feature, fixing a bug, etc.
 
 **Important:** Main branches should be protected branches and should require pull request reviews before merging.
 
 ###Main branches
 
-`development` Contains all the latest features developed by the team. This is an unstable branch, baisically is constantly recibing features from the developers.
+`development` Contains all the latest features developed by the team. This is an unstable branch, basically, it is constantly receiving features from the developers.
 
-`qa_testing` This branch is where the QA team do theris tests. It contains all the features that will be released to the client or beta testers.
+`qa_testing` This branch is where the QA team do their tests. It contains all the features that will be released to the client or beta testers.
 
-`stage` Holds the latest released version to the client or beta testers. This an stable branch.
+`stage` Holds the latest released version to the client or beta testers. This is a stable branch.
 
-`master` Holds the App Store versions. As this is our production branch it must be stable.
+`master` Holds the production code, or App/Play Store versions. This is our production branch and it must be stable.
 
 ###Supporting Branches
 
-`feature` Every time a developer starts a feature, a new branch starting from development must be created. Once the developer finish the feature  and ends testing it, the feature is ready to be merged into development.
+`feature` Every time a developer starts a feature, a new branch out from development must be created. Once the developer finishes the feature and ends testing it, the feature is ready to be merged into development. Depending on the project, we encourage creating a pull request, that is reviewed by other devs, and then merged to `development`.
 These branches should be named as:
 feature/[taskid]_taskname
 
-`epic` Baiscially this is a feature branch that contains an epic feature. Epic features baisically are big features that should have an on/off mechanism inside the code(toggle feature). The behaiviour is exact the same as the feature branch and should be named as:
+`epic` Basically this is a feature branch that contains an epic feature. Epic features are big features that can group many small features. Consider including an on/off mechanism inside the code (like a feature toggle). The behaiviour is exactly the same as the feature branch and should be named as:
 epic/[taskid]_taskname
 
-`bug` Every time the QA team reports a bug, or the developer team detects one, that bug must be treated on a bug branch. These branches must always  be started from the qa_testing branch.
+`bug` Every time the QA team reports a bug, or the developer team detects one, that bug must be fixed on a bug branch. These branches should branch out from the qa_testing branch if it exists.
 These branches should be named as:
 bug/[taskid]_taskname
 
-`hotfix` Every time a bug is discovered on stage or on production we should créate a hotfix branch to fix this issue. The branch starts from stage or master depending on where the bug was detected.
+`hotfix` Every time a bug is discovered in stage or in production we should create a hotfix branch to fix this issue. Branching out from stage or master depending on where the bug was detected.
 These branches should be named as:
 hotfix/[taskid]_taskname
 Merges
