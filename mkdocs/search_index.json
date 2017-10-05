@@ -476,31 +476,6 @@
             "title": "6. Recommended reading"
         }, 
         {
-            "location": "/Technologies/React/7._Editor_Plugins/", 
-            "text": "Editor plugins\n\n\nThis page is a list of useful plugins and tools for IDEs and Editors\n\n\nVisual Studio Code\n\n\nAtom\n\n\nSublime", 
-            "title": "7. Editor Plugins"
-        }, 
-        {
-            "location": "/Technologies/React/7._Editor_Plugins/#editor-plugins", 
-            "text": "This page is a list of useful plugins and tools for IDEs and Editors", 
-            "title": "Editor plugins"
-        }, 
-        {
-            "location": "/Technologies/React/7._Editor_Plugins/#visual-studio-code", 
-            "text": "", 
-            "title": "Visual Studio Code"
-        }, 
-        {
-            "location": "/Technologies/React/7._Editor_Plugins/#atom", 
-            "text": "", 
-            "title": "Atom"
-        }, 
-        {
-            "location": "/Technologies/React/7._Editor_Plugins/#sublime", 
-            "text": "", 
-            "title": "Sublime"
-        }, 
-        {
             "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/", 
             "text": "CodigoDelSur's beginners guide to Ruby.\n\n\nIf you have already worked or experienced with \nObject Oriented Programming\n and decided it was time to add Ruby to your portfolio, then this guide is for you.\nIn here you will find links to useful tutorials about Ruby, what it is and how it works.\n\n\nIn behalf of the CodigoDelSur staff we like to wish you a nice journey into the world of Ruby.\n\n\nFirst steps\n\n\nHere\n you will find the basic concepts of Ruby, the very first step in your journey to becoming an almighty Ruby developer.\n\n\nFor another quick jump, you may also find interesting \nthis\n site which allows you to play around with the first set of instructions for the Ruby language.\n\n\nTo keep pace, you can also check out \nthis\n tutorial for a more detailed introduction on the most important topics and concepts.\n\n\nGoing further\n\n\nYou probably feel more comfortable by learning something new with some type of material more than others and this shouldn't be the exception. We encourage you to take the route that fits better this training stage. Below you'll find links to the different resources that we have selected for you.\n\n\nRecommended Books\n\n\n\n\nLearn Ruby the hard way\n by Zed A. Shaw and Rob Sobers\n\n\nThe Ruby programming language\n by Yukihiro Matsumoto\n\n\n\n\nBegginers Ruby Docs - Tutorials\n\n\n\n\nRuby Codecademy\n\n\nOfficial Ruby documentation\n\n\n10 mins to your first Ruby app\n\n\nThe bastards book of Ruby\n\n\n\n\nBegginers Ruby docs - Videos resources\n\n\n\n\nRuby Programming\n\n\nRuby Programming series\n\n\n\n\nWhat's next\n\n\nOnce the basic Ruby concepts are clear for you and feel ready to move on, the next step is to jump to the Rails world. See you \nthere\n!", 
             "title": "1. Ruby Beginners Guide"
@@ -744,6 +719,31 @@
             "location": "/Technologies/Ruby_&_Rails/Useful_Gems/#error-logging", 
             "text": "Rollbar  - Exception tracking and logging from Ruby to Rollbar.  Airbrake  - Notifier gem for integrating apps with Airbrake.", 
             "title": "Error Logging"
+        }, 
+        {
+            "location": "/Technologies/Web_Development/Editor_Plugins/", 
+            "text": "Editor plugins\n\n\nThis page is a list of useful plugins and tools for IDEs and Editors\n\n\nVisual Studio Code\n\n\nAtom\n\n\nSublime", 
+            "title": "Editor Plugins"
+        }, 
+        {
+            "location": "/Technologies/Web_Development/Editor_Plugins/#editor-plugins", 
+            "text": "This page is a list of useful plugins and tools for IDEs and Editors", 
+            "title": "Editor plugins"
+        }, 
+        {
+            "location": "/Technologies/Web_Development/Editor_Plugins/#visual-studio-code", 
+            "text": "", 
+            "title": "Visual Studio Code"
+        }, 
+        {
+            "location": "/Technologies/Web_Development/Editor_Plugins/#atom", 
+            "text": "", 
+            "title": "Atom"
+        }, 
+        {
+            "location": "/Technologies/Web_Development/Editor_Plugins/#sublime", 
+            "text": "", 
+            "title": "Sublime"
         }, 
         {
             "location": "/Technologies/iOS/1._New to iOS/", 
