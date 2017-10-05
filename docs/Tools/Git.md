@@ -10,7 +10,7 @@ If you are beginer with git you can check these blogs to get started.
 
 Time is precious so here at CodigoDelSur we try to use tools that makes our life more easy. Here there are two tools that can simplify your daily work with git.
 
-* [SourceTree](https://www.sourcetreeapp.com)  is a visual git client, it is very useful to have fast overviews over your repos. On this [link](https://confluence.atlassian.com/get-started-with-sourcetree?_ga=1.261810574.2009675791.1460052474) you will find the tool documentation.  
+* [SourceTree](https://www.sourcetreeapp.com)  is a visual git client, it is very useful to have fast overviews over your repos. On this [link](https://confluence.atlassian.com/get-started-with-sourcetree?_ga=1.261810574.2009675791.1460052474) you will find the tool documentation.
 
 * [p4merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools) This is a visual merge and diff tool. [Here](https://gist.github.com/tony4d/3454372) is an installation guide.
 
@@ -54,37 +54,37 @@ Merges
 ###Main Branches Merges
 
 
-`developer -> qa_testing` Once the features that will be added to the build are completed and merged with development, we can merge with qa_testing so then the QA team can test the build.
+`development -> qa_testing` Once the features that will be added to the build are completed and merged into development, we can merge with qa_testing so then the QA team can test the build.
 
-`qa_testing -> stage` Once the QA team review the build and all the bugs fund were resolved, we can merge from qa_testing to stage.
+`qa_testing -> stage` Once the QA team review the build and all the bugs found were resolved, we can merge qa_testing to stage.
 
-`stage -> master` Once the Beta testers and the client give us the OK to go to production, we are ready to upload the app to the appstore and this will require to  merge stage with master.
+`stage -> master` Once the Beta testers and the client give us the OK to go live, we are ready to upload the app to the App Store and this will require to merge stage with master.
 
-`master -> stage` Every hotfix fixed on master must be merged in stage.
+`master -> stage` Every hotfix on master must be merged in stage.
 
-`stage  -> qa_testing` Every hotfix fixed on stage or any aditional code on stage must be merged in qa_testing.
+`stage  -> qa_testing` Every hotfix on stage or any aditional code on stage must be merged into qa_testing.
 
-`qa_testing -> developer` Every bug fixed on qa_testing or any aditional code on qa_testing must be merged on developer.
+`qa_testing -> development` Every bugfix on qa_testing or any aditional code on qa_testing must be merged to development.
 
 
 ###Supporting Branches Merges
 
-`Feature -> developer` Once a developer finish implementing a task and finish testing that feature, he must merge that feature on development.
+`Feature -> development` Once a developer completes a task and finishes testing that feature, that feature must be merged into development.
 
-`Epic -> developer` Once a developer finish implementing an epic feature and finish testing it, he must merge that feature on development.
+`Epic -> development` Once a developer completes an epic feature and finishes testing it, that feature must be merged into development.
 
-`Bug -> qa_testing` Once a developer finish fixing a bug detected on qa_testing he must merge that fix on qa_testing.
+`Bug -> qa_testing` Once a developer fixes a bug detected on qa_testing, that fix must be merged into qa_testing.
 
-`Hotfix -> Stable branch (stage or master)` Once a developer finish fixing a bug detected on a stable branch he must merge that fix on that stable branch.
+`Hotfix -> Stable branch (stage or master)` Once a developer fixes a bug detected on a stable branch, it must be merged to that stable branch.
 
 ##How to Write Git Commit Messages
-Writing good commit messages is essential for project maintainability. It’s worth taking the time to learn how to write commit messages so that we end with a useful revision history.
+Writing good commit messages is essential for a project's maintainability. It’s worth taking the time to learn how to write commit messages so that we end having a useful revision history.
 Other developers, especially you-in-two-weeks and you-from-next-year, will thank you for your forethought and verbosity when they run git blame to see why that conditional is there.
 
 Please refer to this link for an in-depth review of the topic: [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)
 
 ###Useful Tips For A Better Commit Message
-1. The first line should always be 50 characters or less and that it should be followed by a blank line.
+1. The first line should always be 50 characters or less and it should be followed by a blank line.
 2. Never use the -m <msg> / --message=<msg> flag to git commit.
 	It gives you a poor mindset right off the bat as you will feel that you have to fit your commit message into the terminal command, and makes the commit feel more like a one-off argument than a page in history:
 
@@ -94,7 +94,7 @@ Please refer to this link for an in-depth review of the topic: [https://chris.be
 
 	a. Why is this change necessary?
 
-	This question tells reviewers of your pull request what to expect in the commit, allowing them to more easily identify and point out unrelated changes.
+	This question tells reviewers of your pull request what to expect in the commit, allowing them to easily identify and point out unrelated changes.
 
 	b. How does it address the issue?
 
@@ -112,6 +112,8 @@ Please refer to this link for an in-depth review of the topic: [https://chris.be
 
 
 Pro-tip: configure a template so that when using `git commit` the editor opens with the message template. This way it's easier to keep writing good messages! [https://gist.github.com/adeekshith/cd4c95a064977cdc6c50](git-commit-template)
+
+Pro-tip: configure git so that every time it opens an editor it picks one of your choice. Working with vim or whatever default can be inefficient at times and intimidating to those that don't understand the tool. This way it's easier to write good messages, rebasing and much more! [https://help.github.com/articles/associating-text-editors-with-git/](set up your favourite editor)
 
 More about commit messages: [http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
