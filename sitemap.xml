@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-10-05</lastmod>
+     <lastmod>2017-10-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,14 +12,24 @@
     
         
     <url>
+     <loc>/Demos/Demos/</loc>
+     <lastmod>2017-10-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>/New at CodigoDelSur/First_Steps/</loc>
-     <lastmod>2017-10-05</lastmod>
+     <lastmod>2017-10-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/New at CodigoDelSur/Learn_Agile/</loc>
-     <lastmod>2017-10-05</lastmod>
+     <lastmod>2017-10-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -69,7 +79,7 @@
         
     <url>
      <loc>/Tools/Git/</loc>
-     <lastmod>2017-10-05</lastmod>
+     <lastmod>2017-10-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

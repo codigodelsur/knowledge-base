@@ -11,6 +11,21 @@
             "title": "Welcome to CodigoDelSur's Knowledge Base"
         }, 
         {
+            "location": "/Demos/Demos/", 
+            "text": "Demos\n\n\nIn the following link you will find all the presentations of our internal demos:\n\n\nhttps://www.dropbox.com/sh/syl8skpq3wazgz7/AADUK1i0Hy70y2TdiieSeCcha?dl=0", 
+            "title": "Demos"
+        }, 
+        {
+            "location": "/Demos/Demos/#demos", 
+            "text": "", 
+            "title": "Demos"
+        }, 
+        {
+            "location": "/Demos/Demos/#in-the-following-link-you-will-find-all-the-presentations-of-our-internal-demos", 
+            "text": "https://www.dropbox.com/sh/syl8skpq3wazgz7/AADUK1i0Hy70y2TdiieSeCcha?dl=0", 
+            "title": "In the following link you will find all the presentations of our internal demos:"
+        }, 
+        {
             "location": "/New at CodigoDelSur/First_Steps/", 
             "text": "First Steps\n\n\nWelcome to CodigoDelSur! Here you will see a tiny guide about what to do on your first steps here at CDS. Also to know little bit more about the CodigoDelSur\u2019s team please check this \nlink\n.\n\n\nInner communication\n\n\n\n\n\n\nMail:\n On your first day you will be provided with an email account. This account should have the next format:\n\n\n[first character of your name][ last name]@codigodelsur.com.\n\n\nYou must use this mail every time you create any other service account like Github,, Bitbucket, Slack, Skype, etc.\n\n\n\n\n\n\nSlack:\n You will be invited to the slack team codigodelsur.slack.com. There you can join different channels like \n#developers\n, \n#ios_devs\n, \n#android_devs\n ,etc\n\n\n\n\n\n\nSkype:\n Please create a Skype account with your codigodelsur mail account.\n\n\n\n\n\n\nGithub\n\n\nYou will need to create a Github account with your Codigodelsur email. The account name should have this format:\n\n\n[first character of your name][last name]cds\n \n\n\nAlso please enable two-factor authentication!\nNotify the creation of the Github account so can be invited to join the CodigoDelSur\u2019s Github \norganization\n.\n\n\nIf you are new at git we highly recommend you to read this page.\n\n\nLastPass\n\n\nWhat is Lastpass?\n\n\n\n\n\n\nLastPass is a password management service that stores passwords in private accounts. So, any time you need to store or share a password please use lastpass, don\u2019t use text files, mails, slack, etc.\n\n\n\n\nHow can I start using Lastpass?\n\n\n\n\nYou will be receive an account activation email. While your are activating the account you will create you master password, please enter a password with at least 12 character that contains upper and lower cases and a digit.\n\n\n\n\n\n\n\n\nAs a rule at CodigoDelSur, all Lastpass account must include a two-factor authentication method. We recommend using Google Authenticator. Once you configure your 2fa method you are ready to start using Lastpass.\n\n\n\n\n\n\nTip:\n In order to access easily to your password vault while you are surfing the web you can download the LastPass web extensions.\n\n\nYour computer\n\n\nFirst you need to check that the software that you are using is updated (IDEs, xCode, OS, etc). Then check if your network configuration is OK. You should have a static IP and you configuration should look something like this:\n\n\nIP: 192.168.10.xxx\nGateway: 192.168.10.1\nMask: 255.255.255.0\n\nDNSs: 192.168.10.1, 206.99.44.254, 8.8.8.8\n\n\n\nClub de lectura t\u00e9cnica\n\n\nWhat is the \u201cClub de lectura t\u00e9cnica\u201d? Once in a couple of week, some developers join together to discuss a previously read tech book. Its a fun opportunity to learn about interesting things and have a good time at the same time. If you want to know more please join to the slack channel \n#club_lectura_tecnica", 
             "title": "First Steps"
@@ -472,8 +487,13 @@
         }, 
         {
             "location": "/Technologies/React/6._Recommended_reading/", 
-            "text": "7 architectural attributes of a reliable React component\n\n\n8 things to learn in React before using Redux\n\n\nWriting Scalable React Apps with the Component Folder Pattern", 
+            "text": "We strongly suggest reading the following articles\n\n\n\n\nUnderstanding React\u200a\u2014\u200aComponent life-cycle\n  \nImportant\n\n\n7 architectural attributes of a reliable React component\n\n\n8 things to learn in React before using Redux\n\n\nWriting Scalable React Apps with the Component Folder Pattern", 
             "title": "6. Recommended reading"
+        }, 
+        {
+            "location": "/Technologies/React/6._Recommended_reading/#we-strongly-suggest-reading-the-following-articles", 
+            "text": "Understanding React\u200a\u2014\u200aComponent life-cycle    Important  7 architectural attributes of a reliable React component  8 things to learn in React before using Redux  Writing Scalable React Apps with the Component Folder Pattern", 
+            "title": "We strongly suggest reading the following articles"
         }, 
         {
             "location": "/Technologies/Ruby_&_Rails/1._Ruby_Beginners_Guide/", 
@@ -722,7 +742,7 @@
         }, 
         {
             "location": "/Technologies/Web_Development/Editor_Plugins/", 
-            "text": "Editor plugins\n\n\nThis page is a list of useful plugins and tools for IDEs and Editors\n\n\nVisual Studio Code\n\n\nAtom\n\n\nSublime", 
+            "text": "Editor plugins\n\n\nThis page is a list of useful plugins and tools for IDEs and Editors\n\n\nVisual Studio Code\n\n\n\n\nGit Lens\n : GitLens supercharges the built-in Visual Studio Code Git capabilities. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore the history of a file or branch, gain valuable insights via powerful comparison commands, and so much more\n\n\n\n\nAtom\n\n\nSublime", 
             "title": "Editor Plugins"
         }, 
         {
@@ -732,7 +752,7 @@
         }, 
         {
             "location": "/Technologies/Web_Development/Editor_Plugins/#visual-studio-code", 
-            "text": "", 
+            "text": "Git Lens  : GitLens supercharges the built-in Visual Studio Code Git capabilities. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore the history of a file or branch, gain valuable insights via powerful comparison commands, and so much more", 
             "title": "Visual Studio Code"
         }, 
         {
