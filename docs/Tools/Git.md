@@ -15,7 +15,7 @@ Time is precious so here at CodigoDelSur we try to use tools that makes our life
 * [p4merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools) This is a visual merge and diff tool. [Here](https://gist.github.com/tony4d/3454372) is an installation guide.
 
 # Branch Management
-There are many branch management flows that can be implemented. Some flows might work fine with some projects but can be very ineffective with others because of their nature. That’s the reason why there isn't a golden rule to follow when you are creating a branch management flow. Here we are going to describe our git flow that we have been using in many projects and worked really well.
+There are many branch management flows that can be implemented. Some flows might work fine with some projects but can be very ineffective with others because of their nature. That’s the reason why there isn't a gold standard regarding branch management flow. Here we are going to describe our git flow that we have been using in many projects and worked really well.
 
 
 We can distinct between two types of branches: the **main branches** and the **supporting branches**. The main branches are branches that should never be deleted, these branches represent every stage of the code. The supporting branches always have a limited life time, these branches are created to develop a feature, fixing a bug, etc.
