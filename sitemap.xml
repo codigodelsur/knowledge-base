@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>/</loc>
-     <lastmod>2017-10-10</lastmod>
+     <loc>None/</loc>
+     <lastmod>2017-11-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,54 +12,14 @@
     
         
     <url>
-     <loc>/New at CodigoDelSur/First_Steps/</loc>
-     <lastmod>2017-10-10</lastmod>
+     <loc>None/New at CodigoDelSur/First_Steps/</loc>
+     <lastmod>2017-11-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/New at CodigoDelSur/Learn_Agile/</loc>
-     <lastmod>2017-10-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
+     <loc>None/New at CodigoDelSur/Learn_Agile/</loc>
+     <lastmod>2017-11-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -68,8 +28,48 @@
     
         
     <url>
-     <loc>/Tools/Git/</loc>
-     <lastmod>2017-10-10</lastmod>
+     <loc>None</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
