@@ -1,0 +1,3 @@
+- AMI definition. Use Docker?
+- Usage of codebuild, codedeploy y code pipeline with EC2
+- maybe a section using circleci instead of AWS codebuild, codedeploy y code pipeline
