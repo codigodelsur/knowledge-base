@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>4. Messages - CodigoDelSur</title>
+	<title>5. I made a mistake how can I undo - CodigoDelSur</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -306,14 +306,14 @@
 
         
             
-<li class="active">
-    <a href="./">4. Messages</a>
+<li >
+    <a href="../4._Messages/">4. Messages</a>
 </li>
 
         
             
-<li >
-    <a href="../5._I_made_a_mistake_how_can_I_undo/">5. I made a mistake how can I undo</a>
+<li class="active">
+    <a href="./">5. I made a mistake how can I undo</a>
 </li>
 
         
@@ -335,12 +335,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../3._Tools/">
+                    <a rel="next" href="../4._Messages/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../5._I_made_a_mistake_how_can_I_undo/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -363,41 +363,95 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#useful-tips-for-a-better-commit-message">Useful Tips For A Better Commit Message</a></li>
+        <li class="main active"><a href="#i-did-something-terribly-wrong-please-tell-me-git-has-a-magic-time-machine">I did something terribly wrong, please tell me git has a magic time machine!?!</a></li>
+        
+    
+        <li class="main "><a href="#i-committed-and-immediately-realized-i-need-to-make-one-small-change">I committed and immediately realized I need to make one small change!</a></li>
+        
+    
+        <li class="main "><a href="#i-need-to-change-the-message-on-my-last-commit">I need to change the message on my last commit!</a></li>
+        
+    
+        <li class="main "><a href="#i-accidentally-committed-something-to-master-that-should-have-been-on-a-brand-new-branch">I accidentally committed something to master that should have been on a brand new branch!</a></li>
+        
+    
+        <li class="main "><a href="#i-accidentally-committed-to-the-wrong-branch">I accidentally committed to the wrong branch!</a></li>
+        
+    
+        <li class="main "><a href="#i-tried-to-run-a-diff-but-nothing-happened">I tried to run a diff but nothing happened?!</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<p>Other developers, especially you-in-two-weeks and you-from-next-year, will thank you for your forethought and verbosity when they run git blame to see why that conditional is there.</p>
-<p>Please refer to this link for an in-depth review of the topic: <a href="https://chris.beams.io/posts/git-commit/">https://chris.beams.io/posts/git-commit/</a></p>
-<h3 id="useful-tips-for-a-better-commit-message">Useful Tips For A Better Commit Message</h3>
-<ol>
-<li>The first line should always be 50 characters or less and it should be followed by a blank line.</li>
-<li>
-<p>Never use the -m <msg> / --message=<msg> flag to git commit.
-    It gives you a poor mindset right off the bat as you will feel that you have to fit your commit message into the terminal command, and makes the commit feel more like a one-off argument than a page in history:</p>
-<p><code>git commit -m "Fix login bug"</code></p>
-</li>
-<li>
-<p>Answer the following questions:</p>
-<p>a. Why is this change necessary?</p>
-<p>This question tells reviewers of your pull request what to expect in the commit, allowing them to easily identify and point out unrelated changes.</p>
-<p>b. How does it address the issue?</p>
-<p>Describe, at a high level, what was done to affect change. "Introduce a red/black tree to increase search speed" or "Remove <troublesome gem X>, which was causing <specific description of issue introduced by gem>" are good examples.</p>
-<p>If your change is obvious, you may be able to omit addressing this question.</p>
-<p>c. What side effects does this change have?</p>
-<p>This is the most important question to answer, as it can point out problems where you are making too many changes in one commit or branch. One or two bullet points for related changes may be okay, but five or six are likely indicators of a commit that is doing too many things.</p>
-<p>Your team should have guidelines and rules-of-thumb for how much can be done in a single commit/branch.</p>
-</li>
-<li>
-<p>Consider making including a link to the issue/story/card in the commit message a standard for your project. Full urls are more useful than issue numbers, as they are more permanent and avoid confusion over which issue tracker it references.</p>
-</li>
-</ol>
-<p>Pro-tip: configure a template so that when using <code>git commit</code> the editor opens with the message template. This way it's easier to keep writing good messages! <a href="../git-commit-template">https://gist.github.com/adeekshith/cd4c95a064977cdc6c50</a></p>
-<p>Pro-tip: configure git so that every time it opens an editor it picks one of your choice. Working with vim or whatever default can be inefficient at times and intimidating to those that don't understand the tool. This way it's easier to write good messages, rebasing and much more! <a href="../set up your favourite editor">https://help.github.com/articles/associating-text-editors-with-git/</a></p>
-<p>More about commit messages: <a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html">http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html</a></p></div>
+<p>Here are some bad situations you can get yourself into, and how to get yourself out of them.</p>
+<p><br/>
+<br/></p>
+<h4 id="i-did-something-terribly-wrong-please-tell-me-git-has-a-magic-time-machine">I did something terribly wrong, please tell me git has a magic time machine!?!</h4>
+<pre><code>git reflog
+# you will see a list of every thing you've done in git, across all branches!
+# each one has an index HEAD@{index}
+# find the one before you broke everything
+git reset HEAD@{index}
+# magic time machine
+</code></pre>
+
+<p>You can use this to get back stuff you accidentally deleted, or just to remove some stuff you tried that broke the repo, or to recover after a bad merge, or just to go back to a time when things actually worked. </p>
+<p><br/></p>
+<h4 id="i-committed-and-immediately-realized-i-need-to-make-one-small-change">I committed and immediately realized I need to make one small change!</h4>
+<pre><code># make your change
+git add . # or add individual files
+git commit --amend
+# follow prompts to change or keep the commit message
+# now your last commit contains that change!
+</code></pre>
+
+<p>This usually happens when you commit, then run tests/linters... and FML, you didn't put a space after the equals sign. You could also make the change as a new commit and then do rebase -i in order to squash them both together, but this is about a million times faster.</p>
+<p><br/></p>
+<h4 id="i-need-to-change-the-message-on-my-last-commit">I need to change the message on my last commit!</h4>
+<pre><code>git commit --amend
+# follow prompts to change the commit message
+</code></pre>
+
+<p>Stupid commit message formatting requirements :-P </p>
+<p><br/></p>
+<h4 id="i-accidentally-committed-something-to-master-that-should-have-been-on-a-brand-new-branch">I accidentally committed something to master that should have been on a brand new branch!</h4>
+<pre><code># create a new branch from the current state of master
+git branch some-new-branch-name
+# remove the commit from the master branch
+git reset HEAD~ --hard
+git checkout some-new-branch-name
+# your commit lives in this branch now :)
+</code></pre>
+
+<p>Note: this doesn't work if you've already pushed to origin, and if you tried other things first, you might need to git reset HEAD@{number} instead of HEAD~.</p>
+<p><br/></p>
+<h4 id="i-accidentally-committed-to-the-wrong-branch">I accidentally committed to the wrong branch!</h4>
+<pre><code># undo the last commit, but leave the changes available
+git reset HEAD~ --soft
+git stash
+# move to the correct branch
+git checkout name-of-the-correct-branch
+git stash pop
+git add . # or add individual files
+git commit -m &quot;your message here&quot;
+# now your changes are on the correct branch
+</code></pre>
+
+<p>Note: You can use cherry-pick for this situation too, so take your pick on whatever one makes the most sense to you!</p>
+<pre><code>git checkout name-of-the-correct-branch
+# grab the last commit to master
+git cherry-pick master
+# delete it from master
+git checkout master
+git reset HEAD~ --hard
+</code></pre>
+
+<p><br/></p>
+<h4 id="i-tried-to-run-a-diff-but-nothing-happened">I tried to run a diff but nothing happened?!</h4>
+<pre><code>git diff --staged
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
