@@ -11,7 +11,7 @@ Welcome to CodigoDelSur! Here you will see a tiny guide about what to do on your
 
  	 You must use this mail every time you create any other service account like Github,, Bitbucket, Slack, Skype, etc.
 
- *    **Slack:** You will be invited to the slack team codigodelsur.slack.com. There you can join different channels like *#developers*, *#ios_devs*, *#android_devs* ,etc
+ *    **Slack:** You will be invited to the slack team [https://codigodelsur.slack.com/](codigodelsur.slack.com). There you can join different channels like *#developers*, *#ios_devs*, *#android_devs*, *#web_devs*, etc
 
  *    **Skype:** Please create a Skype account with your codigodelsur mail account.
 
